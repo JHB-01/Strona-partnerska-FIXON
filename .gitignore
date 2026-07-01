@@ -1,0 +1,30 @@
+# System and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+
+# Codex/local working state
+.agents/
+.codex/
+
+# Local conversion and scratch tests
+word-conversion-test-*.html
+write-test-*.tmp
+zip-write-test-*.docx
+
+# Old duplicated exports kept locally, but not needed in the public repo
+* (2).*
+FIXON_paczka_umowa_zalaczniki_DOCX_PDF_formularze*.zip
+paczka_FIXON_umowa_zalaczniki_formularze/
+github-e-katalog/
+
+# Marketplace generation scratch/archive
+okladki_marketplace/debug-*.html
+okladki_marketplace/_archiwum_nieaktualne/
+okladki_marketplace/_render/
+
+# Internal prompt/source working notes
+prompty_okladki_marketplace_FIXON*.md
+FIXON_opisy_marketplace_*.docx

@@ -1,0 +1,324 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Załącznik: Standardy Ekspozycji | FIXON</title>
+  <style>
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Book.woff2") format("woff2"), local("Gotham Book"), local("Gotham"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Bold.woff2") format("woff2"), local("Gotham Bold"), local("Gotham Pro Bold"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Black.woff2") format("woff2"), local("Gotham Black"), local("Gotham Pro Black"); font-weight: 900; font-display: swap; }
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Gotham, "Montserrat", "Avenir Next", Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../FIXON_program_partnerski.html#dokumenty">Wr&oacute;&cacute; do dokument&oacute;w</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Spis treści</button>
+      <div class="meta">Ekspozycja i marka<br>Aktualizacja pliku: 11.06.2026 20:06</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Załącznik: Standardy Ekspozycji</h1>
+      <p>Zasady ekspozycji produkt&#243;w FIXON w punkcie sprzedaży i kanale Partnera.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Zamknij">×</button>
+        <strong>Nawigacja dokumentu</strong>
+        <a href="#section-zalacznik-nr-12">ZAŁĄCZNIK NR 12</a>
+<a href="#section-standardy-ekspozycji-fixon">STANDARDY EKSPOZYCJI FIXON</a>
+<a href="#section-1-dane-dokumentu">&#167; 1. Dane dokumentu</a>
+<a href="#section-2-cel-ekspozycji">&#167; 2. Cel ekspozycji</a>
+<a href="#section-3-minimalne-elementy-ekspozycji">&#167; 3. Minimalne elementy ekspozycji</a>
+<a href="#section-4-zasady-ustawienia-i-utrzymania-ekspozycji">&#167; 4. Zasady ustawienia i utrzymania ekspozycji</a>
+<a href="#section-5-materialy-wlasne-partnera">&#167; 5. Materiały własne Partnera</a>
+<a href="#section-6-kontrola-i-aktualizacja-ekspozycji">&#167; 6. Kontrola i aktualizacja ekspozycji</a>
+<a href="#section-7-klauzula-zastrzezen-i-zatwierdzenie">&#167; 7. Klauzula zastrzeżeń i zatwierdzenie</a>
+<a href="#section-8-podpisy-zatwierdzenie-koncowej-wersji">&#167; 8. Podpisy / zatwierdzenie końcowej wersji</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Rozwiń wszystko</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Zwiń wszystko</button>
+        </div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-12" open>
+<summary><span>ZAŁĄCZNIK NR 12</span></summary>
+<div class="doc-section-body">
+</div></details>
+<details class="doc-section" id="section-standardy-ekspozycji-fixon" open>
+<summary><span>STANDARDY EKSPOZYCJI FIXON</span></summary>
+<div class="doc-section-body">
+<p>Dokument określa minimalne zasady prezentacji produkt&#243;w, narzędzi testowych, materiał&#243;w marketingowych, oznaczeń oraz element&#243;w informacyjnych FIXON u Partnera w ramach Programu Partnerskiego FIXON.</p>
+</div></details>
+<details class="doc-section" id="section-1-dane-dokumentu" open>
+<summary><span>&#167; 1. Dane dokumentu</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Partner</th>
+<th>........................................................</th>
+</tr>
+<tr>
+<td>Plac&#243;wka / lokalizacja ekspozycji</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Data przekazania / aktualizacji standard&#243;w</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Wersja dokumentu</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Osoba kontaktowa Partnera</td>
+<td>........................................................</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-2-cel-ekspozycji" open>
+<summary><span>&#167; 2. Cel ekspozycji</span></summary>
+<div class="doc-section-body">
+<p>Ekspozycja FIXON ma umożliwiać Partnerowi aktywne przedstawienie produkt&#243;w klientom końcowym, wykonawcom, handlowcom, ekipom brukarskim i budowlanym oraz osobom decyzyjnym odpowiedzialnym za zakup narzędzi.</p>
+<p>Celem ekspozycji jest pokazanie praktycznego zastosowania produkt&#243;w, skr&#243;cenie procesu sprzedaży, ułatwienie demonstracji działania narzędzi oraz skierowanie klienta do właściwego produktu, e-katalogu, zam&#243;wienia lub Centrum Demonstracyjnego FIXON.</p>
+<p>Ekspozycja nie jest wyłącznie elementem dekoracyjnym. Powinna być utrzymywana w spos&#243;b pozwalający na realną sprzedaż, demonstrację i zbieranie informacji zwrotnej z rynku.</p>
+</div></details>
+<details class="doc-section" id="section-3-minimalne-elementy-ekspozycji" open>
+<summary><span>&#167; 3. Minimalne elementy ekspozycji</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Element</th>
+<th>Wymagany standard</th>
+<th>Status / uwagi</th>
+<th>Odpowiedzialny</th>
+</tr>
+<tr>
+<td>Produkty fizyczne</td>
+<td>Wybrane produkty zgodne z Kartą Partnera, Cennikiem, Statusami Produkt&#243;w albo Protokołem Przekazania.</td>
+<td>................................</td>
+<td>Partner</td>
+</tr>
+<tr>
+<td>Narzędzie testowe</td>
+<td>Przechowywane w stanie umożliwiającym demonstrację; normalne zużycie dopuszczalne.</td>
+<td>................................</td>
+<td>Partner</td>
+</tr>
+<tr>
+<td>Materiały drukowane</td>
+<td>Katalogi, karty produktowe, ulotki lub inne materiały dostarczone przez FIXON.</td>
+<td>................................</td>
+<td>Partner</td>
+</tr>
+<tr>
+<td>Oznaczenia marki</td>
+<td>Logo, naklejki, tabliczki, banery lub rollupy zgodnie z Polityką Marki FIXON.</td>
+<td>................................</td>
+<td>Partner</td>
+</tr>
+<tr>
+<td>QR / e-katalog</td>
+<td>Kod QR albo link do e-katalogu widoczny przy ekspozycji lub dostępny dla handlowc&#243;w.</td>
+<td>................................</td>
+<td>Partner</td>
+</tr>
+<tr>
+<td>Informacja handlowa</td>
+<td>Aktualna informacja o cenach, dostępności, terminie zam&#243;wienia i dostawie.</td>
+<td>................................</td>
+<td>Partner / Pośrednik</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-4-zasady-ustawienia-i-utrzymania-ekspozycji" open>
+<summary><span>&#167; 4. Zasady ustawienia i utrzymania ekspozycji</span></summary>
+<div class="doc-section-body">
+<p>Produkty FIXON powinny być prezentowane w miejscu widocznym dla klient&#243;w, handlowc&#243;w lub os&#243;b obsługujących sprzedaż, z możliwością szybkiego pokazania działania narzędzia albo skierowania klienta do właściwego materiału informacyjnego.</p>
+<p>Produkty ekspozycyjne, demonstracyjne i testowe powinny być utrzymywane w stanie czystym, uporządkowanym i bezpiecznym dla użytkownik&#243;w. Dopuszczalne jest normalne zużycie wynikające z prezentacji, test&#243;w i demonstracji.</p>
+<p>Partner nie powinien mieszać oznaczeń FIXON z oznaczeniami innych marek w spos&#243;b mogący wprowadzać klienta w błąd co do producenta, pochodzenia produktu, zakresu gwarancji lub warunk&#243;w sprzedaży.</p>
+<p>Materiały marketingowe i oznaczenia przekazane Partnerowi pozostają przeznaczone do prezentacji produkt&#243;w FIXON i nie mogą być wykorzystywane do promocji produkt&#243;w konkurencyjnych ani do komunikacji sprzecznej z Polityką Marki FIXON.</p>
+<p>Aktualność informacji o cenach, dostępności i terminach dostaw powinna być weryfikowana przez Partnera na podstawie aktualnego Cennika Katalogowego, Status&#243;w Produkt&#243;w, e-katalogu albo informacji przekazanych przez Pośrednika lub Dostawcę.</p>
+</div></details>
+<details class="doc-section" id="section-5-materialy-wlasne-partnera" open>
+<summary><span>&#167; 5. Materiały własne Partnera</span></summary>
+<div class="doc-section-body">
+<p>Partner może przygotowywać własne zdjęcia, filmy, grafiki, opisy, posty, oferty handlowe lub inne materiały promocyjne dotyczące produkt&#243;w FIXON, o ile są one zgodne z Polityką Marki FIXON, nie wprowadzają w błąd i nie naruszają wartości marki.</p>
+<p>Materiały własne Partnera wymagają akceptacji Dostawcy lub Pośrednika, jeżeli zawierają por&#243;wnania z konkurencją, deklaracje techniczne, szczeg&#243;lne obietnice handlowe, niestandardowe użycie logo albo komunikaty mogące wpływać na spos&#243;b postrzegania marki FIXON.</p>
+<p>Raz zaakceptowany materiał lub kampania mogą być wykorzystywane ponownie bez odrębnej akceptacji, jeżeli ich treść, sens, grafika, warunki handlowe i kontekst publikacji nie zostały istotnie zmienione.</p>
+</div></details>
+<details class="doc-section" id="section-6-kontrola-i-aktualizacja-ekspozycji" open>
+<summary><span>&#167; 6. Kontrola i aktualizacja ekspozycji</span></summary>
+<div class="doc-section-body">
+<p>Dostawca lub Pośrednik mogą zwr&#243;cić się do Partnera o przesłanie zdjęć ekspozycji, potwierdzenie obecności materiał&#243;w, aktualizację oznaczeń, uzupełnienie kod&#243;w QR, usunięcie nieaktualnych informacji albo zmianę sposobu prezentacji produkt&#243;w.</p>
+<p>Weryfikacja ekspozycji powinna być prowadzona w spos&#243;b nienadmierny i służyć utrzymaniu sp&#243;jności sprzedaży, aktualności informacji oraz ochronie marki FIXON.</p>
+<p>W przypadku stwierdzenia istotnych nieprawidłowości Partner powinien usunąć je w terminie wskazanym przez Dostawcę lub Pośrednika, z uwzględnieniem charakteru nieprawidłowości i możliwości organizacyjnych plac&#243;wki.</p>
+</div></details>
+<details class="doc-section" id="section-7-klauzula-zastrzezen-i-zatwierdzenie" open>
+<summary><span>&#167; 7. Klauzula zastrzeżeń i zatwierdzenie</span></summary>
+<div class="doc-section-body">
+<p>Partner może zgłosić zastrzeżenia do niniejszego dokumentu w terminie 7 dni od dnia jego dostarczenia. Brak zgłoszenia zastrzeżeń w tym terminie oznacza przyjęcie dokumentu do wiadomości i stosowania w ramach bieżącej wsp&#243;łpracy w Programie Partnerskim FIXON. Jeżeli Partner zgłosi zastrzeżenia, Strony wyjaśniają treść dokumentu, usuwają rozbieżności albo przygotowują końcową uzgodnioną wersję dokumentu. Końcowa wersja dokumentu, do kt&#243;rego zgłoszono zastrzeżenia, wymaga zatwierdzenia przez obie Strony w formie podpis&#243;w osobistych albo podpis&#243;w elektronicznych zaakceptowanych przez Strony, chyba że Strony wyraźnie uzgodnią inną formę zatwierdzenia w korespondencji dokumentowej.</p>
+</div></details>
+<details class="doc-section" id="section-8-podpisy-zatwierdzenie-koncowej-wersji" open>
+<summary><span>&#167; 8. Podpisy / zatwierdzenie końcowej wersji</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Dostawca / Pośrednik</th>
+<th>Partner</th>
+<th>Data</th>
+</tr>
+<tr>
+<td>................................</td>
+<td>................................</td>
+<td>................................</td>
+</tr>
+<tr>
+<td>................................</td>
+<td>................................</td>
+<td>................................</td>
+</tr>
+</table></div>
+
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Pobierz dokument</strong>
+    <p>Szablon DOCX służy do pracy operacyjnej, a PDF do wysyłki lub archiwizacji.</p>
+  </div>
+  <div class="download-actions">
+    <a class="download-button" href="docx/zalacznik-standardy-ekspozycji.docx" download>Pobierz szablon DOCX</a>
+    <a class="download-button secondary" href="pdf/zalacznik-standardy-ekspozycji.pdf" download>Pobierz szablon PDF</a>
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>Podgl&#261;d statyczny dokumentu programowego FIXON.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2693 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Współpraca dealerska FIXON | Profesjonalne narzędzia dla wykonawców</title>
+  <meta name="description" content="Dołącz do Programu Partnerskiego FIXON. Dodaj do oferty profesjonalne narzędzia dla wykonawców, uruchom sprzedaż bez ciężkiego wdrożenia i rozwijaj magazyn na podstawie realnej sprzedaży.">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+
+    :root {
+      --green: #124A2E;
+      --green-dark: #06271b;
+      --green-mid: #0b3525;
+      --green-soft: #e8f0eb;
+      --ink: #141917;
+      --muted: #5b6762;
+      --paper: #ffffff;
+      --bg: #eef1ec;
+      --steel: #c7d0cc;
+      --line: #d7ded8;
+      --coal: #101413;
+      --rust: #a85d2f;
+      --sand: #f6f3ec;
+      --blueprint: #173c45;
+      --shadow: 0 18px 44px rgba(15, 22, 18, .10);
+      --radius: 8px;
+      --wrap: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, #f8f8f4 0%, var(--bg) 52%, #ffffff 100%);
+      font-family: "League Spartan", "Montserrat", "Avenir Next", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      opacity: .46;
+      background-image:
+        linear-gradient(rgba(20, 25, 23, .045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(20, 25, 23, .035) 1px, transparent 1px);
+      background-size: 42px 42px;
+    }
+
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    button, input, select, textarea { font: inherit; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { letter-spacing: 0; }
+    h1 {
+      max-width: 820px;
+      margin-bottom: 20px;
+      font-size: clamp(42px, 7.2vw, 86px);
+      line-height: .94;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-size: clamp(30px, 4.5vw, 52px);
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 19px;
+      line-height: 1.18;
+    }
+
+    p {
+      margin-bottom: 18px;
+      line-height: 1.58;
+    }
+
+    .wrap {
+      width: min(var(--wrap), calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(215, 222, 216, .82);
+      background: rgba(248, 248, 244, .92);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      flex: 0 0 auto;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: 132px;
+      height: 42px;
+      object-fit: contain;
+      object-position: center;
+      mix-blend-mode: multiply;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar { display: none; }
+
+    .nav-links a {
+      min-height: 38px;
+      padding: 10px 12px;
+      border-radius: 4px;
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      background: var(--green-soft);
+    }
+
+    .language-switch {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 0 0 auto;
+    }
+
+    .language-switch a {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 9px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: #fff;
+      color: var(--green-dark);
+      font-size: 12px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 46px;
+      padding: 13px 18px;
+      border: 1px solid var(--green);
+      border-radius: 4px;
+      background: var(--green);
+      color: #fff;
+      font-weight: 800;
+      line-height: 1.1;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      background: var(--green-dark);
+      border-color: var(--green-dark);
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: #fff;
+      border-color: rgba(255, 255, 255, .52);
+    }
+
+    .btn.secondary:hover {
+      background: rgba(255, 255, 255, .10);
+      border-color: rgba(255, 255, 255, .72);
+    }
+
+    .btn.light {
+      background: #fff;
+      color: var(--green-dark);
+      border-color: #fff;
+    }
+
+    .icon {
+      width: 19px;
+      height: 19px;
+      flex: 0 0 auto;
+      stroke: currentColor;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: calc(100vh - 74px);
+      color: #fff;
+      background:
+        linear-gradient(100deg, rgba(6, 39, 27, .98) 0%, rgba(6, 39, 27, .95) 45%, rgba(6, 39, 27, .54) 100%),
+        url("FIXON_banner.jfif") center / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 145px;
+      background: linear-gradient(180deg, transparent, rgba(6, 39, 27, .86));
+      pointer-events: none;
+    }
+
+    .hero-layout {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(340px, .72fr);
+      gap: 44px;
+      align-items: center;
+      min-height: calc(100vh - 74px);
+      padding: 54px 0 72px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      width: fit-content;
+      margin-bottom: 18px;
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 4px;
+      background: rgba(255, 255, 255, .09);
+      color: rgba(255, 255, 255, .86);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .lead {
+      max-width: 820px;
+      margin-bottom: 26px;
+      color: rgba(255, 255, 255, .86);
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.45;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .hero-contact-cta {
+      width: min(520px, 100%);
+      border: 1px solid rgba(255, 255, 255, .26);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .96);
+      color: var(--green-dark);
+      box-shadow: 0 22px 54px rgba(0, 0, 0, .24);
+      overflow: hidden;
+    }
+
+    .hero-contact-cta summary {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 18px 20px;
+      cursor: pointer;
+      list-style: none;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .hero-contact-cta summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .hero-contact-cta summary span {
+      display: grid;
+      gap: 4px;
+    }
+
+    .hero-contact-cta summary small {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: none;
+    }
+
+    .hero-contact-cta summary::after {
+      content: "+";
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--green);
+      color: #fff;
+      font-size: 24px;
+      line-height: 1;
+      flex: 0 0 auto;
+    }
+
+    .hero-contact-cta[open] summary::after {
+      content: "-";
+    }
+
+    .hero-contact-body {
+      display: grid;
+      gap: 14px;
+      padding: 0 20px 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .hero-contact-person {
+      padding-top: 16px;
+    }
+
+    .hero-contact-person strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 22px;
+      color: var(--green-dark);
+      text-transform: uppercase;
+    }
+
+    .hero-contact-person span {
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .hero-contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-contact-actions a,
+    .hero-contact-actions button {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 14px;
+      border: 1px solid var(--green);
+      border-radius: 4px;
+      background: var(--green);
+      color: #fff;
+      font-weight: 900;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .hero-contact-actions button {
+      background: #fff;
+      color: var(--green);
+    }
+
+    .hero-proof {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 780px;
+    }
+
+    .proof-tile {
+      min-height: 92px;
+      padding: 14px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .08);
+    }
+
+    .proof-tile strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .proof-tile span {
+      display: block;
+      color: rgba(255, 255, 255, .76);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .finance-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .finance-item {
+      min-height: 132px;
+      padding: 18px;
+      border: 1px solid rgba(18, 74, 46, .18);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 10px 26px rgba(15, 22, 18, .045);
+    }
+
+    .finance-item strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 24px;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .finance-item p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .hero-visual {
+      align-self: stretch;
+      min-height: 540px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 14px;
+    }
+
+    .visual-logo {
+      width: min(100%, 410px);
+      justify-self: end;
+      padding: 18px;
+      border-radius: var(--radius);
+      background: rgba(246, 243, 236, .96);
+      box-shadow: 0 22px 70px rgba(0, 0, 0, .26);
+    }
+
+    .visual-logo img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+
+    .tool-stack {
+      position: relative;
+      min-height: 390px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, .13), rgba(255, 255, 255, .04)),
+        repeating-linear-gradient(135deg, rgba(255, 255, 255, .06) 0 1px, transparent 1px 18px);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05);
+    }
+
+    .product-shot {
+      position: absolute;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, .20);
+      border-radius: var(--radius);
+      background: #f7f7f2;
+      box-shadow: 0 22px 50px rgba(0, 0, 0, .25);
+    }
+
+    .product-shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+
+    .product-shot.one {
+      top: 26px;
+      left: 24px;
+      width: 54%;
+      height: 184px;
+      transform: rotate(-2deg);
+    }
+
+    .product-shot.two {
+      right: 24px;
+      top: 126px;
+      width: 52%;
+      height: 172px;
+      transform: rotate(2deg);
+    }
+
+    .product-shot.three {
+      left: 52px;
+      bottom: 24px;
+      width: 58%;
+      height: 148px;
+      transform: rotate(-1deg);
+    }
+
+    .product-label {
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      z-index: 2;
+      padding: 7px 9px;
+      border-radius: 3px;
+      background: rgba(6, 39, 27, .92);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    section {
+      scroll-margin-top: 96px;
+      padding: 82px 0;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 6px 9px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: #fff;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, .86fr) minmax(260px, .52fr);
+      gap: 36px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-head p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid.five {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .audience-card,
+    .benefit-card,
+    .segment-card,
+    .proof-card,
+    .product-card {
+      min-height: 100%;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      box-shadow: 0 10px 26px rgba(15, 22, 18, .045);
+    }
+
+    .audience-card {
+      min-height: 190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .audience-card .icon-box,
+    .segment-card .icon-box,
+    .benefit-card .icon-box {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
+      border: 1px solid rgba(18, 74, 46, .2);
+      border-radius: 7px;
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .audience-card p,
+    .benefit-card p,
+    .segment-card p,
+    .proof-card p,
+    .product-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .dark-band {
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      background:
+        linear-gradient(135deg, var(--coal), var(--green-dark) 66%, #143f45);
+    }
+
+    .dark-band::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .18;
+      background:
+        linear-gradient(90deg, transparent 0 48%, rgba(255, 255, 255, .26) 48% 49%, transparent 49%),
+        repeating-linear-gradient(135deg, transparent 0 18px, rgba(255, 255, 255, .18) 19px, transparent 20px);
+      pointer-events: none;
+    }
+
+    .dark-band .wrap { position: relative; z-index: 1; }
+    .dark-band .section-kicker {
+      border-color: rgba(255, 255, 255, .18);
+      background: rgba(255, 255, 255, .08);
+      color: #fff;
+    }
+
+    .dark-band .section-head p,
+    .dark-band .muted-in-dark {
+      color: rgba(255, 255, 255, .74);
+    }
+
+    .problem-solution {
+      display: grid;
+      grid-template-columns: minmax(0, .88fr) minmax(280px, .52fr) minmax(0, .88fr);
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .process-panel,
+    .market-panel {
+      padding: 26px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .07);
+    }
+
+    .process-panel ul,
+    .market-panel ul,
+    .segment-card ul,
+    .proof-list,
+    .form-note ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .process-panel li,
+    .market-panel li,
+    .segment-card li,
+    .proof-list li,
+    .form-note li {
+      position: relative;
+      padding-left: 22px;
+      margin-bottom: 12px;
+      line-height: 1.45;
+    }
+
+    .process-panel li:last-child,
+    .market-panel li:last-child,
+    .segment-card li:last-child,
+    .proof-list li:last-child,
+    .form-note li:last-child {
+      margin-bottom: 0;
+    }
+
+    .process-panel li::before,
+    .market-panel li::before,
+    .segment-card li::before,
+    .proof-list li::before,
+    .form-note li::before {
+      content: "";
+      position: absolute;
+      top: .65em;
+      left: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--rust);
+    }
+
+    .market-panel h3,
+    .process-panel h3 {
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    .market-panel.problem li::before { background: #d27a45; }
+    .market-panel.solution li::before { background: #71b98c; }
+
+    .bridge-graphic {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .03));
+    }
+
+    .bridge {
+      width: min(100%, 260px);
+      aspect-ratio: 1 / 1;
+    }
+
+    .bridge text {
+      fill: #fff;
+      font-family: "League Spartan", Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(280px, .55fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .loop {
+      min-height: 460px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      position: relative;
+    }
+
+    .loop::before {
+      content: "";
+      position: absolute;
+      inset: 88px 28%;
+      border: 2px solid rgba(18, 74, 46, .24);
+      border-radius: 50%;
+    }
+
+    .loop-step {
+      position: relative;
+      z-index: 1;
+      min-height: 190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    .loop-step strong {
+      display: block;
+      max-width: 250px;
+      font-size: 22px;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .loop-step span {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .loop-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .sales-note {
+      min-height: 100%;
+      padding: 28px;
+      border: 1px solid rgba(18, 74, 46, .18);
+      border-radius: var(--radius);
+      background: var(--green-soft);
+    }
+
+    .sales-note blockquote {
+      margin: 0 0 22px;
+      padding: 0;
+      color: var(--green-dark);
+      font-size: clamp(25px, 3vw, 38px);
+      font-weight: 800;
+      line-height: 1.06;
+      text-transform: uppercase;
+    }
+
+    .sales-note p {
+      color: var(--muted);
+    }
+
+    .start-steps {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .start-steps::before {
+      content: "";
+      position: absolute;
+      top: 34px;
+      left: 8%;
+      right: 8%;
+      height: 2px;
+      background: var(--line);
+    }
+
+    .start-step {
+      position: relative;
+      z-index: 1;
+      min-height: 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      padding: 0 0 20px;
+    }
+
+    .step-number {
+      width: 70px;
+      height: 70px;
+      display: grid;
+      place-items: center;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      box-shadow: 0 0 0 1px var(--green);
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .step-copy {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    .step-copy h3 {
+      min-height: 46px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    .step-copy p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .benefits-layout {
+      display: grid;
+      grid-template-columns: minmax(0, .56fr) minmax(0, .44fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .benefits-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .benefit-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 17px;
+    }
+
+    .catalog-preview {
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(145deg, rgba(18, 74, 46, .92), rgba(6, 39, 27, .96)),
+        repeating-linear-gradient(135deg, transparent 0 18px, rgba(255, 255, 255, .20) 19px, transparent 20px);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .catalog-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 22px;
+      border-bottom: 1px solid rgba(255, 255, 255, .15);
+    }
+
+    .catalog-top img {
+      width: 150px;
+      height: 46px;
+      object-fit: contain;
+      background: #f6f3ec;
+      border-radius: 4px;
+      mix-blend-mode: normal;
+    }
+
+    .catalog-body {
+      display: grid;
+      gap: 12px;
+      padding: 24px;
+    }
+
+    .catalog-row {
+      display: grid;
+      grid-template-columns: 64px 50px 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 13px;
+      border: 1px solid rgba(255, 255, 255, .14);
+      border-radius: 6px;
+      background: rgba(255, 255, 255, .08);
+    }
+
+    .catalog-photo {
+      width: 64px;
+      height: 56px;
+      border-radius: 5px;
+      background: #f7f7f2;
+      object-fit: contain;
+      padding: 6px;
+    }
+
+    .qr {
+      width: 50px;
+      height: 50px;
+      background:
+        linear-gradient(90deg, #fff 8px, transparent 8px 15px, #fff 15px 23px, transparent 23px 31px, #fff 31px),
+        linear-gradient(#fff 8px, transparent 8px 15px, #fff 15px 23px, transparent 23px 31px, #fff 31px);
+      background-blend-mode: multiply;
+      border: 5px solid #fff;
+      border-radius: 2px;
+    }
+
+    .catalog-row strong {
+      display: block;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .catalog-row span {
+      color: rgba(255, 255, 255, .72);
+      font-size: 13px;
+    }
+
+    .status-pill {
+      padding: 6px 8px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, .16);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .segments {
+      align-items: stretch;
+    }
+
+    .segment-card {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .segment-card ul {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .segment-card .icon-box {
+      margin-bottom: 0;
+    }
+
+    .product-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .product-card {
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 190px;
+      object-fit: contain;
+      padding: 14px;
+      background: #f8f8f3;
+    }
+
+    .product-card div {
+      padding: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .product-card strong {
+      display: block;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .42fr) minmax(0, .58fr);
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .proof-lead {
+      padding: 30px;
+      border-radius: var(--radius);
+      background: var(--green-dark);
+      color: #fff;
+    }
+
+    .proof-lead h2 {
+      margin-bottom: 20px;
+    }
+
+    .proof-lead p {
+      color: rgba(255, 255, 255, .78);
+    }
+
+    .proof-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .proof-card {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .proof-mark {
+      width: 54px;
+      height: 54px;
+      display: grid;
+      place-items: center;
+      border-radius: 7px;
+      background: var(--green-soft);
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .documents-band {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .implementation-map {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .implementation-step {
+      min-height: 190px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--sand);
+    }
+
+    .implementation-step span {
+      display: inline-grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      margin-bottom: 18px;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .implementation-step strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--green-dark);
+      font-size: 17px;
+      text-transform: uppercase;
+    }
+
+    .implementation-step p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .document-hub {
+      display: grid;
+      grid-template-columns: minmax(280px, .35fr) minmax(0, .65fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .document-guide {
+      position: sticky;
+      top: 96px;
+      padding: 24px;
+      border-radius: var(--radius);
+      background: var(--green-dark);
+      color: #fff;
+    }
+
+    .document-guide h3 {
+      font-size: 28px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .document-guide p {
+      color: rgba(255, 255, 255, .76);
+    }
+
+    .document-guide ol {
+      margin: 20px 0 0;
+      padding-left: 20px;
+      color: rgba(255, 255, 255, .82);
+      line-height: 1.55;
+    }
+
+    .document-library {
+      display: grid;
+      gap: 16px;
+    }
+
+    .main-docs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .doc-feature {
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(18, 74, 46, .06), transparent 58%),
+        #fff;
+    }
+
+    .doc-feature strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 24px;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .doc-feature p {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .doc-badge {
+      display: inline-flex;
+      width: fit-content;
+      margin-bottom: 16px;
+      padding: 6px 9px;
+      border-radius: 4px;
+      background: var(--green-soft);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .doc-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      min-height: 40px;
+      padding: 10px 13px;
+      border: 1px solid var(--green);
+      border-radius: 4px;
+      background: var(--green);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .doc-link:hover {
+      background: var(--green-dark);
+      border-color: var(--green-dark);
+    }
+
+    details.doc-group {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    details.doc-group summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 58px;
+      padding: 16px 18px;
+      color: var(--green-dark);
+      font-weight: 800;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    details.doc-group summary span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .doc-list {
+      border-top: 1px solid var(--line);
+    }
+
+    .doc-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 15px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .doc-row:last-child {
+      border-bottom: 0;
+    }
+
+    .doc-row strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--ink);
+      font-size: 15px;
+    }
+
+    .doc-row p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .form-band {
+      color: #fff;
+      background:
+        linear-gradient(135deg, rgba(6, 39, 27, .97), rgba(18, 74, 46, .92)),
+        url("FIXON_banner.jfif") center / cover no-repeat;
+    }
+
+    .form-layout {
+      display: grid;
+      grid-template-columns: minmax(280px, .42fr) minmax(0, .58fr);
+      gap: 28px;
+      align-items: start;
+    }
+
+    .form-note {
+      padding: 28px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .08);
+    }
+
+    .form-note h2 {
+      margin-bottom: 18px;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.03;
+    }
+
+    .form-note p,
+    .form-note li {
+      color: rgba(255, 255, 255, .76);
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 24px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .96);
+      color: var(--ink);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .22);
+    }
+
+    label {
+      display: grid;
+      gap: 7px;
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      min-height: 46px;
+      padding: 12px 13px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    textarea {
+      min-height: 112px;
+      resize: vertical;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(18, 74, 46, .12);
+    }
+
+    .full {
+      grid-column: 1 / -1;
+    }
+
+    .form-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .form-footer p {
+      max-width: 480px;
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .contact-fab {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 60;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 52px;
+      padding: 12px 16px;
+      border: 1px solid rgba(255, 255, 255, .74);
+      border-radius: 999px;
+      background: var(--green);
+      color: #fff;
+      font-weight: 900;
+      box-shadow: 0 18px 42px rgba(6, 39, 27, .28);
+      cursor: pointer;
+    }
+
+    .contact-fab:hover {
+      background: var(--green-dark);
+    }
+
+    .contact-fab svg {
+      width: 22px;
+      height: 22px;
+      flex: 0 0 auto;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    .contact-modal[hidden] {
+      display: none;
+    }
+
+    .contact-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      display: grid;
+      place-items: center;
+      padding: 22px;
+      background: rgba(6, 18, 13, .62);
+    }
+
+    .contact-card {
+      width: min(720px, 100%);
+      max-height: calc(100vh - 44px);
+      overflow: auto;
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--ink);
+      box-shadow: 0 26px 80px rgba(0, 0, 0, .34);
+    }
+
+    .contact-card header {
+      position: relative;
+      padding: 24px 24px 4px;
+      border: 0;
+      background: #fff;
+    }
+
+    .contact-card h2 {
+      margin-bottom: 10px;
+      color: var(--green-dark);
+      font-size: clamp(28px, 5vw, 42px);
+    }
+
+    .contact-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .contact-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--green-dark);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .contact-card form {
+      margin: 0;
+      border: 0;
+      box-shadow: none;
+    }
+
+    .site-footer {
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-inner strong {
+      color: var(--green-dark);
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 1080px) {
+      .hero-layout,
+      .section-head,
+      .why-grid,
+      .benefits-layout,
+      .proof-grid,
+      .form-layout,
+      .document-hub {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-layout {
+        padding-top: 42px;
+      }
+
+      .hero-visual {
+        min-height: 430px;
+      }
+
+      .visual-logo {
+        justify-self: start;
+      }
+
+      .grid.five,
+      .product-strip,
+      .implementation-map {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .document-guide {
+        position: static;
+      }
+
+      .problem-solution {
+        grid-template-columns: 1fr;
+      }
+
+      .bridge-graphic {
+        min-height: 260px;
+      }
+
+      .start-steps {
+        grid-template-columns: 1fr;
+      }
+
+      .start-steps::before {
+        display: none;
+      }
+
+      .start-step {
+        min-height: auto;
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        align-items: stretch;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .contact-fab {
+        right: 12px;
+        bottom: 12px;
+        min-height: 48px;
+        padding: 10px 13px;
+        font-size: 14px;
+      }
+
+      .contact-modal {
+        padding: 12px;
+      }
+
+      .contact-card {
+        max-height: calc(100vh - 24px);
+      }
+
+      .contact-card header {
+        padding: 22px 18px 2px;
+      }
+
+      .contact-card form {
+        grid-template-columns: 1fr;
+        padding: 18px;
+      }
+
+      .wrap {
+        width: min(100% - 24px, var(--wrap));
+      }
+
+      .nav {
+        min-height: auto;
+        display: grid;
+        padding: 10px 0;
+      }
+
+      .brand span {
+        display: none;
+      }
+
+      .nav-links {
+        width: 100%;
+      }
+
+      .language-switch {
+        width: 100%;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-layout {
+        min-height: auto;
+        padding: 34px 0 48px;
+      }
+
+      h1 {
+        font-size: clamp(40px, 13vw, 58px);
+      }
+
+      .hero-proof,
+      .grid.three,
+      .grid.two,
+      .grid.five,
+      .benefits-list,
+      .product-strip,
+      .finance-strip,
+      .implementation-map,
+      .main-docs,
+      .loop,
+      form {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-visual {
+        min-height: 360px;
+      }
+
+      .visual-logo img {
+        height: 86px;
+      }
+
+      .tool-stack {
+        min-height: 320px;
+      }
+
+      .product-shot.one {
+        width: 62%;
+        height: 140px;
+        left: 14px;
+      }
+
+      .product-shot.two {
+        width: 62%;
+        height: 138px;
+        right: 14px;
+        top: 112px;
+      }
+
+      .product-shot.three {
+        width: 64%;
+        height: 118px;
+        left: 28px;
+      }
+
+      section {
+        padding: 58px 0;
+      }
+
+      .loop {
+        min-height: auto;
+      }
+
+      .loop::before {
+        display: none;
+      }
+
+      .start-step {
+        grid-template-columns: 56px 1fr;
+        gap: 12px;
+      }
+
+      .step-number {
+        width: 56px;
+        height: 56px;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .doc-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="FIXON">
+        <img src="FIXON_logo_facebook.jpg" alt="FIXON Tools & Tech">
+        <span>Program<br>Partnerski</span>
+      </a>
+      <nav class="nav-links" aria-label="Nawigacja strony">
+        <a href="#warunki-startu">Warunki</a>
+        <a href="#dla-kogo">Dla kogo</a>
+        <a href="#problem">Problem</a>
+        <a href="#model">Model</a>
+        <a href="#start">Start</a>
+        <a href="#segmenty">Segmenty</a>
+        <a href="#dokumenty">Dokumenty</a>
+        <a href="#formularz">Kontakt</a>
+        <a href="landing-pl.html">Reklama</a>
+      </nav>
+      <div class="language-switch" aria-label="Wersje językowe">
+        <a href="FIXON_program_partnerski.html" aria-current="page">PL</a>
+        <a href="FIXON_partner_program_en.html">EN</a>
+        <a href="FIXON_partnerprogramm_de.html">DE</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-layout">
+        <div>
+          <div class="eyebrow">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h16"/><path d="M7 18V8l5-3 5 3v10"/><path d="M9 18v-5h6v5"/></svg>
+            Współpraca partnerska FIXON
+          </div>
+          <h1 id="hero-title">Zostań Partnerem FIXON</h1>
+          <p class="lead">Dodaj do oferty profesjonalne narzędzia dla wykonawców - bez ciężkiego wdrożenia i bez zakupu pełnego magazynu.</p>
+          <p class="lead">FIXON tworzy narzędzia, które przyspieszają powtarzalne czynności na budowie, ograniczają niezdrowy wysiłek i zastępują prowizoryczne rozwiązania. Dla Partnera to praktyczna kategoria sprzedaży, która naturalnie łączy się z materiałem podstawowym.</p>
+          <div class="hero-actions">
+            <details class="hero-contact-cta">
+              <summary>
+                <span>
+                  Porozmawiaj o partnerstwie
+                  <small>Kontakt bezpośredni, bez formularza na start</small>
+                </span>
+              </summary>
+              <div class="hero-contact-body">
+                <div class="hero-contact-person">
+                  <strong>Karolina Tarasenko</strong>
+                  <span>Specjalista ds. Rozwoju Sieci Partnerskiej</span>
+                </div>
+                <div class="hero-contact-actions">
+                  <a href="tel:+48531448893">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.6 2.61a2 2 0 0 1-.45 2.11L8 9.7a16 16 0 0 0 6.3 6.3l1.26-1.26a2 2 0 0 1 2.11-.45c.84.28 1.71.48 2.61.6A2 2 0 0 1 22 16.92Z"/></svg>
+                    531 448 893
+                  </a>
+                  <button type="button" data-contact-open aria-haspopup="dialog" aria-controls="contactModal" aria-expanded="false">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13a8 8 0 0 1 16 0"/><path d="M4 13v4a2 2 0 0 0 2 2h2v-8H6a2 2 0 0 0-2 2Z"/><path d="M20 13v4a2 2 0 0 1-2 2h-2v-8h2a2 2 0 0 1 2 2Z"/></svg>
+                    Zamów kontakt
+                  </button>
+                </div>
+              </div>
+            </details>
+            <a class="btn secondary" href="#model">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h7"/><path d="M14 12h7"/><path d="M10 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/><path d="M5 5h14"/><path d="M5 19h14"/></svg>
+              Zobacz model współpracy
+            </a>
+          </div>
+          <div class="hero-proof" aria-label="Najważniejsze założenia współpracy">
+            <div class="proof-tile">
+              <strong>Dodatkowa sprzedaż</strong>
+              <span>Nowa kategoria obok materiałów, z którymi wykonawca pracuje codziennie.</span>
+            </div>
+            <div class="proof-tile">
+              <strong>Prosty start</strong>
+              <span>Pilotaż, e-katalog, QR i materiały do rozmowy handlowej.</span>
+            </div>
+            <div class="proof-tile">
+              <strong>Rozwój z wyniku</strong>
+              <span>Sprzedaż rusza etapowo, a magazyn rośnie na podstawie realnego popytu.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Produkty FIXON w ofercie partnerskiej">
+          <div class="visual-logo">
+            <img src="FIXON_banner.jfif" alt="FIXON Tools & Tech - Reliable by design, built to perform">
+          </div>
+          <div class="tool-stack">
+            <div class="product-shot one">
+              <span class="product-label">Chwytanie</span>
+              <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/oysfxkk.webp" alt="GRIX HOLD PRO">
+            </div>
+            <div class="product-shot two">
+              <span class="product-label">Profilowanie</span>
+              <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/mtqbqfk.webp" alt="FlatFix DUO">
+            </div>
+            <div class="product-shot three">
+              <span class="product-label">Transport</span>
+              <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/uploads/1769276585515-1000023099.webp" alt="RolLift">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="warunki-startu" aria-labelledby="warunki-startu-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Najważniejsze na start</span>
+            <h2 id="warunki-startu-title">Start bez inwestycji w zatowarowanie</h2>
+          </div>
+          <p>Program ma zdejmować z Partnera ciężar pełnego wdrożenia. Sprzedaż można uruchomić pilotażowo, korzystając z e-katalogu, QR i demonstracji narzędzi, a rozliczenie sprzedaży następuje najwcześniej po miesiącu.</p>
+        </div>
+        <div class="finance-strip">
+          <article class="finance-item">
+            <strong>Bez inwestycji na start</strong>
+            <p>Partner nie musi kupować pełnego magazynu ani budować osobnego działu narzędziowego przed pierwszą sprzedażą.</p>
+          </article>
+          <article class="finance-item">
+            <strong>Rozliczenie po sprzedaży</strong>
+            <p>Sprzedaż jest raportowana i rozliczana w rytmie miesięcznym, najwcześniej po pierwszym miesiącu działania.</p>
+          </article>
+          <article class="finance-item">
+            <strong>Magazyn rośnie z wyniku</strong>
+            <p>Dobór produktów, ekspozycja i dostępność rozwijają się na podstawie realnego zainteresowania klientów.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dla-kogo" aria-labelledby="dla-kogo-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Dla kogo</span>
+            <h2 id="dla-kogo-title">Firmy, które są blisko wykonawcy</h2>
+          </div>
+          <p>Program jest dla podmiotów z realnym dostępem do rynku wykonawczego: producentów, hurtowni, składów, sieci i punktów, które sprzedają materiał albo obsługują ekipy.</p>
+        </div>
+
+        <div class="grid five">
+          <article class="audience-card">
+            <div>
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/><path d="M9 10h.01"/><path d="M15 10h.01"/></svg></div>
+              <h3>Producenci materiałów</h3>
+            </div>
+            <p>Brukarskich, betonowych, budowlanych, drogowych i infrastrukturalnych.</p>
+          </article>
+          <article class="audience-card">
+            <div>
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/><path d="M7 7v10"/><path d="M17 7v10"/></svg></div>
+              <h3>Hurtownie i składy</h3>
+            </div>
+            <p>Punkty, w których wykonawca kupuje materiał i wraca po kolejne dostawy.</p>
+          </article>
+          <article class="audience-card">
+            <div>
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16"/><path d="M4 16h16"/><path d="M8 4v16"/><path d="M16 4v16"/></svg></div>
+              <h3>Sieci dystrybucyjne</h3>
+            </div>
+            <p>Organizacje, które potrzebują spójnego wdrożenia w wielu placówkach.</p>
+          </article>
+          <article class="audience-card">
+            <div>
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12"/><path d="M8 20v-5h8v5"/><path d="M8 11h8"/></svg></div>
+              <h3>Punkty sprzedaży</h3>
+            </div>
+            <p>Firmy obsługujące wykonawców, inwestycje, ekipy montażowe i klientów B2B.</p>
+          </article>
+          <article class="audience-card">
+            <div>
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/><path d="M5 21h14"/></svg></div>
+              <h3>Wypożyczalnie</h3>
+            </div>
+            <p>Firmy rozwijające narzędzia do regularnej pracy, testu i demonstracji.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem" class="dark-band" aria-labelledby="problem-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Problem rynku</span>
+            <h2 id="problem-title">Materiał sprzedany bez narzędzia to niewykorzystana okazja</h2>
+          </div>
+          <p>Wykonawca kupuje kostkę, płyty, obrzeża albo inne materiały, ale narzędzi do sprawnej pracy szuka gdzie indziej albo dorabia rozwiązania na budowie.</p>
+        </div>
+
+        <div class="problem-solution">
+          <article class="market-panel problem">
+            <h3>Co dzieje się dziś</h3>
+            <ul>
+              <li>Ekipy tracą czas na powtarzalnych czynnościach.</li>
+              <li>Na budowie wciąż pojawiają się prowizoryczne rozwiązania.</li>
+              <li>Pracownicy szybciej się męczą przy drobnej pracy ręcznej.</li>
+              <li>Punkt sprzedaży materiałów często nie wykorzystuje potrzeby, która jest tuż obok koszyka.</li>
+            </ul>
+          </article>
+
+          <div class="bridge-graphic" aria-label="Schemat: materiał plus narzędzie">
+            <svg class="bridge" viewBox="0 0 240 240" role="img" aria-labelledby="bridge-title bridge-desc">
+              <title id="bridge-title">Schemat połączenia sprzedaży materiału i narzędzia</title>
+              <desc id="bridge-desc">Materiał podstawowy łączy się z narzędziem, które pomaga ekipie pracować szybciej i wygodniej.</desc>
+              <circle cx="120" cy="120" r="92" fill="none" stroke="rgba(255,255,255,.28)" stroke-width="2"/>
+              <circle cx="75" cy="112" r="44" fill="#ffffff" opacity=".96"/>
+              <circle cx="165" cy="112" r="44" fill="#ffffff" opacity=".96"/>
+              <path d="M92 112h56" stroke="#124A2E" stroke-width="8" stroke-linecap="round"/>
+              <path d="m139 96 16 16-16 16" fill="none" stroke="#124A2E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M57 123h36v13H57zM62 101h27v16H62z" fill="#124A2E"/>
+              <path d="M145 129h42M157 92l22 22M149 100l21 21" stroke="#124A2E" stroke-width="7" stroke-linecap="round"/>
+              <text x="75" y="179" text-anchor="middle">MATERIAŁ</text>
+              <text x="165" y="179" text-anchor="middle">NARZĘDZIE</text>
+            </svg>
+          </div>
+
+          <article class="market-panel solution">
+            <h3>Co wnosi FIXON</h3>
+            <ul>
+              <li>Praktyczne narzędzia do chwytania, przenoszenia, profilowania i transportu.</li>
+              <li>Krótką rozmowę handlową opartą na realnym problemie pracy.</li>
+              <li>E-katalog, QR i materiały, które pomagają sprzedawać bez ciężkiej ekspozycji.</li>
+              <li>Model startu, który może rosnąć razem z wynikiem sprzedaży.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="model" aria-labelledby="model-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Dlaczego działa</span>
+            <h2 id="model-title">Narzędzie pojawia się dokładnie wtedy, gdy klient kupuje materiał</h2>
+          </div>
+          <p>Produkty FIXON nie są oderwaną kategorią. One odpowiadają na czynności, które wykonawca i tak musi zrobić po zakupie materiału.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="loop" aria-label="Schemat sprzedaży materiału i narzędzia FIXON">
+            <div class="loop-step">
+              <div class="loop-number">1</div>
+              <strong>Klient kupuje materiał</strong>
+              <span>Kostkę, płyty, obrzeża, elementy betonowe albo materiał do kolejnego etapu pracy.</span>
+            </div>
+            <div class="loop-step">
+              <div class="loop-number">2</div>
+              <strong>Łatwo zbadać potrzebę</strong>
+              <span>Przy zakupie materiału naturalnie pytasz, jak ekipa będzie go przenosić, ustawiać, profilować albo docinać. E-katalog pomaga szybko pokazać właściwą kategorię.</span>
+            </div>
+            <div class="loop-step">
+              <div class="loop-number">3</div>
+              <strong>Demonstracja uwiarygadnia</strong>
+              <span>Krótki pokaz narzędzia zmienia rozmowę z katalogowej na praktyczną: klient widzi chwyt, tempo, kontrolę i mniejszy wysiłek.</span>
+            </div>
+            <div class="loop-step">
+              <div class="loop-number">4</div>
+              <strong>Brukarz szybciej wraca</strong>
+              <span>Zadowolony i mniej zmęczony wykonawca sprawniej przechodzi przez pracę, a to zwiększa szansę, że szybciej wróci po kolejne zakupy materiału.</span>
+            </div>
+          </div>
+
+          <aside class="sales-note">
+            <blockquote>Mniej prowizorki. Więcej kontroli. Lepsze tempo pracy.</blockquote>
+            <p>Jeżeli ekipa powtarza daną czynność setki razy, nawet małe usprawnienie robi różnicę. Narzędzie, które stabilizuje chwyt, skraca ruch albo porządkuje ustawienie, zaczyna pracować na siebie od pierwszych realizacji.</p>
+            <p>Partner nie musi znać od razu całego asortymentu. Wystarczy prosta ścieżka: zauważyć potrzebę przy sprzedaży materiału, pokazać narzędzie, a docelowy dobór oprzeć o e-katalog, QR i krótką kartę produktu.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="start" aria-labelledby="start-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Jak wygląda start</span>
+            <h2 id="start-title">Pięć kroków bez ciężkiego wdrożenia</h2>
+          </div>
+          <p>Model startowy dobieramy do działalności Partnera. Nie zaczynamy od ciężkiego zatowarowania, tylko od prostej technologii sprzedaży: pytanie przy materiale, demonstracja, e-katalog i miesięczne rozliczenie wyniku.</p>
+        </div>
+
+        <div class="start-steps">
+          <article class="start-step">
+            <div class="step-number">1</div>
+            <div class="step-copy">
+              <h3>Zgłaszasz firmę</h3>
+              <p>Bez inwestycji startowej w pełny magazyn. Najpierw sprawdzamy kanał sprzedaży, klienta i potencjał pilotażu.</p>
+            </div>
+          </article>
+          <article class="start-step">
+            <div class="step-number">2</div>
+            <div class="step-copy">
+              <h3>Badamy potrzeby przy materiale</h3>
+              <p>Przy zakupie kostki, płyt lub obrzeży handlowiec naturalnie pyta, jak klient będzie pracował z materiałem.</p>
+            </div>
+          </article>
+          <article class="start-step">
+            <div class="step-number">3</div>
+            <div class="step-copy">
+              <h3>Pokazujemy narzędzie</h3>
+              <p>Demonstracja uwiarygadnia produkt i pozwala klientowi zobaczyć chwyt, kontrolę oraz mniejszy wysiłek.</p>
+            </div>
+          </article>
+          <article class="start-step">
+            <div class="step-number">4</div>
+            <div class="step-copy">
+              <h3>Dobieramy produkt w e-katalogu</h3>
+              <p>QR i e-katalog prowadzą do właściwego narzędzia bez konieczności uczenia się całego asortymentu.</p>
+            </div>
+          </article>
+          <article class="start-step">
+            <div class="step-number">5</div>
+            <div class="step-copy">
+              <h3>Raportujesz i rozliczasz miesiąc</h3>
+              <p>Sprzedaż rozliczana jest najwcześniej po miesiącu, a magazyn i ekspozycja rosną razem z realnym wynikiem.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="partner" aria-labelledby="partner-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Co otrzymuje Partner</span>
+            <h2 id="partner-title">Narzędzia sprzedaży, nie samą listę produktów</h2>
+          </div>
+          <p>FIXON wspiera start przez prosty model ekspozycji, komunikacji i dostępności. Handlowiec nie musi znać całej techniki, żeby zauważyć potrzebę klienta.</p>
+        </div>
+
+        <div class="benefits-layout">
+          <div class="benefits-list">
+            <article class="benefit-card">
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 11 2-2 2 2 2-2 4 4"/><path d="M3 21h18"/><path d="M5 21V5h14v16"/></svg></div>
+              <strong>Kategoria dla wykonawców</strong>
+              <p>Produkty odpowiadają na codzienne problemy pracy, nie na abstrakcyjny katalog.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4z"/><path d="M14 4h6v6h-6z"/><path d="M4 14h6v6H4z"/><path d="M14 14h2"/><path d="M20 14v2"/><path d="M14 20h6v-2"/></svg></div>
+              <strong>E-katalog i QR</strong>
+              <p>Klient może szybko przejść od rozmowy do zdjęć, opisu i statusu produktu.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h10"/><path d="m17 15 2 2 3-4"/></svg></div>
+              <strong>Materiały handlowe</strong>
+              <p>Gotowe argumenty, prosty język i komunikacja oparta na problemie wykonawcy.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18"/><path d="M7 17V7h10v10"/><path d="M9 21h6"/><path d="M12 7V3"/></svg></div>
+              <strong>Wsparcie dostępności</strong>
+              <p>Program wsparcia dostępności magazynowej pozwala rozwijać ofertę etapowo.</p>
+            </article>
+          </div>
+
+          <aside class="catalog-preview" aria-label="Przykład narzędzi sprzedażowych dla Partnera">
+            <div class="catalog-top">
+              <img src="FIXON_logo_facebook.jpg" alt="FIXON Tools & Tech">
+              <span class="status-pill">E-katalog + QR</span>
+            </div>
+            <div class="catalog-body">
+              <div class="catalog-row">
+                <img class="catalog-photo" src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/oysfxkk.webp" alt="GRIX HOLD PRO">
+                <div class="qr" aria-hidden="true"></div>
+                <div>
+                  <strong>GRIX HOLD PRO</strong>
+                  <span>Chwytanie i podnoszenie elementów</span>
+                </div>
+                <span class="status-pill">od ręki</span>
+              </div>
+              <div class="catalog-row">
+                <img class="catalog-photo" src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/mtqbqfk.webp" alt="FlatFix DUO">
+                <div class="qr" aria-hidden="true"></div>
+                <div>
+                  <strong>FlatFix DUO</strong>
+                  <span>Profilowanie i poziomowanie</span>
+                </div>
+                <span class="status-pill">pilot</span>
+              </div>
+              <div class="catalog-row">
+                <img class="catalog-photo" src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/uploads/1769276585515-1000023099.webp" alt="RolLift">
+                <div class="qr" aria-hidden="true"></div>
+                <div>
+                  <strong>RolLift</strong>
+                  <span>Transport płyt i krawężników</span>
+                </div>
+                <span class="status-pill">7 dni</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="segmenty" aria-labelledby="segmenty-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Segmenty</span>
+            <h2 id="segmenty-title">Ten sam program, inny akcent sprzedażowy</h2>
+          </div>
+          <p>Wdrożenie może wyglądać inaczej u producenta, hurtowni i sieci. Wspólny pozostaje rdzeń: prosta kategoria narzędzi do realnych potrzeb wykonawców.</p>
+        </div>
+
+        <div class="grid three segments">
+          <article class="segment-card">
+            <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></div>
+            <div>
+              <h3>Producenci materiałów</h3>
+              <p>Narzędzia FIXON mogą być praktycznym uzupełnieniem dostaw materiałów do wykonawcy.</p>
+            </div>
+            <ul>
+              <li>Dołączanie narzędzi do dostawy materiałów, gdy klient i tak organizuje pracę na budowie.</li>
+              <li>Wdrożenie przez istniejącą sieć dystrybucji.</li>
+              <li>Pozycja dostawcy praktycznych rozwiązań, nie tylko materiału.</li>
+            </ul>
+          </article>
+
+          <article class="segment-card">
+            <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/><path d="M7 7v10"/><path d="M17 7v10"/></svg></div>
+            <div>
+              <h3>Hurtownie i składy</h3>
+              <p>Dodatkowa kategoria bez budowania osobnego działu narzędziowego.</p>
+            </div>
+            <ul>
+              <li>Start od prostego pilotażu.</li>
+              <li>Sprzedaż przy materiale podstawowym.</li>
+              <li>QR i e-katalog zamiast ciężkiej ekspozycji na start.</li>
+            </ul>
+          </article>
+
+          <article class="segment-card">
+            <div class="icon-box"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/><path d="M8 4v16"/><path d="M16 4v16"/></svg></div>
+            <div>
+              <h3>Sieci dystrybucyjne</h3>
+              <p>Porządek wdrożeniowy dla wielu placówek, bez chaosu komunikacji.</p>
+            </div>
+            <ul>
+              <li>Prosta technologia sprzedaży, która nie wymaga ciężkiego wdrożenia.</li>
+              <li>Pilotaż w wybranych placówkach.</li>
+              <li>E-katalog i QR pomagają handlowcom dobrać produkt bez znajomości całego asortymentu.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="wyrozniki" aria-labelledby="wyrozniki-title">
+      <div class="wrap">
+        <div class="proof-grid">
+          <div class="proof-lead">
+            <span class="section-kicker">Wyróżniki</span>
+            <h2 id="wyrozniki-title">Twarde produkty do codziennej pracy</h2>
+            <p>FIXON ma brzmieć i wyglądać jak marka narzędziowa: konkretnie, przemysłowo, bez miękkiej obietnicy. Liczy się trwałość, wygoda i realna produktywność pracy.</p>
+          </div>
+
+          <div class="grid two">
+            <article class="proof-card">
+              <div class="proof-mark">INOX</div>
+              <div>
+                <h3>Stal nierdzewna</h3>
+                <p>Wyróżnik trwałości i jakości wykonania w produktach przeznaczonych do intensywnego użycia.</p>
+              </div>
+            </article>
+            <article class="proof-card">
+              <div class="proof-mark">PL</div>
+              <div>
+                <h3>Produkcja w Polsce</h3>
+                <p>FIXON nie komunikuje się jak importer przypadkowego sprzętu, tylko jak producent rozwijający rozwiązania.</p>
+              </div>
+            </article>
+            <article class="proof-card">
+              <div class="proof-mark">01</div>
+              <div>
+                <h3>Projektowane z praktyki</h3>
+                <p>Produkty odpowiadają na chwytanie, przenoszenie, profilowanie, transport i organizację pracy.</p>
+              </div>
+            </article>
+            <article class="proof-card">
+              <div class="proof-mark">ROI</div>
+              <div>
+                <h3>Logika szybkiego zwrotu</h3>
+                <p>Nie obiecujemy liczb bez danych. Pokazujemy, dlaczego usprawnienie powtarzalnej czynności ma sens.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="product-strip" aria-label="Przykładowe produkty FIXON">
+          <article class="product-card">
+            <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/oysfxkk.webp" alt="GRIX HOLD PRO">
+            <div>
+              <strong>GRIX HOLD PRO</strong>
+              <p>Stabilny chwyt i sprawniejsza praca przy powtarzalnym przenoszeniu.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/mtqbqfk.webp" alt="FlatFix DUO">
+            <div>
+              <strong>FlatFix DUO</strong>
+              <p>Proste usprawnienie prowadzenia i profilowania w codziennej pracy.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/uploads/1769276585515-1000023099.webp" alt="RolLift">
+            <div>
+              <strong>RolLift</strong>
+              <p>Mniej noszenia, więcej kontroli i sprawniejszy transport na budowie.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="https://storage.googleapis.com/nitro-media-local/projects/0qricweczxxpllt/gallery/jdlpbob.webp" alt="HARDTAP 10 kg">
+            <div>
+              <strong>HARDTAP</strong>
+              <p>Ubijak ręczny do miejsc, gdzie liczy się precyzyjne przygotowanie podłoża.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dokumenty" class="documents-band" aria-labelledby="dokumenty-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Dokumenty programowe</span>
+            <h2 id="dokumenty-title">Pełny program, umowa i załączniki w jednym miejscu</h2>
+          </div>
+          <p>Strona najpierw wyjaśnia model współpracy, a dopiero potem prowadzi do formalnych dokumentów. Każdy dokument ma podgląd HTML do czytania bez otwierania Worda.</p>
+        </div>
+
+        <div class="implementation-map" aria-label="Kolejność pracy z dokumentami">
+          <article class="implementation-step">
+            <span>1</span>
+            <strong>Zrozum model</strong>
+            <p>Landing page pokazuje sens sprzedażowy, odbiorców i prostą ścieżkę startu.</p>
+          </article>
+          <article class="implementation-step">
+            <span>2</span>
+            <strong>Przeczytaj Program</strong>
+            <p>Pełny Program opisuje zasady współpracy, poziomy, magazyn, ekspozycję i rozwój Partnera.</p>
+          </article>
+          <article class="implementation-step">
+            <span>3</span>
+            <strong>Sprawdź umowę</strong>
+            <p>Umowa porządkuje podstawę współpracy i wskazuje dokumenty, które doprecyzowują warunki.</p>
+          </article>
+          <article class="implementation-step">
+            <span>4</span>
+            <strong>Dobierz załączniki</strong>
+            <p>Karty, procedury, cennik, statusy i protokoły wspierają codzienne wdrożenie.</p>
+          </article>
+        </div>
+
+        <div class="document-hub">
+          <aside class="document-guide">
+            <h3>Najprostsza ścieżka wdrożenia</h3>
+            <p>Nowy Partner nie musi czytać wszystkiego naraz. Najpierw powinien zrozumieć model, potem przejść przez dokument główny, umowę i tylko te załączniki, które są potrzebne na danym etapie.</p>
+            <ol>
+              <li>Decyzja i kwalifikacja: Program + Karta Partnera.</li>
+              <li>Start sprzedaży: Magazyn Startowy, Cennik, Statusy Produktów.</li>
+              <li>Praca operacyjna: Raportowanie, protokoły i procedury.</li>
+              <li>Rozwój: produkty testowe, uprawnienia strategiczne, Centrum Demonstracyjne.</li>
+            </ol>
+            <div class="hero-contact-actions" style="margin-top:16px">
+              <a href="dokumenty/en/index.html">Documents EN</a>
+              <a href="dokumenty/de/index.html">Dokumente DE</a>
+            </div>
+          </aside>
+
+          <div class="document-library">
+            <div class="main-docs">
+              <article class="doc-feature">
+                <div>
+                  <span class="doc-badge">Dokument główny</span>
+                  <strong>Program Partnerski FIXON</strong>
+                  <p>Pełna treść programu dystrybucji, ekspozycji produktowej, wsparcia magazynowego i rozwoju Partnerów.</p>
+                </div>
+                <a class="doc-link" href="dokumenty/program-partnerski-fixon.html">Czytaj podgląd</a>
+              </article>
+              <article class="doc-feature">
+                <div>
+                  <span class="doc-badge">Umowa</span>
+                  <strong>Umowa Partnerska FIXON</strong>
+                  <p>Podgląd umowy regulującej współpracę handlową oraz powiązanie z dokumentami programowymi.</p>
+                </div>
+                <a class="doc-link" href="dokumenty/umowa-partnerska-fixon.html">Czytaj podgląd</a>
+              </article>
+            </div>
+
+            <details class="doc-group" open>
+              <summary>Start współpracy <span>2 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Karta Partnera</strong>
+                    <p>Dane Partnera, zakres współpracy i potwierdzenie indywidualnych ustaleń.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-karta-partnera.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Magazyn Startowy</strong>
+                    <p>Lista produktów i warunki startowego wdrożenia magazynowego.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-magazyn-startowy.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="doc-group">
+              <summary>Sprzedaż, magazyn i dostępność <span>3 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Wsparcie Magazynowe</strong>
+                    <p>Lista produktów objętych programem wsparcia dostępności magazynowej.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-wsparcie-magazynowe.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Cennik Katalogowy</strong>
+                    <p>Podgląd cennika katalogowego do obsługi sprzedaży i rozmów handlowych.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-cennik-katalogowy.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Statusy Produktów</strong>
+                    <p>Definicje statusów produktowych i dostępności komunikowanej Partnerowi.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-statusy-produktow.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="doc-group">
+              <summary>Marka i ekspozycja <span>2 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Standardy Ekspozycji</strong>
+                    <p>Zasady ekspozycji produktów FIXON w punkcie sprzedaży i kanale Partnera.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-standardy-ekspozycji.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Polityka Marki FIXON</strong>
+                    <p>Zasady komunikacji sprzedażowej, użycia marki i bezpieczeństwa obietnic.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-polityka-marki.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="doc-group">
+              <summary>Operacje i raportowanie <span>4 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Procedura Raportowania</strong>
+                    <p>Model raportowania sprzedaży, stanów i aktywności w ramach współpracy.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-procedura-raportowania.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Wzór Raportu Miesięcznego</strong>
+                    <p>Szablon raportu do cyklicznej obsługi współpracy.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-wzor-raportu-miesiecznego.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Zgłoszenie Alarmowe</strong>
+                    <p>Wzór zgłoszenia sytuacji wymagającej szybkiej reakcji.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-wzor-zgloszenia-alarmowego.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Procedura Zwrotu Towaru</strong>
+                    <p>Zasady obsługi zwrotów produktów w modelu partnerskim.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-procedura-zwrotu.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="doc-group">
+              <summary>Protokoły <span>4 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Protokół Przekazania</strong>
+                    <p>Protokół przekazania produktów, materiałów lub elementów ekspozycji.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-protokol-przekazania.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Protokół Inwentaryzacji</strong>
+                    <p>Wzór dokumentu do kontroli i potwierdzania stanów.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-protokol-inwentaryzacji.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Rozbieżności Magazynowe</strong>
+                    <p>Protokół zgłaszania różnic między stanem rzeczywistym i dokumentowym.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-rozbieznosci-magazynowe.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Uszkodzenie lub Utrata Produktu</strong>
+                    <p>Protokół dla sytuacji uszkodzenia, utraty albo niezgodności produktu.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-uszkodzenie-utrata.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="doc-group">
+              <summary>Rozwój współpracy <span>3 dokumenty</span></summary>
+              <div class="doc-list">
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Produkty Testowe i Premierowe</strong>
+                    <p>Regulamin obsługi produktów testowych, demonstracyjnych i premierowych.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-produkty-testowe-premierowe.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Karta Uprawnienia Strategicznego</strong>
+                    <p>Wzór karty potwierdzającej indywidualne uprawnienia strategiczne.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-karta-uprawnienia-strategicznego.html">Podgląd</a>
+                </div>
+                <div class="doc-row">
+                  <div>
+                    <strong>Załącznik: Karta Centrum Demonstracyjnego</strong>
+                    <p>Wzór dokumentu dla placówki demonstracyjnej lub showroomu FIXON.</p>
+                  </div>
+                  <a class="doc-link" href="dokumenty/zalacznik-karta-centrum-demonstracyjnego.html">Podgląd</a>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formularz" class="form-band" aria-labelledby="formularz-title">
+      <div class="wrap form-layout">
+        <div class="form-note">
+          <span class="section-kicker">Kontakt</span>
+          <h2 id="formularz-title">Porozmawiajmy o Programie Partnerskim FIXON</h2>
+          <p>Zostaw dane albo zadzwoń bezpośrednio. Sprawdzimy, jaki model współpracy pasuje do Twojej firmy, kanału sprzedaży i typu klientów.</p>
+          <ul>
+            <li>Dobierzemy model pilotażowy.</li>
+            <li>Ustalimy, które produkty mają sens na start.</li>
+            <li>Pokażemy, jak wykorzystać e-katalog, QR i materiały handlowe.</li>
+          </ul>
+        </div>
+
+        <form action="#" method="post" data-mail-form="partner">
+          <label>
+            Nazwa firmy
+            <input type="text" name="firma" autocomplete="organization" required>
+          </label>
+          <label>
+            Typ działalności
+            <select name="typ_dzialalnosci" required>
+              <option value="">Wybierz</option>
+              <option>Producent materiałów</option>
+              <option>Hurtownia / skład</option>
+              <option>Sieć dystrybucyjna</option>
+              <option>Punkt sprzedaży</option>
+              <option>Wypożyczalnia narzędzi</option>
+              <option>Inny kanał B2B</option>
+            </select>
+          </label>
+          <label>
+            Liczba placówek
+            <input type="text" name="liczba_placowek" inputmode="numeric" placeholder="np. 1, 3, 12">
+          </label>
+          <label>
+            Główny klient
+            <select name="glowny_klient">
+              <option value="">Wybierz</option>
+              <option>Ekipy brukarskie</option>
+              <option>Firmy budowlane</option>
+              <option>Firmy drogowe</option>
+              <option>Klienci hurtowi</option>
+              <option>Inwestycje / wykonawcy B2B</option>
+            </select>
+          </label>
+          <label>
+            Osoba kontaktowa
+            <input type="text" name="osoba_kontaktowa" autocomplete="name" required>
+          </label>
+          <label>
+            Telefon
+            <input type="tel" name="telefon" autocomplete="tel" required>
+          </label>
+          <label class="full">
+            E-mail
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="full">
+            Krótki opis kanału sprzedaży
+            <textarea name="opis_kanalu" placeholder="Napisz, gdzie i komu sprzedajesz materiały lub narzędzia."></textarea>
+          </label>
+          <div class="full form-footer">
+            <p>Po wysłaniu otworzy się gotowa wiadomość e-mail z danymi zgłoszenia.</p>
+            <button class="btn" type="submit">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4Z"/></svg>
+              Przygotuj wiadomość
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button class="contact-fab" type="button" data-contact-open aria-haspopup="dialog" aria-controls="contactModal" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 13a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M4 13v4a2 2 0 0 0 2 2h2v-8H6a2 2 0 0 0-2 2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M20 13v4a2 2 0 0 1-2 2h-2v-8h2a2 2 0 0 1 2 2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M16 19c0 1.1-.9 2-2 2h-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    Zamów kontakt
+  </button>
+
+  <div class="contact-modal" id="contactModal" hidden>
+    <div class="contact-card" role="dialog" aria-modal="true" aria-labelledby="contactTitle">
+      <header>
+        <button class="contact-close" type="button" data-contact-close aria-label="Zamknij">×</button>
+        <span class="section-kicker">Kontakt</span>
+        <h2 id="contactTitle">Zamów kontakt</h2>
+        <p>Wypełnij krótki formularz. Wiadomość zostanie przygotowana do wysyłki na adres FIXON.</p>
+      </header>
+      <form action="#" method="post" data-mail-form="contact">
+        <label>
+          Nazwa firmy
+          <input type="text" name="firma" autocomplete="organization">
+        </label>
+        <label>
+          Osoba kontaktowa
+          <input type="text" name="osoba_kontaktowa" autocomplete="name" required>
+        </label>
+        <label>
+          Telefon
+          <input type="tel" name="telefon" autocomplete="tel" required>
+        </label>
+        <label>
+          E-mail
+          <input type="email" name="email" autocomplete="email">
+        </label>
+        <label class="full">
+          Preferowany termin kontaktu
+          <input type="text" name="preferowany_termin" placeholder="np. jutro 10:00-13:00">
+        </label>
+        <label class="full">
+          Wiadomość
+          <textarea name="wiadomosc" placeholder="Krótko opisz, w czym możemy pomóc."></textarea>
+        </label>
+        <div class="full form-footer">
+          <p>Po kliknięciu otworzy się gotowa wiadomość e-mail.</p>
+          <button class="btn" type="submit">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4Z"/></svg>
+            Przygotuj e-mail
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>FIXON Tools & Tech</strong> - Program Partnerski dla producentów, dystrybutorów i punktów sprzedaży.</div>
+      <div>Wersja statyczna landing page, 11.06.2026</div>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const recipient = "heorhiibronnikov.commercial@gmail.com";
+      const modal = document.getElementById("contactModal");
+      const openButtons = document.querySelectorAll("[data-contact-open]");
+      const closeButtons = document.querySelectorAll("[data-contact-close]");
+      const labels = {
+        firma: "Nazwa firmy",
+        typ_dzialalnosci: "Typ działalności",
+        liczba_placowek: "Liczba placówek",
+        glowny_klient: "Główny klient",
+        osoba_kontaktowa: "Osoba kontaktowa",
+        telefon: "Telefon",
+        email: "E-mail",
+        opis_kanalu: "Opis kanału sprzedaży",
+        preferowany_termin: "Preferowany termin kontaktu",
+        wiadomosc: "Wiadomość"
+      };
+
+      const setModal = (isOpen) => {
+        if (!modal) return;
+        modal.hidden = !isOpen;
+        document.body.classList.toggle("modal-open", isOpen);
+        openButtons.forEach((button) => button.setAttribute("aria-expanded", String(isOpen)));
+        if (isOpen) {
+          modal.querySelector("form input, form select, form textarea")?.focus();
+        } else {
+          openButtons[0]?.focus();
+        }
+      };
+
+      const buildMailBody = (form, type) => {
+        const data = new FormData(form);
+        const lines = [
+          type === "contact" ? "Zamówienie kontaktu ze strony FIXON" : "Kontakt w sprawie Programu Partnerskiego FIXON",
+          `Data: ${new Date().toLocaleString("pl-PL")}`,
+          "",
+          "Dane:"
+        ];
+
+        for (const [name, label] of Object.entries(labels)) {
+          const value = String(data.get(name) || "").trim();
+          if (value) lines.push(`${label}: ${value}`);
+        }
+
+        lines.push("", "Źródło: statyczna strona Programu Partnerskiego FIXON");
+        return lines.join("\n");
+      };
+
+      document.querySelectorAll("[data-mail-form]").forEach((form) => {
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          const type = form.dataset.mailForm;
+          const subject = type === "contact"
+            ? "FIXON - zamówienie kontaktu"
+            : "FIXON - kontakt w sprawie programu partnerskiego";
+          const body = buildMailBody(form, type);
+          window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        });
+      });
+
+      openButtons.forEach((button) => button.addEventListener("click", () => setModal(true)));
+      closeButtons.forEach((button) => button.addEventListener("click", () => setModal(false)));
+      modal?.addEventListener("click", (event) => {
+        if (event.target === modal) setModal(false);
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && modal && !modal.hidden) setModal(false);
+      });
+    })();
+  </script>
+</body>
+</html>

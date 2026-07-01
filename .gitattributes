@@ -1,0 +1,17 @@
+* text=auto
+
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+
+*.jpg binary
+*.jpeg binary
+*.jfif binary
+*.png binary
+*.webp binary
+*.pdf binary
+*.docx binary
+*.zip binary

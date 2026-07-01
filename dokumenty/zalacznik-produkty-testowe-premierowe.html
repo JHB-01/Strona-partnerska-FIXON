@@ -1,0 +1,432 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Załącznik: Produkty Testowe i Premierowe | FIXON</title>
+  <style>
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Book.woff2") format("woff2"), local("Gotham Book"), local("Gotham"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Bold.woff2") format("woff2"), local("Gotham Bold"), local("Gotham Pro Bold"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Black.woff2") format("woff2"), local("Gotham Black"), local("Gotham Pro Black"); font-weight: 900; font-display: swap; }
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Gotham, "Montserrat", "Avenir Next", Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../FIXON_program_partnerski.html#dokumenty">Wr&oacute;&cacute; do dokument&oacute;w</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Spis treści</button>
+      <div class="meta">Rozw&#243;j wsp&#243;łpracy<br>Aktualizacja pliku: 11.06.2026 20:06</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Załącznik: Produkty Testowe i Premierowe</h1>
+      <p>Regulamin obsługi produkt&#243;w testowych, demonstracyjnych i premierowych.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Zamknij">×</button>
+        <strong>Nawigacja dokumentu</strong>
+        <a href="#section-zalacznik-nr-16-regulamin-produktow-testowych-i-premierowych-fixon">ZAŁĄCZNIK NR 16 REGULAMIN PRODUKT&#211;W TESTOWYCH I PREMIEROWYCH FIXON</a>
+<a href="#section-1-cel-i-charakter-regulaminu">&#167; 1. Cel i charakter regulaminu</a>
+<a href="#section-2-definicje-robocze">&#167; 2. Definicje robocze</a>
+<a href="#section-3-przekazanie-produktow-testowych-i-premierowych">&#167; 3. Przekazanie produkt&#243;w testowych i premierowych</a>
+<a href="#section-4-zasady-uzywania-i-prezentacji">&#167; 4. Zasady używania i prezentacji</a>
+<a href="#section-5-sprzedaz-produktow-testowych-i-premierowych">&#167; 5. Sprzedaż produkt&#243;w testowych i premierowych</a>
+<a href="#section-6-produkty-premierowe-i-komunikacja-rynkowa">&#167; 6. Produkty premierowe i komunikacja rynkowa</a>
+<a href="#section-7-feedback-i-obowiazki-informacyjne">&#167; 7. Feedback i obowiązki informacyjne</a>
+<a href="#section-8-uszkodzenie-utrata-i-zuzycie">&#167; 8. Uszkodzenie, utrata i zużycie</a>
+<a href="#section-9-zwrot-produktow">&#167; 9. Zwrot produkt&#243;w</a>
+<a href="#section-10-ewidencja-i-raportowanie">&#167; 10. Ewidencja i raportowanie</a>
+<a href="#section-11-tabela-przekazanych-produktow-testowych-i-premierowych">&#167; 11. Tabela przekazanych produkt&#243;w testowych i premierowych</a>
+<a href="#section-12-zastrzezenia-i-zatwierdzenie-dokumentu">&#167; 12. Zastrzeżenia i zatwierdzenie dokumentu</a>
+<a href="#section-podpisy-zatwierdzenie-koncowej-wersji">Podpisy / zatwierdzenie końcowej wersji</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Rozwiń wszystko</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Zwiń wszystko</button>
+        </div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-16-regulamin-produktow-testowych-i-premierowych-fixon" open>
+<summary><span>ZAŁĄCZNIK NR 16 REGULAMIN PRODUKT&#211;W TESTOWYCH I PREMIEROWYCH FIXON</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Pole</th>
+<th>Treść</th>
+</tr>
+<tr>
+<td>Nazwa dokumentu</td>
+<td>Regulamin Produkt&#243;w Testowych i Premierowych FIXON</td>
+</tr>
+<tr>
+<td>Wersja</td>
+<td>[●]</td>
+</tr>
+<tr>
+<td>Data przekazania Partnerowi</td>
+<td>[●]</td>
+</tr>
+<tr>
+<td>Partner</td>
+<td>[pełna nazwa Partnera]</td>
+</tr>
+<tr>
+<td>Dostawca</td>
+<td>FIXON IRYNA MUKOSII</td>
+</tr>
+<tr>
+<td>Pośrednik</td>
+<td>JHB FAMILY sp. z o.o.</td>
+</tr>
+<tr>
+<td>Podstawa stosowania</td>
+<td>Program Partnerski FIXON / Karta Partnera / Karta Uprawnienia Strategicznego / Karta Centrum Demonstracyjnego</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-1-cel-i-charakter-regulaminu" open>
+<summary><span>&#167; 1. Cel i charakter regulaminu</span></summary>
+<div class="doc-section-body">
+<p>1. Regulamin określa zasady udostępniania, prezentowania, testowania, sprzedaży, raportowania i rozliczania produkt&#243;w testowych oraz produkt&#243;w premierowych FIXON przekazywanych Partnerowi w ramach Programu Partnerskiego FIXON.</p>
+<p>2. Regulamin ma zastosowanie do produkt&#243;w oznaczonych jako narzędzia testowe, produkty demonstracyjne, produkty premierowe, produkty przedpremierowe, pr&#243;bki rynkowe, produkty wdrożeniowe oraz inne produkty przekazane Partnerowi w celu testowania, prezentacji, walidacji sprzedażowej lub ograniczonego wprowadzenia do obrotu.</p>
+<p>3. Regulamin nie przenosi na Partnera własności produkt&#243;w testowych, premierowych, demonstracyjnych ani ekspozycyjnych, chyba że w odrębnym dokumencie wyraźnie wskazano inaczej.</p>
+</div></details>
+<details class="doc-section" id="section-2-definicje-robocze" open>
+<summary><span>&#167; 2. Definicje robocze</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Pojęcie</th>
+<th>Znaczenie</th>
+</tr>
+<tr>
+<td>Produkt testowy</td>
+<td>produkt przekazany Partnerowi w celu demonstracji, sprawdzenia przez klienta, użycia pokazowego, zebrania opinii albo wsparcia sprzedaży bez zakładania jego bieżącej sprzedaży z magazynu Partnera.</td>
+</tr>
+<tr>
+<td>Produkt premierowy</td>
+<td>produkt wprowadzany do oferty FIXON po raz pierwszy albo w nowej wersji, udostępniany wybranym Partnerom przed pełnym wdrożeniem do standardowej dystrybucji.</td>
+</tr>
+<tr>
+<td>Produkt przedpremierowy</td>
+<td>produkt pozostający przed pełnym zatwierdzeniem katalogowym, przekazywany w celu testu rynkowego, demonstracji lub zebrania informacji zwrotnej.</td>
+</tr>
+<tr>
+<td>Użytkowanie demonstracyjne</td>
+<td>kr&#243;tkotrwałe użycie produktu w warunkach pokazowych lub kontrolowanych, mające zaprezentować funkcję produktu bez trwałego przekazania go klientowi.</td>
+</tr>
+<tr>
+<td>Test klienta</td>
+<td>czasowe umożliwienie klientowi sprawdzenia produktu, jeżeli zostało to dopuszczone przez Dostawcę lub Pośrednika w odniesieniu do danego produktu.</td>
+</tr>
+<tr>
+<td>Feedback</td>
+<td>informacja zwrotna dotycząca jakości produktu, ergonomii, użyteczności, zainteresowania klient&#243;w, zastrzeżeń technicznych, sugestii zmian lub potencjału sprzedażowego.</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-3-przekazanie-produktow-testowych-i-premierowych" open>
+<summary><span>&#167; 3. Przekazanie produkt&#243;w testowych i premierowych</span></summary>
+<div class="doc-section-body">
+<p>1. Produkty testowe i premierowe są przekazywane Partnerowi na podstawie Protokołu Przekazania, Karty Partnera, Karty Uprawnienia Strategicznego, Karty Centrum Demonstracyjnego albo innego dokumentu wskazującego zakres, liczbę, wartość i przeznaczenie produkt&#243;w.</p>
+<p>2. Dokument przekazania powinien wskazywać co najmniej nazwę produktu, ilość, wartość katalogową, status produktu, przeznaczenie, miejsce używania, osobę odpowiedzialną po stronie Partnera oraz ewentualne ograniczenia w zakresie sprzedaży, testowania lub publikowania materiał&#243;w.</p>
+<p>3. Partner zobowiązuje się przechowywać produkty w spos&#243;b zabezpieczający je przed utratą, uszkodzeniem, nieuprawnionym użyciem oraz pomyleniem z produktami handlowymi.</p>
+<p>4. Produkty testowe i premierowe powinny być oznaczone w ewidencji Partnera oddzielnie od produkt&#243;w sprzedanych, produkt&#243;w magazynu startowego, produkt&#243;w objętych wsparciem magazynowym oraz produkt&#243;w zakupionych przez Partnera.</p>
+</div></details>
+<details class="doc-section" id="section-4-zasady-uzywania-i-prezentacji" open>
+<summary><span>&#167; 4. Zasady używania i prezentacji</span></summary>
+<div class="doc-section-body">
+<p>1. Partner może używać produkt&#243;w testowych i premierowych wyłącznie w celu zgodnym z ich statusem, w szczeg&#243;lności do prezentacji klientom, demonstracji działania, test&#243;w sprzedażowych, szkoleń handlowc&#243;w, pokaz&#243;w terenowych albo zebrania informacji zwrotnej.</p>
+<p>2. Partner nie może używać produktu w spos&#243;b mogący powodować jego nadmierne zużycie, uszkodzenie, utratę wartości handlowej, błędną ocenę jakości albo wprowadzenie klienta w błąd co do przeznaczenia produktu.</p>
+<p>3. Przy prezentowaniu produkt&#243;w Partner powinien komunikować ich status zgodnie z informacją przekazaną przez FIXON, w szczeg&#243;lności odr&#243;żniać produkt dostępny w sprzedaży od produktu testowego, premierowego lub przedpremierowego.</p>
+<p>4. Partner nie może deklarować parametr&#243;w, gwarancji, termin&#243;w dostępności, wariant&#243;w produkcyjnych ani warunk&#243;w handlowych niepotwierdzonych w aktualnych materiałach FIXON albo przez Pośrednika.</p>
+</div></details>
+<details class="doc-section" id="section-5-sprzedaz-produktow-testowych-i-premierowych" open>
+<summary><span>&#167; 5. Sprzedaż produkt&#243;w testowych i premierowych</span></summary>
+<div class="doc-section-body">
+<p>1. Produkt testowy, demonstracyjny lub premierowy może zostać sprzedany klientowi wyłącznie wtedy, gdy jego sprzedaż została dopuszczona przez Dostawcę, Pośrednika albo właściwy dokument programowy.</p>
+<p>2. Jeżeli sprzedaż produktu testowego jest dopuszczona, rozliczenie następuje według ceny i zasad wskazanych w Cenniku, Karcie Partnera, Karcie Uprawnienia Strategicznego, Protokole Przekazania albo indywidualnej decyzji Dostawcy.</p>
+<p>3. Produkt premierowy może być objęty ograniczeniem sprzedaży do określonego kanału, terytorium, grupy klient&#243;w, Centrum Demonstracyjnego, Partnera Strategicznego albo okresu pierwszeństwa. Partner nie może rozszerzać tego zakresu bez zgody Dostawcy.</p>
+<p>4. Jeżeli produkt testowy lub premierowy zostanie sprzedany bez wymaganej zgody, Partner może zostać obciążony jego pełną wartością katalogową, kosztami dostawy, kosztami odtworzenia ekspozycji oraz innymi kosztami powstałymi wskutek nieuprawnionego działania.</p>
+</div></details>
+<details class="doc-section" id="section-6-produkty-premierowe-i-komunikacja-rynkowa" open>
+<summary><span>&#167; 6. Produkty premierowe i komunikacja rynkowa</span></summary>
+<div class="doc-section-body">
+<h3 id="1-informacje-o-produkcie-premierowym-przedpremierowym-lub-wdrozeniowym-moga-byc-publikowane-przez-partnera-wylacznie-w-zakresie-zatwierdzonym-przez-fixon">1. Informacje o produkcie premierowym, przedpremierowym lub wdrożeniowym mogą być publikowane przez Partnera wyłącznie w zakresie zatwierdzonym przez FIXON.</h3>
+<p>2. Partner nie może publikować zdjęć, film&#243;w, parametr&#243;w, cen, termin&#243;w wprowadzenia, por&#243;wnań z konkurencją ani zapowiedzi dostępności produktu premierowego bez wcześniejszego potwierdzenia ich treści przez Dostawcę lub Pośrednika.</p>
+<p>3. Komunikacja sprzedażowa produktu premierowego powinna podkreślać jego funkcję, zastosowanie i wartość dla wykonawcy, bez składania obietnic niepotwierdzonych testami, dokumentacją lub materiałami FIXON.</p>
+<p>4. Jeżeli Partner uczestniczy w powstaniu nowego produktu albo zgłosił istotny wkład w jego rozw&#243;j, zakres pierwszeństwa, wyłączności premierowej lub komunikacji rynkowej określa Karta Uprawnienia Strategicznego albo inny dokument indywidualny.</p>
+</div></details>
+<details class="doc-section" id="section-7-feedback-i-obowiazki-informacyjne" open>
+<summary><span>&#167; 7. Feedback i obowiązki informacyjne</span></summary>
+<div class="doc-section-body">
+<p>1. Partner korzystający z produkt&#243;w testowych lub premierowych zobowiązuje się przekazywać Dostawcy lub Pośrednikowi informacje zwrotne z rynku, w szczeg&#243;lności dotyczące zainteresowania klient&#243;w, pytań sprzedażowych, zastrzeżeń technicznych, sposobu używania produktu, reakcji wykonawc&#243;w, potencjalnych zmian konstrukcyjnych oraz barier zakupowych.</p>
+<p>2. Feedback powinien być przekazywany w formie dokumentowej, w szczeg&#243;lności pocztą elektroniczną, w raporcie miesięcznym, formularzu informacji zwrotnej albo innym uzgodnionym kanałem.</p>
+<p>3. Brak przekazywania informacji zwrotnej może stanowić podstawę do ograniczenia dostępu Partnera do produkt&#243;w testowych, premierowych, wyłączności premierowej, dodatkowej ekspozycji albo kolejnych wdrożeń produktowych.</p>
+</div></details>
+<details class="doc-section" id="section-8-uszkodzenie-utrata-i-zuzycie" open>
+<summary><span>&#167; 8. Uszkodzenie, utrata i zużycie</span></summary>
+<div class="doc-section-body">
+<p>1. Normalne zużycie produktu wynikające z prawidłowego użycia demonstracyjnego nie obciąża Partnera, o ile produkt był używany zgodnie z przeznaczeniem i zasadami niniejszego Regulaminu.</p>
+<p>2. Partner odpowiada za uszkodzenie, utratę, zniszczenie, zagubienie albo nieuprawnione przekazanie produktu testowego lub premierowego, jeżeli nastąpiło z jego winy, winy jego pracownik&#243;w, przedstawicieli, plac&#243;wek, podwykonawc&#243;w albo os&#243;b, kt&#243;rym umożliwił korzystanie z produktu.</p>
+<p>3. Produkty testowe, demonstracyjne lub ekspozycyjne uszkodzone albo utracone z winy Partnera mogą zostać rozliczone według 50% ceny katalogowej brutto, chyba że dokument przekazania albo indywidualne ustalenia stanowią inaczej.</p>
+<p>4. Produkty premierowe, przedpremierowe lub szczeg&#243;lne produkty wdrożeniowe mogą zostać rozliczone według pełnej wartości katalogowej albo wartości odtworzeniowej, jeżeli charakter produktu, ograniczona dostępność albo zakres szkody to uzasadnia.</p>
+</div></details>
+<details class="doc-section" id="section-9-zwrot-produktow" open>
+<summary><span>&#167; 9. Zwrot produkt&#243;w</span></summary>
+<div class="doc-section-body">
+<p>1. Dostawca lub Pośrednik może wezwać Partnera do zwrotu produktu testowego lub premierowego po zakończeniu test&#243;w, zakończeniu kampanii, cofnięciu uprawnienia, zakończeniu wsp&#243;łpracy, aktualizacji wersji produktu albo w innym uzasadnionym przypadku.</p>
+<p>2. Zwrot powinien nastąpić w terminie wskazanym w wezwaniu, w stanie odpowiadającym prawidłowemu użyciu demonstracyjnemu, z kompletem element&#243;w, akcesori&#243;w, opakowań i dokument&#243;w, o ile zostały przekazane.</p>
+<p>3. W przypadku braku zwrotu w terminie Dostawca może obciążyć Partnera wartością produktu, kosztami transportu, kosztami odtworzenia ekspozycji oraz innymi uzasadnionymi kosztami wynikającymi z braku zwrotu.</p>
+</div></details>
+<details class="doc-section" id="section-10-ewidencja-i-raportowanie" open>
+<summary><span>&#167; 10. Ewidencja i raportowanie</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Rodzaj produktu</th>
+<th>Zakres ewidencji / raportowania</th>
+</tr>
+<tr>
+<td>Produkty testowe</td>
+<td>nazwa, ilość, miejsce przechowywania, osoba odpowiedzialna, użycie, stan, feedback, uszkodzenia lub utraty.</td>
+</tr>
+<tr>
+<td>Produkty premierowe</td>
+<td>status wdrożenia, zakres prezentacji, zainteresowanie klient&#243;w, sprzedaż, zapytania, zastrzeżenia, rekomendacje rynkowe.</td>
+</tr>
+<tr>
+<td>Produkty demonstracyjne</td>
+<td>liczba prezentacji, wydarzenia, klienci kierowani do demonstracji, stan techniczny, potrzeby uzupełnienia.</td>
+</tr>
+<tr>
+<td>Produkty sprzedane</td>
+<td>data sprzedaży, ilość, cena, rabat, klient lub kanał, rozliczenie, ewentualne reklamacje.</td>
+</tr>
+</table></div>
+
+<p>Partner ujmuje produkty testowe, premierowe, demonstracyjne i ekspozycyjne w raporcie miesięcznym albo w innym formularzu wskazanym przez Dostawcę lub Pośrednika, jeżeli ich status, użycie, sprzedaż, utrata, uszkodzenie albo zwrot ma wpływ na rozliczenia, stany magazynowe, ekspozycję lub ocenę wsp&#243;łpracy.</p>
+</div></details>
+<details class="doc-section" id="section-11-tabela-przekazanych-produktow-testowych-i-premierowych" open>
+<summary><span>&#167; 11. Tabela przekazanych produkt&#243;w testowych i premierowych</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Lp.</th>
+<th>Nazwa produktu</th>
+<th>Status</th>
+<th>Ilość</th>
+<th>Wartość katalogowa brutto</th>
+<th>Miejsce / plac&#243;wka</th>
+<th>Osoba odpowiedzialna</th>
+<th>Termin zwrotu / przeglądu</th>
+<th>Uwagi</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>[●]</td>
+<td>testowy / premierowy / demonstracyjny</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>[●]</td>
+<td>testowy / premierowy / demonstracyjny</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>[●]</td>
+<td>testowy / premierowy / demonstracyjny</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+<td>[●]</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-12-zastrzezenia-i-zatwierdzenie-dokumentu" open>
+<summary><span>&#167; 12. Zastrzeżenia i zatwierdzenie dokumentu</span></summary>
+<div class="doc-section-body">
+<p>Dokument zostaje przekazany Partnerowi w ramach Programu Partnerskiego FIXON. Partner może zgłosić zastrzeżenia do treści dokumentu w terminie 7 dni od dnia jego dostarczenia. Brak zgłoszenia zastrzeżeń w tym terminie oznacza przyjęcie dokumentu do wiadomości i stosowania w ramach bieżącej wsp&#243;łpracy. Jeżeli Partner zgłosi zastrzeżenia, Strony wyjaśniają treść dokumentu, usuwają rozbieżności albo przygotowują końcową uzgodnioną wersję dokumentu. Końcowa wersja dokumentu, do kt&#243;rego zgłoszono zastrzeżenia, wymaga zatwierdzenia przez obie Strony w formie podpis&#243;w osobistych albo podpis&#243;w elektronicznych zaakceptowanych przez Strony, chyba że Strony wyraźnie uzgodnią inną formę zatwierdzenia w korespondencji dokumentowej.</p>
+</div></details>
+<details class="doc-section" id="section-podpisy-zatwierdzenie-koncowej-wersji" open>
+<summary><span>Podpisy / zatwierdzenie końcowej wersji</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Strona</th>
+<th>Dane</th>
+<th>Podpis</th>
+</tr>
+<tr>
+<td>Dostawca</td>
+<td>FIXON IRYNA MUKOSII</td>
+<td>data, podpis / podpis elektroniczny</td>
+</tr>
+<tr>
+<td>Pośrednik</td>
+<td>JHB FAMILY sp. z o.o.</td>
+<td>data, podpis / podpis elektroniczny</td>
+</tr>
+<tr>
+<td>Partner</td>
+<td>[pełna nazwa Partnera]</td>
+<td>data, podpis / podpis elektroniczny</td>
+</tr>
+</table></div>
+
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Pobierz dokument</strong>
+    <p>Szablon DOCX służy do pracy operacyjnej, a PDF do wysyłki lub archiwizacji.</p>
+  </div>
+  <div class="download-actions">
+    <a class="download-button" href="docx/zalacznik-produkty-testowe-premierowe.docx" download>Pobierz szablon DOCX</a>
+    <a class="download-button secondary" href="pdf/zalacznik-produkty-testowe-premierowe.pdf" download>Pobierz szablon PDF</a>
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>Podgl&#261;d statyczny dokumentu programowego FIXON.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+</body>
+</html>

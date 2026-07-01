@@ -1,0 +1,391 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umowa Partnerska FIXON | FIXON</title>
+  <style>
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Book.woff2") format("woff2"), local("Gotham Book"), local("Gotham"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Bold.woff2") format("woff2"), local("Gotham Bold"), local("Gotham Pro Bold"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../assets/fonts/Gotham-Black.woff2") format("woff2"), local("Gotham Black"), local("Gotham Pro Black"); font-weight: 900; font-display: swap; }
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Gotham, "Montserrat", "Avenir Next", Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../FIXON_program_partnerski.html#dokumenty">Wr&oacute;&cacute; do dokument&oacute;w</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Spis treści</button>
+      <div class="meta">Umowa<br>Aktualizacja pliku: 09.06.2026 12:00</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Umowa Partnerska FIXON</h1>
+      <p>Podgląd umowy regulującej wsp&#243;łpracę handlową i programową.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Zamknij">×</button>
+        <strong>Nawigacja dokumentu</strong>
+        <a href="#section-umowa-partnerska-fixon">UMOWA PARTNERSKA FIXON</a>
+<a href="#section-strony-umowy">STRONY UMOWY</a>
+<a href="#section-1-definicje">&#167;1 Definicje</a>
+<a href="#section-2-cel-wspolpracy">&#167;2 Cel wsp&#243;łpracy</a>
+<a href="#section-3-zakres-wspolpracy">&#167;3 Zakres wsp&#243;łpracy</a>
+<a href="#section-4-program-ekspozycyjny">&#167;4 Program ekspozycyjny</a>
+<a href="#section-5-stany-magazynowe">&#167;5 Stany magazynowe</a>
+<a href="#section-6-zamowienia-i-rozliczenia">&#167;6 Zam&#243;wienia i rozliczenia</a>
+<a href="#section-7-system-rabatowy">&#167;7 System rabatowy</a>
+<a href="#section-8-ochrona-marki-i-polityka-sprzedazy">&#167;8 Ochrona marki i polityka sprzedaży</a>
+<a href="#section-9-partner-strategiczny-i-centrum-demonstracyjne-fixon">&#167;9 Partner Strategiczny i Centrum Demonstracyjne FIXON</a>
+<a href="#section-10-czas-trwania-umowy-rozwiazanie-i-rozliczenie-stanow">&#167;10 Czas trwania Umowy, rozwiązanie i rozliczenie stan&#243;w</a>
+<a href="#section-11-poufnosc">&#167;11 Poufność</a>
+<a href="#section-12-wlasnosc-intelektualna-i-prawa-do-marki-fixon">&#167;12 Własność intelektualna i prawa do marki FIXON</a>
+<a href="#section-13-sila-wyzsza">&#167;13 Siła wyższa</a>
+<a href="#section-14-postanowienia-koncowe">&#167;14 Postanowienia końcowe</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Rozwiń wszystko</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Zwiń wszystko</button>
+        </div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-umowa-partnerska-fixon" open>
+<summary><span>UMOWA PARTNERSKA FIXON</span></summary>
+<div class="doc-section-body">
+<p>Program Dystrybucji z Ekspozycją Produktową i Gwarantowaną Dostępnością Magazynową</p>
+</div></details>
+<details class="doc-section" id="section-strony-umowy" open>
+<summary><span>STRONY UMOWY</span></summary>
+<div class="doc-section-body">
+<p>FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa (Wesoła), NIP: 1133178861, REGON: 542679041, będąca właścicielem znaku towarowego marki FIXON o nr rej. XXXX, zwana dalej „Dostawcą”, reprezentowana przy zawarciu niniejszej Umowy przez autoryzowanego przedstawiciela handlowego uprawnionego do negocjowania oraz zawierania um&#243;w partnerskich w imieniu właściciela marki na podstawie udzielonego pełnomocnictwa,</p>
+<p>JHB FAMILY sp. z o.o. z siedzibą w Łopacinie, Łopacin 68E, 06-430 Sońsk, NIP: 5662035359, REGON: 527556531, KRS: 0001084261, reprezentowana przez HEORHII BRONNIKOV – prezesa zarządu, zwana dalej „Pośrednikiem”,</p>
+<p>oraz</p>
+<p>............................................................................................................................................................................................, zwany dalej „Partnerem”.</p>
+<p>Dostawca i Partner zwani są dalej łącznie „Stronami”. Pośrednik uczestniczy w wykonywaniu Umowy w zakresie wskazanym w jej postanowieniach.</p>
+</div></details>
+<details class="doc-section" id="section-1-definicje" open>
+<summary><span>&#167;1 Definicje</span></summary>
+<div class="doc-section-body">
+<p>1. Umowa – niniejsza umowa partnerska FIXON wraz z załącznikami, aneksami oraz Dokumentami Programowymi udostępnionymi Partnerowi przez Dostawcę lub Pośrednika.</p>
+<p>2. Dostawca – FIXON IRYNA MUKOSII albo inny podmiot wskazany w komparycji Umowy jako właściciel marki FIXON lub podmiot uprawniony do organizowania Programu Partnerskiego FIXON.</p>
+<h3 id="3-partner-podmiot-zawierajacy-umowe-w-celu-dystrybucji-promocji-oraz-sprzedazy-produktow-fixon">3. Partner – podmiot zawierający Umowę w celu dystrybucji, promocji oraz sprzedaży Produkt&#243;w FIXON.</h3>
+<p>4. Pośrednik – podmiot wskazany w komparycji Umowy, upoważniony do bieżącej obsługi relacji z Partnerem, przekazywania informacji handlowych, cennik&#243;w, list produkt&#243;w, Dokument&#243;w Programowych oraz koordynowania wsp&#243;łpracy.</p>
+<p>5. Marka FIXON – oznaczenie handlowe, znak towarowy, identyfikacja wizualna, materiały marketingowe oraz inne elementy związane z produktami oferowanymi pod marką FIXON.</p>
+<p>6. Produkty FIXON – produkty oferowane pod marką FIXON, w szczeg&#243;lności narzędzia, urządzenia, akcesoria, elementy demonstracyjne, produkty testowe oraz towary wskazane w aktualnej ofercie Dostawcy.</p>
+<p>7. Program Partnerski FIXON – system wsp&#243;łpracy handlowej obejmujący zasady dystrybucji, ekspozycji, wsparcia stan&#243;w magazynowych, rabat&#243;w, bonus&#243;w, ochrony rynku, wyłączności produktowej, statusu Partnera Strategicznego oraz Centrum Demonstracyjnego FIXON.</p>
+<p>8. Program Wsparcia Stan&#243;w Magazynowych – część Programu Partnerskiego FIXON polegająca na przyznaniu Partnerowi określonego poziomu produkt&#243;w przeznaczonych do bieżącej sprzedaży, ekspozycji lub demonstracji.</p>
+<p>9. Lista Produkt&#243;w Objętych Wsparciem Stan&#243;w Magazynowych – aktualna lista produkt&#243;w objętych wsparciem, przekazywana Partnerowi przez Dostawcę lub Pośrednika. Pozycja Asortymentowa oznacza każdy produkt z tej listy.</p>
+<p>10. Stan Magazynowy – liczba sztuk danej Pozycji Asortymentowej przyznana Partnerowi w ramach Programu Wsparcia Stan&#243;w Magazynowych. Pr&#243;g Alarmowy oznacza minimalny poziom Stanu Magazynowego, po kt&#243;rego przekroczeniu Partner zgłasza potrzebę uzupełnienia.</p>
+<h3 id="11-okres-rozliczeniowy-miesiac-kalendarzowy-chyba-ze-strony-postanowia-inaczej-w-formie-pisemnej-lub-dokumentowej">11. Okres Rozliczeniowy – miesiąc kalendarzowy, chyba że Strony postanowią inaczej w formie pisemnej lub dokumentowej.</h3>
+<p>12. Wynik Sprzedaży – liczba jednostek sprzedażowych ustalana zgodnie z &#167;7 Umowy, stanowiąca podstawę do ustalania rabat&#243;w, Stan&#243;w Magazynowych oraz wybranych korzyści programowych.</p>
+<p>13. Produkty na Indywidualne Zam&#243;wienie – produkty realizowane lub dostarczane wyłącznie na indywidualne zam&#243;wienie klienta, nieobjęte standardowym Programem Wsparcia Stan&#243;w Magazynowych, chyba że Dostawca postanowi inaczej.</p>
+<p>14. Artykuły Eksploatacyjne – produkty przeznaczone do bieżącego zużycia, okresowej wymiany lub serwisowania, wskazane przez Dostawcę jako wyłączone z podstawy naliczania rabat&#243;w lub Wyniku Sprzedaży.</p>
+<h3 id="15-ceny-katalogowe-aktualne-ceny-produktow-fixon-obowiazujace-w-danym-okresie-rozliczeniowym-przekazywane-partnerowi-przez-dostawce-lub-posrednika">15. Ceny Katalogowe – aktualne ceny Produkt&#243;w FIXON obowiązujące w danym Okresie Rozliczeniowym, przekazywane Partnerowi przez Dostawcę lub Pośrednika.</h3>
+<p>16. Partner Strategiczny, Uprawnienie Strategiczne, Dodatkowy Rabat Strategiczny, Ochrona Rynku, Wyłączność Produktowa, Rozszerzony Program Wsparcia Stan&#243;w Magazynowych oraz Centrum Demonstracyjne FIXON – statusy i uprawnienia opisane w Programie Partnerskim FIXON oraz Dokumentach Programowych.</p>
+<p>17. Dokumenty Programowe – regulaminy, cenniki, listy produkt&#243;w, standardy ekspozycji, zasady wsparcia magazynowego, procedury, instrukcje oraz inne dokumenty dotyczące Programu Partnerskiego FIXON.</p>
+<p>18. Forma Dokumentowa – wiadomość e-mail, dokument PDF, wiadomość w systemie CRM/B2B, komunikatorze używanym we wsp&#243;łpracy lub inne trwałe utrwalenie treści umożliwiające ustalenie osoby składającej oświadczenie.</p>
+<h3 id="19-w-przypadku-rozbieznosci-pomiedzy-umowa-a-dokumentami-programowymi-pierwszenstwo-maja-postanowienia-umowy-chyba-ze-strony-wyraznie-postanowia-inaczej">19. W przypadku rozbieżności pomiędzy Umową a Dokumentami Programowymi pierwszeństwo mają postanowienia Umowy, chyba że Strony wyraźnie postanowią inaczej.</h3>
+</div></details>
+<details class="doc-section" id="section-2-cel-wspolpracy" open>
+<summary><span>&#167;2 Cel wsp&#243;łpracy</span></summary>
+<div class="doc-section-body">
+<h3 id="1-celem-umowy-jest-budowa-i-rozwoj-dlugoterminowej-wspolpracy-handlowej-w-zakresie-dystrybucji-promocji-oraz-sprzedazy-produktow-fixon">1. Celem Umowy jest budowa i rozw&#243;j długoterminowej wsp&#243;łpracy handlowej w zakresie dystrybucji, promocji oraz sprzedaży Produkt&#243;w FIXON.</h3>
+<p>2. Wsp&#243;łpraca realizowana jest w ramach Programu Partnerskiego FIXON, kt&#243;rego celem jest stworzenie stabilnej sieci dystrybucyjnej zapewniającej dostępność produkt&#243;w, profesjonalną obsługę klient&#243;w, rozw&#243;j sprzedaży oraz ochronę wartości marki FIXON.</p>
+<p>3. Program Partnerski FIXON ma na celu w szczeg&#243;lności: a) zwiększanie dostępności Produkt&#243;w FIXON, b) budowanie rozpoznawalności marki, c) zapewnienie klientom możliwości zapoznania się z produktami poprzez ekspozycję i demonstrację, d) utrzymywanie ciągłości sprzedaży, e) rozw&#243;j lokalnych i regionalnych kanał&#243;w sprzedaży, f) wspieranie Partner&#243;w w działaniach handlowych, marketingowych i szkoleniowych.</p>
+<p>4. Partner zobowiązuje się aktywnie wspierać realizację cel&#243;w Programu Partnerskiego FIXON poprzez utrzymywanie ekspozycji, rozw&#243;j sprzedaży, rzetelne raportowanie oraz wsp&#243;łpracę z Dostawcą i Pośrednikiem w zakresie planowania zatowarowania i działań handlowych.</p>
+</div></details>
+<details class="doc-section" id="section-3-zakres-wspolpracy" open>
+<summary><span>&#167;3 Zakres wsp&#243;łpracy</span></summary>
+<div class="doc-section-body">
+<p>1. Na podstawie Umowy Dostawca przyznaje Partnerowi status Autoryzowanego Partnera FIXON oraz umożliwia uczestnictwo w Programie Partnerskim FIXON na zasadach określonych w Umowie i Dokumentach Programowych.</p>
+<p>2. Wsp&#243;łpraca obejmuje w szczeg&#243;lności: a) sprzedaż Produkt&#243;w FIXON przez Partnera, b) utrzymywanie ekspozycji, c) udział w Programie Wsparcia Stan&#243;w Magazynowych, d) działania promocyjne i marketingowe, e) szkolenia produktowe i handlowe, f) wsparcie techniczne i doradztwo produktowe, g) udział w programach rabatowych, bonusowych i motywacyjnych.</p>
+<p>3. Dostawca zobowiązuje się do udostępniania aktualnych materiał&#243;w handlowych, technicznych i marketingowych, zapewniania wsparcia sprzedażowego i produktowego oraz prowadzenia działań wspierających rozpoznawalność marki FIXON.</p>
+<p>4. Partner zobowiązuje się do aktywnego oferowania i promowania Produkt&#243;w FIXON, utrzymywania standard&#243;w ekspozycyjnych, prowadzenia ewidencji sprzedaży, dbania o pozytywny wizerunek marki oraz przekazywania informacji niezbędnych do prawidłowej realizacji Programu Partnerskiego.</p>
+<p>5. Partner zachowuje pełną samodzielność organizacyjną, handlową i gospodarczą. Umowa nie tworzy sp&#243;łki, przedstawicielstwa, stosunku pracy, agencji wyłącznej ani wsp&#243;lnego przedsiębiorstwa.</p>
+<p>6. Szczeg&#243;łowe zasady funkcjonowania Programu Partnerskiego FIXON, w tym standardy ekspozycji, wsparcie stan&#243;w magazynowych, bonusy, rabaty, ochrona rynku i programy motywacyjne, mogą być określane w Dokumentach Programowych. Dostawca może je aktualizować w zakresie niepowodującym pogorszenia podstawowych warunk&#243;w Umowy.</p>
+</div></details>
+<details class="doc-section" id="section-4-program-ekspozycyjny" open>
+<summary><span>&#167;4 Program ekspozycyjny</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-zobowiazuje-sie-do-utrzymywania-aktywnej-ekspozycji-produktow-fixon-przez-caly-okres-obowiazywania-umowy">1. Partner zobowiązuje się do utrzymywania aktywnej ekspozycji Produkt&#243;w FIXON przez cały okres obowiązywania Umowy.</h3>
+<p>2. Celem ekspozycji jest zapewnienie klientom możliwości zapoznania się z produktami, ich funkcjonalnością, jakością wykonania i zastosowaniem, a także wspieranie działań sprzedażowych Partnera.</p>
+<p>3. Ekspozycja powinna zapewniać odpowiednią widoczność produkt&#243;w i materiał&#243;w marketingowych oraz umożliwiać prezentację produkt&#243;w klientom odwiedzającym punkt sprzedaży, w szczeg&#243;lności przetestowanie ich funkcjonalności.</p>
+<p>4. Dostawca może określać minimalne standardy ekspozycyjne dotyczące liczby prezentowanych produkt&#243;w, sposobu prezentacji, lokalizacji ekspozycji, wykorzystania materiał&#243;w marketingowych i oznakowania marki FIXON.</p>
+<p>5. Partner zobowiązuje się utrzymywać produkty ekspozycyjne w stanie umożliwiającym ich prezentację, z uwzględnieniem normalnego zużycia wynikającego z funkcji demonstracyjnej.</p>
+<h3 id="6-produkty-ekspozycyjne-moga-byc-wykorzystywane-do-prezentacji-handlowych-pokazow-szkolen-dni-otwartych-targow-oraz-innych-dzialan-wspierajacych-sprzedaz">6. Produkty ekspozycyjne mogą być wykorzystywane do prezentacji handlowych, pokaz&#243;w, szkoleń, dni otwartych, targ&#243;w oraz innych działań wspierających sprzedaż.</h3>
+<h3 id="7-partner-nie-moze-usuwac-ekspozycji-produktow-i-materialow-fixon-bez-uprzedniego-poinformowania-dostawcy">7. Partner nie może usuwać ekspozycji produkt&#243;w i materiał&#243;w FIXON bez uprzedniego poinformowania Dostawcy.</h3>
+<p>8. Dostawca może przekazywać Partnerowi materiały wspierające ekspozycję, w szczeg&#243;lności katalogi, materiały POS, ekspozytory, standy, pr&#243;bki, materiały szkoleniowe i multimedialne. Partner wykorzystuje je zgodnie z przeznaczeniem i dba o ich należyty stan.</p>
+<p>9. Utrzymywanie ekspozycji zgodnej z wymaganiami Dostawcy stanowi warunek korzystania z Programu Wsparcia Stan&#243;w Magazynowych, systemu rabatowego, bonus&#243;w i innych świadczeń przewidzianych dla Partner&#243;w.</p>
+<p>10. Dostawca może weryfikować standard ekspozycji poprzez wizyty przedstawicieli, dokumentację fotograficzną, raporty Partnera lub zdalną weryfikację za zgodą Partnera. W przypadku nieprawidłowości Dostawca może wezwać Partnera do ich usunięcia, a brak poprawy przez okres dłuższy niż 30 dni może skutkować ograniczeniem lub zawieszeniem wybranych korzyści programowych.</p>
+</div></details>
+<details class="doc-section" id="section-5-stany-magazynowe" open>
+<summary><span>&#167;5 Stany magazynowe</span></summary>
+<div class="doc-section-body">
+<p>1. W celu zapewnienia ciągłości sprzedaży Dostawca może przyznać Partnerowi wsparcie stan&#243;w magazynowych. Lista Produkt&#243;w Objętych Wsparciem Stan&#243;w Magazynowych jest przekazywana wraz z aktualizacją cen katalogowych przez Dostawcę lub Pośrednika.</p>
+<p>2. W pierwszym Okresie Rozliczeniowym Dostawca przyznaje Partnerowi poziom stan&#243;w magazynowych ustalany indywidualnie, przy czym łączna wartość wszystkich produkt&#243;w objętych programem nie może przekroczyć 15 000 zł brutto.</p>
+<p>3. W kolejnych Okresach Rozliczeniowych poziom stan&#243;w magazynowych dla każdej Pozycji Asortymentowej ustalany jest w wysokości 40% najwyższego wyniku sprzedaży tej pozycji osiągniętego przez Partnera w jednym Okresie Rozliczeniowym spośr&#243;d maksymalnie dwunastu poprzednich Okres&#243;w Rozliczeniowych. Wynik zaokrągla się w g&#243;rę do pełnych sztuk.</p>
+<h3 id="4-dla-kazdej-pozycji-asortymentowej-ustala-sie-prog-alarmowy-rowny-25-przyznanego-poziomu-stanow-magazynowych-nie-mniej-niz-2-sztuki">4. Dla każdej Pozycji Asortymentowej ustala się Pr&#243;g Alarmowy r&#243;wny 25% przyznanego poziomu stan&#243;w magazynowych, nie mniej niż 2 sztuki.</h3>
+<p>5. Jeżeli stan magazynowy danej pozycji spadnie poniżej Progu Alarmowego, Partner jest zobowiązany zgłosić potrzebę uzupełnienia. Dostawca realizuje dostawę uzupełniającą w ilości pozwalającej przywr&#243;cić poziom określony w ust. 3, nie częściej niż raz w okresie siedmiu kolejnych dni kalendarzowych.</p>
+<p>6. Dostawca może odm&#243;wić realizacji dostawy uzupełniającej lub zmodyfikować jej wielkość w przypadku nadzwyczajnych okoliczności, ograniczeń produkcyjnych, brak&#243;w magazynowych lub uzasadnionej zmiany zapotrzebowania rynkowego.</p>
+<h3 id="7-partner-przeprowadza-inwentaryzacje-produktow-objetych-programem-wsparcia-stanow-magazynowych-nie-rzadziej-niz-raz-na-kwartal">7. Partner przeprowadza inwentaryzację produkt&#243;w objętych Programem Wsparcia Stan&#243;w Magazynowych nie rzadziej niż raz na kwartał.</h3>
+<p>8. Od momentu wydania produkt&#243;w Partnerowi do momentu ich sprzedaży lub zwrotu Partner ponosi odpowiedzialność za ich utratę, uszkodzenie, kradzież lub zniszczenie.</p>
+</div></details>
+<details class="doc-section" id="section-6-zamowienia-i-rozliczenia" open>
+<summary><span>&#167;6 Zam&#243;wienia i rozliczenia</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-dokonuje-sprzedazy-produktow-fixon-we-wlasnym-imieniu-i-na-wlasny-rachunek">1. Partner dokonuje sprzedaży Produkt&#243;w FIXON we własnym imieniu i na własny rachunek.</h3>
+<p>2. Produkty znajdujące się na aktualnej Liście Produkt&#243;w Objętych Wsparciem Stan&#243;w Magazynowych pozostają własnością Dostawcy do momentu ich sprzedaży przez Partnera klientowi końcowemu lub innemu nabywcy. Partner jest uprawniony do sprzedaży tych produkt&#243;w we własnym imieniu i na własny rachunek pomimo zachowania przez Dostawcę prawa własności do momentu rozliczenia produktu zgodnie z Umową.</p>
+<p>3. Partner nie może ustanawiać zastawu, przewłaszczenia, zabezpieczenia ani rozporządzać produktami objętymi wsparciem magazynowym inaczej niż w celu ich sprzedaży zgodnie z Umową.</p>
+<p>4. Partner prowadzi bieżącą ewidencję sprzedaży produkt&#243;w objętych Programem Partnerskim FIXON i nie p&#243;źniej niż do 5. dnia każdego miesiąca przekazuje Dostawcy raport sprzedaży za poprzedni Okres Rozliczeniowy.</p>
+<h3 id="5-raport-sprzedazy-powinien-zawierac-co-najmniej-nazwe-produktu-liczbe-sprzedanych-sztuk-oraz-informacje-o-produktach-zwroconych-lub-reklamowanych">5. Raport sprzedaży powinien zawierać co najmniej nazwę produktu, liczbę sprzedanych sztuk oraz informacje o produktach zwr&#243;conych lub reklamowanych.</h3>
+<p>6. Na podstawie raportu Dostawca wystawia fakturę VAT obejmującą produkty sprzedane przez Partnera. Ceny Katalogowe obowiązujące w danym Okresie Rozliczeniowym pozostają niezmienne przez cały ten okres, a faktura jest wystawiana według cen obowiązujących dla danego Okresu Rozliczeniowego z uwzględnieniem rabatu określonego w &#167;7.</p>
+<h3 id="7-termin-platnosci-faktury-wynosi-7-dni-od-dnia-jej-wystawienia">7. Termin płatności faktury wynosi 7 dni od dnia jej wystawienia.</h3>
+<p>8. Dostawca może zweryfikować raport sprzedaży poprzez analizę dokument&#243;w sprzedażowych, analizę stan&#243;w magazynowych lub uzgodniony audyt magazynowy. Partner niezwłocznie informuje Dostawcę o rozbieżnościach dotyczących stan&#243;w magazynowych.</p>
+<p>9. Produkty uszkodzone, utracone, zniszczone lub niemożliwe do dalszej sprzedaży z przyczyn leżących po stronie Partnera uznaje się za sprzedane w dniu stwierdzenia zdarzenia i rozlicza zgodnie z Umową.</p>
+<p>10. Produkty objęte reklamacją klienta końcowego podlegają rozliczeniu zgodnie z procedurą reklamacyjną FIXON. Partner nie jest uprawniony do samodzielnego zwrotu produkt&#243;w objętych wsparciem magazynowym bez uprzedniej zgody Dostawcy.</p>
+<p>11. Uzupełnienie stan&#243;w magazynowych nie wymaga odrębnego zam&#243;wienia Partnera, chyba że Strony ustalą inaczej. Dostawca wystawia faktury i dokumenty rozliczeniowe w formie elektronicznej, w tym przez Krajowy System e-Faktur, oraz przesyła je na adres e-mail wskazany przez Partnera. Partner wyraża zgodę na otrzymywanie faktur elektronicznych.</p>
+<h3 id="12-w-przypadku-okresu-rozliczeniowego-innego-niz-miesiac-kalendarzowy-progi-rabatowe-opisane-w-7-ulegaja-proporcjonalnej-zmianie">12. W przypadku Okresu Rozliczeniowego innego niż miesiąc kalendarzowy progi rabatowe opisane w &#167;7 ulegają proporcjonalnej zmianie.</h3>
+</div></details>
+<details class="doc-section" id="section-7-system-rabatowy" open>
+<summary><span>&#167;7 System rabatowy</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partnerowi-przysluguja-rabaty-handlowe-zgodnie-z-aktualnym-programem-partnerskim-fixon">1. Partnerowi przysługują rabaty handlowe zgodnie z aktualnym Programem Partnerskim FIXON.</h3>
+<p>2. System rabatowy ma charakter progresywny i opiera się na najwyższym Wyniku Sprzedaży towaru objętego Programem Partnerskim FIXON osiągniętym w maksymalnie dwunastu poprzednich Okresach Rozliczeniowych.</p>
+<p>3. Wynik Sprzedaży jest sumą: a) liczby sprzedanych sztuk Pozycji Asortymentowych objętych Programem Partnerskim FIXON oraz b) liczby jednostek sprzedażowych ustalonych na podstawie wartości sprzedaży Produkt&#243;w na Indywidualne Zam&#243;wienie.</p>
+<p>4. Do Wyniku Sprzedaży będącego podstawą naliczania rabat&#243;w nie wlicza się Artykuł&#243;w Eksploatacyjnych oraz innych produkt&#243;w wskazanych przez Dostawcę jako wyłączone z podstawy naliczania rabat&#243;w w aktualizacji cen katalogowych.</p>
+<p>5. Wartość sprzedaży Produkt&#243;w na Indywidualne Zam&#243;wienie przelicza się na jednostki sprzedażowe przez podzielenie łącznej wartości netto sprzedaży takich produkt&#243;w w danym Okresie Rozliczeniowym przez aktualną katalogową cenę netto najdroższego produktu objętego Programem Wsparcia Stan&#243;w Magazynowych. Wynik zaokrągla się do liczby całkowitej.</p>
+<h3 id="6-poziomy-rabatowe-wynosza-a-5-20-sztuk-5-b-21-100-sztuk-10-c-101-500-sztuk-15-d-powyzej-500-sztuk-20">6. Poziomy rabatowe wynoszą: a) 5–20 sztuk – 5%, b) 21–100 sztuk – 10%, c) 101–500 sztuk – 15%, d) powyżej 500 sztuk – 20%.</h3>
+<p>7. Dostawca może przyznać dodatkowe premie, bonusy lub warunki specjalne Partnerom realizującym ponadprzeciętne wyniki sprzedażowe. Zasady takich benefit&#243;w określa Program Partnerski FIXON lub odrębne Dokumenty Programowe.</p>
+</div></details>
+<details class="doc-section" id="section-8-ochrona-marki-i-polityka-sprzedazy" open>
+<summary><span>&#167;8 Ochrona marki i polityka sprzedaży</span></summary>
+<div class="doc-section-body">
+<p>1. Partner zobowiązuje się prowadzić działalność handlową, marketingową i promocyjną w spos&#243;b wspierający rozw&#243;j marki FIXON oraz budujący jej pozytywny wizerunek.</p>
+<p>2. Partner prezentuje Produkty FIXON zgodnie z ich przeznaczeniem, właściwościami technicznymi, materiałami marketingowymi oraz informacjami udostępnianymi przez Dostawcę.</p>
+<p>3. Partner może wykorzystywać nazwę marki FIXON, znaki towarowe, zdjęcia, katalogi, filmy i inne materiały udostępnione przez Dostawcę wyłącznie w celu promocji i sprzedaży produkt&#243;w objętych Umową. Bez zgody Dostawcy Partner nie może modyfikować materiał&#243;w, znak&#243;w, opis&#243;w technicznych ani element&#243;w identyfikacji marki.</p>
+<h3 id="4-partner-nie-podejmuje-dzialan-mogacych-wprowadzac-klientow-w-blad-co-do-pochodzenia-jakosci-parametrow-przeznaczenia-lub-dostepnosci-produktow-fixon">4. Partner nie podejmuje działań mogących wprowadzać klient&#243;w w błąd co do pochodzenia, jakości, parametr&#243;w, przeznaczenia lub dostępności Produkt&#243;w FIXON.</h3>
+<p>5. Dostawca publikuje oraz przekazuje samodzielnie lub przez Pośrednika aktualne Ceny Katalogowe Produkt&#243;w FIXON. Ceny Katalogowe stanowią podstawę rozliczeń, naliczania rabat&#243;w oraz prowadzenia Programu Wsparcia Stan&#243;w Magazynowych.</p>
+<p>6. Partner zachowuje swobodę kształtowania własnej polityki sprzedażowej zgodnie z przepisami prawa i Umową. Strony uznają jednak, że rozw&#243;j marki FIXON wymaga stabilnych warunk&#243;w handlowych, ochrony wartości marki i profesjonalnej prezentacji produkt&#243;w.</p>
+<p>7. Dostawca nie wspiera działań polegających na długotrwałym i systematycznym oferowaniu Produkt&#243;w FIXON po cenach istotnie odbiegających od aktualnych Cen Katalogowych, jeżeli działania te mogą prowadzić do destabilizacji sieci dystrybucyjnej, ograniczenia rentowności Partner&#243;w lub obniżenia postrzeganej wartości marki.</p>
+<p>8. Za działania, o kt&#243;rych mowa w ust. 7, nie uznaje się w szczeg&#243;lności promocji czasowych, wyprzedaży stan&#243;w magazynowych, wyprzedaży produkt&#243;w wycofywanych, ofert dla klient&#243;w realizujących zam&#243;wienia przekraczające przyznane stany magazynowe, udziału w przetargach ani innych uzasadnionych działań handlowych wynikających ze specyfiki rynku lub transakcji.</p>
+<p>9. W przypadku działań mogących spełniać przesłanki z ust. 7 Dostawca może zwr&#243;cić się do Partnera o uzasadnienie polityki sprzedażowej. Partner udziela odpowiedzi w terminie 14 dni od otrzymania zapytania.</p>
+<p>10. Jeżeli wyjaśnienia nie potwierdzą obiektywnych przesłanek lub Partner nie odpowie w terminie, Dostawca może wezwać Partnera do usunięcia naruszeń. Brak zastosowania się do wezwania może skutkować ograniczeniem lub wyłączeniem wybranych korzyści Programu Partnerskiego, w szczeg&#243;lności dodatkowych rabat&#243;w, bonus&#243;w, ochrony rynku, statusu Partnera Strategicznego lub Programu Wsparcia Stan&#243;w Magazynowych.</p>
+<p>11. Ograniczenie lub wyłączenie korzyści, o kt&#243;rych mowa w ust. 10, nie stanowi naruszenia Umowy przez Dostawcę i nie rodzi po stronie Partnera roszczeń odszkodowawczych.</p>
+<p>12. Naruszenie postanowień niniejszego paragrafu, pomimo wezwania do usunięcia naruszeń, może stanowić podstawę do rozwiązania Umowy ze skutkiem natychmiastowym. Postanowienia dotyczące ochrony marki pozostają w mocy r&#243;wnież po rozwiązaniu lub wygaśnięciu Umowy.</p>
+</div></details>
+<details class="doc-section" id="section-9-partner-strategiczny-i-centrum-demonstracyjne-fixon" open>
+<summary><span>&#167;9 Partner Strategiczny i Centrum Demonstracyjne FIXON</span></summary>
+<div class="doc-section-body">
+<p>1. Partner, kt&#243;ry osiąga ponadprzeciętne wyniki sprzedażowe, aktywnie rozwija rynek Produkt&#243;w FIXON i realizuje cele Programu Partnerskiego FIXON, może uzyskać status Partnera Strategicznego.</p>
+<p>2. Status Partnera Strategicznego przyznawany jest wyłącznie przez Dostawcę na podstawie indywidualnej oceny wsp&#243;łpracy. Partnerowi Strategicznemu przysługuje prawo wyboru jednego Uprawnienia Strategicznego spośr&#243;d katalogu określonego w Programie Partnerskim FIXON.</p>
+<p>3. Zakres, czas obowiązywania oraz warunki korzystania z Uprawnień Strategicznych określa Dostawca. Co do zasady Partner Strategiczny posiada jedno aktywne Uprawnienie Strategiczne, a w uzasadnionych przypadkach Dostawca może przyznać więcej niż jedno uprawnienie.</p>
+<p>4. Po upływie 12 miesięcy od przyznania Uprawnienia Strategicznego Partner może wystąpić o jego zmianę. Dostawca może wyrazić zgodę po ocenie przebiegu wsp&#243;łpracy.</p>
+<p>5. Uprawnienia Strategiczne mogą zostać ograniczone, zawieszone lub cofnięte w przypadku naruszenia Umowy, utraty statusu Partnera Strategicznego albo okoliczności uzasadniających zmianę struktury sieci dystrybucyjnej FIXON.</p>
+<p>6. Centrum Demonstracyjne FIXON stanowi najwyższy poziom wsp&#243;łpracy w ramach Programu Partnerskiego FIXON i może zostać przyznane wyłącznie Partnerowi Strategicznemu.</p>
+<p>7. Przyznanie statusu Centrum Demonstracyjnego FIXON nie powoduje utraty ani ograniczenia wcześniej przyznanego Uprawnienia Strategicznego. Centrum może korzystać także z korzyści wynikających z pozostałych Uprawnień Strategicznych, przy czym ich zakres może być ograniczony w stosunku do zakresu przysługującego Partnerowi, dla kt&#243;rego dane uprawnienie jest podstawowe.</p>
+<p>8. Centrum Demonstracyjne FIXON stanowi autoryzowany punkt prezentacji, demonstracji, testowania, wdrażania oraz dystrybucji Produkt&#243;w FIXON. Jego celem jest obsługa klient&#243;w wymagających rozszerzonego wsparcia technicznego lub handlowego.</p>
+<p>9. Partner prowadzący Centrum Demonstracyjne FIXON utrzymuje ekspozycję produkt&#243;w wskazanych przez Dostawcę oraz zapewnia możliwość ich demonstracji i prezentacji. W Centrum mogą być prezentowane, testowane, magazynowane lub demonstrowane produkty standardowe, produkty objęte Wyłącznością Produktową, produkty testowe, prototypowe, przedpremierowe, przygotowywane do wdrożenia oraz produkty dostępne u pozostałych Partner&#243;w wyłącznie na zam&#243;wienie.</p>
+<p>10. Dostawca może przyznać Centrum Demonstracyjnemu prawo do utrzymywania stan&#243;w magazynowych produkt&#243;w, kt&#243;re u pozostałych Partner&#243;w nie są objęte Programem Wsparcia Stan&#243;w Magazynowych, są dostępne wyłącznie na zam&#243;wienie albo nie zostały jeszcze wprowadzone do standardowej dystrybucji.</p>
+<p>11. Centrum Demonstracyjne może pełnić funkcję regionalnego magazynu referencyjnego marki FIXON. Dostawca może kierować do niego klient&#243;w, zapytania handlowe, projekty inwestycyjne, działania promocyjne oraz klient&#243;w zainteresowanych produktami specjalnymi lub niestandardowymi.</p>
+<p>12. Szczeg&#243;łowy zakres działalności, obszar działania, zakres korzyści oraz zakres produkt&#243;w objętych statusem Centrum Demonstracyjnego określa Dostawca. Status może zostać ograniczony, zawieszony lub cofnięty na zasadach przewidzianych dla Partnera Strategicznego.</p>
+</div></details>
+<details class="doc-section" id="section-10-czas-trwania-umowy-rozwiazanie-i-rozliczenie-stanow" open>
+<summary><span>&#167;10 Czas trwania Umowy, rozwiązanie i rozliczenie stan&#243;w</span></summary>
+<div class="doc-section-body">
+<p>1. Umowa zostaje zawarta na czas nieokreślony. Każda ze Stron może wypowiedzieć Umowę z zachowaniem trzymiesięcznego okresu wypowiedzenia ze skutkiem na koniec Okresu Rozliczeniowego.</p>
+<h3 id="2-w-okresie-wypowiedzenia-strony-wykonuja-obowiazki-wynikajace-z-umowy-na-dotychczasowych-zasadach">2. W okresie wypowiedzenia Strony wykonują obowiązki wynikające z Umowy na dotychczasowych zasadach.</h3>
+<p>3. Dostawca może rozwiązać Umowę ze skutkiem natychmiastowym w przypadku: a) podania przez Partnera nieprawdziwych informacji istotnych dla Umowy, b) naruszenia ochrony marki, poufności lub praw własności intelektualnej, c) zalegania z płatnościami powyżej 30 dni, d) naruszenia Programu Partnerskiego pomimo wezwania, e) otwarcia likwidacji Partnera, złożenia wniosku o upadłość lub wszczęcia restrukturyzacji.</p>
+<p>4. Partner może rozwiązać Umowę ze skutkiem natychmiastowym w przypadku rażącego naruszenia Umowy przez Dostawcę, po bezskutecznym upływie 30 dni od doręczenia wezwania do usunięcia naruszeń.</p>
+<p>5. Rozwiązanie Umowy powoduje automatyczne wygaśnięcie statusu Partnera Strategicznego, Centrum Demonstracyjnego FIXON oraz wszelkich korzyści przyznanych w ramach Programu Partnerskiego FIXON.</p>
+<p>6. W terminie 14 dni od rozwiązania lub wygaśnięcia Umowy Partner zaprzestaje wykorzystywania oznaczeń marki FIXON oraz zwraca materiały, dokumenty i wyposażenie stanowiące własność Dostawcy, jeżeli taki obowiązek wynika z odrębnych ustaleń.</p>
+<p>7. Rozwiązanie Umowy nie zwalnia Stron z obowiązku dokonania wzajemnych rozliczeń. Postanowienia dotyczące poufności, ochrony marki, własności intelektualnej oraz rozliczeń zachowują moc po rozwiązaniu lub wygaśnięciu Umowy.</p>
+<p>8. W przypadku rozwiązania, wypowiedzenia lub wygaśnięcia Umowy Partner dokonuje końcowego rozliczenia produkt&#243;w objętych Programem Wsparcia Stan&#243;w Magazynowych. W terminie 7 dni sporządza i przekazuje Dostawcy końcowy raport stan&#243;w magazynowych.</p>
+<p>9. W terminie 14 dni od otrzymania raportu Dostawca może: a) odebrać produkty pozostające jego własnością, b) wyrazić zgodę na dalszą sprzedaż przez Partnera, c) dokonać sprzedaży produkt&#243;w Partnerowi, d) zastosować kombinację powyższych rozwiązań.</p>
+<p>10. Partner zapewnia możliwość odbioru produkt&#243;w przez Dostawcę lub wskazanego przewoźnika. Koszt transportu ponosi Dostawca, chyba że odbi&#243;r wynika z naruszenia Umowy przez Partnera.</p>
+<p>11. Produkty zwracane Dostawcy powinny znajdować się w stanie umożliwiającym dalszą sprzedaż, z uwzględnieniem normalnego zużycia demonstracyjnego lub ekspozycyjnego. Produkty uszkodzone, zniszczone, utracone lub nieprzedstawiające wartości handlowej z przyczyn leżących po stronie Partnera uznaje się za sprzedane Partnerowi i rozlicza według Cen Katalogowych obowiązujących w ostatnim Okresie Rozliczeniowym.</p>
+<p>12. Do zakończenia rozliczenia końcowego Partner ponosi odpowiedzialność za produkty pozostające w jego posiadaniu. Dostawca może przeprowadzić końcową inwentaryzację samodzielnie lub przez Pośrednika. W przypadku rozwiązania Umowy z przyczyn leżących po stronie Partnera Dostawca może odm&#243;wić odbioru części lub całości produkt&#243;w; w takim przypadku uznaje się je za sprzedane Partnerowi.</p>
+<p>13. Postanowienia niniejszego paragrafu stosuje się odpowiednio do produkt&#243;w demonstracyjnych, ekspozycyjnych oraz innych produkt&#243;w przekazanych Partnerowi w związku z Programem Partnerskim FIXON.</p>
+</div></details>
+<details class="doc-section" id="section-11-poufnosc" open>
+<summary><span>&#167;11 Poufność</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-zobowiazuje-sie-zachowac-w-poufnosci-wszelkie-informacje-uzyskane-od-dostawcy-lub-posrednika-w-zwiazku-z-zawarciem-i-wykonywaniem-umowy">1. Partner zobowiązuje się zachować w poufności wszelkie informacje uzyskane od Dostawcy lub Pośrednika w związku z zawarciem i wykonywaniem Umowy.</h3>
+<p>2. Za Informacje Poufne uważa się w szczeg&#243;lności warunki handlowe, wysokość rabat&#243;w, bonus&#243;w i innych korzyści, zasady Programu Partnerskiego FIXON, zasady przyznawania Uprawnień Strategicznych, informacje o stanach magazynowych, dane sprzedażowe, plany rozwoju sieci, informacje o nowych i przedpremierowych produktach, dokumentację techniczną, niepubliczne materiały marketingowe oraz strategie sprzedażowe, logistyczne i marketingowe.</p>
+<h3 id="3-partner-nie-ujawnia-informacji-poufnych-osobom-trzecim-bez-uprzedniej-zgody-dostawcy-i-wykorzystuje-je-wylacznie-w-celu-wykonywania-umowy">3. Partner nie ujawnia Informacji Poufnych osobom trzecim bez uprzedniej zgody Dostawcy i wykorzystuje je wyłącznie w celu wykonywania Umowy.</h3>
+<p>4. Obowiązek poufności nie dotyczy informacji publicznie dostępnych, ujawnianych na podstawie przepis&#243;w prawa, żądanych przez właściwy organ publiczny lub legalnie pozyskanych od osoby trzeciej nieobjętej obowiązkiem poufności.</p>
+<h3 id="5-partner-odpowiada-za-dzialania-swoich-pracownikow-wspolpracownikow-przedstawicieli-oraz-osob-ktorym-udostepnil-informacje-poufne">5. Partner odpowiada za działania swoich pracownik&#243;w, wsp&#243;łpracownik&#243;w, przedstawicieli oraz os&#243;b, kt&#243;rym udostępnił Informacje Poufne.</h3>
+<p>6. Na żądanie Dostawcy Partner zaprzestaje wykorzystywania Informacji Poufnych oraz zwraca lub usuwa nośniki zawierające takie informacje, o ile nie są one niezbędne do realizacji obowiązk&#243;w wynikających z prawa.</p>
+<p>7. Obowiązek poufności obowiązuje w czasie trwania Umowy oraz przez 5 lat od jej rozwiązania lub wygaśnięcia. Naruszenie poufności może stanowić podstawę cofnięcia status&#243;w i uprawnień programowych oraz rozwiązania Umowy ze skutkiem natychmiastowym.</p>
+</div></details>
+<details class="doc-section" id="section-12-wlasnosc-intelektualna-i-prawa-do-marki-fixon" open>
+<summary><span>&#167;12 Własność intelektualna i prawa do marki FIXON</span></summary>
+<div class="doc-section-body">
+<p>1. Wszelkie prawa do marki FIXON, znak&#243;w towarowych, oznaczeń handlowych, nazw produkt&#243;w, materiał&#243;w marketingowych, dokumentacji technicznej, projekt&#243;w produkt&#243;w oraz element&#243;w identyfikacji wizualnej należą wyłącznie do Dostawcy lub podmiot&#243;w wsp&#243;łpracujących z Dostawcą.</p>
+<p>2. Zawarcie Umowy nie powoduje przeniesienia na Partnera jakichkolwiek praw własności intelektualnej związanych z marką FIXON. Partner uzyskuje niewyłączne, nieprzenoszalne i odwołalne prawo korzystania z materiał&#243;w udostępnionych przez Dostawcę wyłącznie w zakresie niezbędnym do wykonywania Umowy.</p>
+<p>3. Partner może wykorzystywać oznaczenia marki FIXON wyłącznie w celu promocji i sprzedaży Produkt&#243;w FIXON, zgodnie z wytycznymi Dostawcy i przez okres obowiązywania Umowy.</p>
+<p>4. Partner nie jest uprawniony do rejestrowania znak&#243;w towarowych lub domen podobnych do oznaczeń FIXON, kopiowania lub modyfikowania materiał&#243;w poza zakresem Umowy, usuwania oznaczeń marki ani podejmowania działań naruszających prawa własności intelektualnej Dostawcy.</p>
+<p>5. Ochronie podlegają w szczeg&#243;lności znak towarowy FIXON, logo, nazwy produkt&#243;w, projekty produkt&#243;w, dokumentacja techniczna, instrukcje, katalogi, fotografie, filmy, grafiki, wizualizacje, modele 3D, materiały szkoleniowe, demonstracyjne oraz treści internetowe.</p>
+<p>6. Materiały opracowane przez Partnera z wykorzystaniem materiał&#243;w Dostawcy mogą być używane wyłącznie w związku z Umową. Jeżeli Partner stworzy materiały dotyczące Produkt&#243;w FIXON, Dostawca uzyskuje nieodpłatne, niewyłączne i nieograniczone terytorialnie prawo ich wykorzystywania na potrzeby promocji i sprzedaży produkt&#243;w marki FIXON.</p>
+<p>7. Partner niezwłocznie informuje Dostawcę o znanych mu przypadkach naruszenia praw do marki, nieuprawnionego użycia znak&#243;w towarowych, podrabiania produkt&#243;w lub kopiowania materiał&#243;w.</p>
+<p>8. Po rozwiązaniu lub wygaśnięciu Umowy Partner zaprzestaje wykorzystywania oznaczeń marki FIXON, z wyjątkiem produkt&#243;w legalnie nabytych i pozostających w jego ofercie. Postanowienia niniejszego paragrafu pozostają w mocy bezterminowo.</p>
+</div></details>
+<details class="doc-section" id="section-13-sila-wyzsza" open>
+<summary><span>&#167;13 Siła wyższa</span></summary>
+<div class="doc-section-body">
+<p>1. Żadna ze Stron nie ponosi odpowiedzialności za niewykonanie lub nienależyte wykonanie obowiązk&#243;w wynikających z Umowy, jeżeli jest ono spowodowane Siłą Wyższą.</p>
+<p>2. Siła Wyższa oznacza zdarzenie zewnętrzne, nadzwyczajne, niemożliwe do przewidzenia i zapobieżenia przy zachowaniu należytej staranności, pozostające poza kontrolą Strony powołującej się na jego wystąpienie, w szczeg&#243;lności klęski żywiołowe, pożary, powodzie, epidemie, działania wojenne, akty terroryzmu, zamieszki, strajki powszechne, blokady transportowe, awarie infrastruktury krytycznej, decyzje organ&#243;w publicznych oraz przerwy w dostawach energii, surowc&#243;w lub materiał&#243;w.</p>
+<p>3. Strona powołująca się na Siłę Wyższą informuje drugą Stronę niezwłocznie po powzięciu wiadomości o zdarzeniu. Terminy realizacji obowiązk&#243;w ulegają odpowiedniemu przedłużeniu o czas trwania przeszkody i okres niezbędny do przywr&#243;cenia normalnej działalności.</p>
+<p>4. Jeżeli Siła Wyższa trwa nieprzerwanie dłużej niż 90 dni, każda ze Stron może rozwiązać Umowę z zachowaniem 30-dniowego okresu wypowiedzenia, bez prawa do dochodzenia odszkodowania lub utraconych korzyści z tego tytułu.</p>
+</div></details>
+<details class="doc-section" id="section-14-postanowienia-koncowe" open>
+<summary><span>&#167;14 Postanowienia końcowe</span></summary>
+<div class="doc-section-body">
+<h3 id="1-w-sprawach-nieuregulowanych-umowa-zastosowanie-maja-przepisy-prawa-polskiego-w-szczegolnosci-kodeksu-cywilnego">1. W sprawach nieuregulowanych Umową zastosowanie mają przepisy prawa polskiego, w szczeg&#243;lności Kodeksu cywilnego.</h3>
+<p>2. Oświadczenia, zawiadomienia, informacje handlowe, cenniki, listy produkt&#243;w, Dokumenty Programowe, wezwania oraz inne informacje związane z wykonywaniem Umowy mogą być przekazywane w Formie Dokumentowej.</p>
+<p>3. Za skutecznie doręczone uznaje się w szczeg&#243;lności informacje przekazane pocztą elektroniczną, przez system CRM/B2B, komunikatory wykorzystywane w bieżącej wsp&#243;łpracy lub za pośrednictwem Pośrednika.</p>
+<p>4. Pośrednik jest uprawniony do bieżącej obsługi handlowej Partnera, przekazywania informacji handlowych, cennik&#243;w, list produkt&#243;w i Dokument&#243;w Programowych, przyjmowania zgłoszeń, koordynowania wsp&#243;łpracy oraz przekazywania i odbioru dokument&#243;w księgowych. Oświadczenia i informacje przekazane Partnerowi przez Pośrednika w zakresie wykonywania Umowy uważa się za przekazane przez Dostawcę.</p>
+<p>5. Dostawca może okresowo aktualizować Ceny Katalogowe, Listę Produkt&#243;w Objętych Wsparciem Stan&#243;w Magazynowych, standardy ekspozycyjne, zasady Programu Partnerskiego, zasady przyznawania Uprawnień Strategicznych, zasady funkcjonowania Centr&#243;w Demonstracyjnych oraz Dokumenty Programowe.</p>
+<p>6. Aktualizacje, o kt&#243;rych mowa w ust. 5, nie stanowią zmiany Umowy i nie wymagają aneksu, o ile nie prowadzą do zmiany istotnych postanowień Umowy. Aktualizacje obowiązują od początku pierwszego Okresu Rozliczeniowego następującego po ich przekazaniu Partnerowi, chyba że Dostawca wskaże p&#243;źniejszy termin.</p>
+<p>7. W przypadku rozbieżności pomiędzy Umową a Dokumentami Programowymi pierwszeństwo mają postanowienia Umowy. W przypadku rozbieżności pomiędzy Dokumentami Programowymi pierwszeństwo mają dokumenty opublikowane lub przekazane p&#243;źniej.</p>
+<p>8. Strony zobowiązują się rozwiązywać spory polubownie. Jeżeli rozwiązanie sporu w drodze negocjacji okaże się niemożliwe w terminie 30 dni od zgłoszenia sporu, zostanie on poddany pod rozstrzygnięcie sądu powszechnego właściwego miejscowo dla siedziby Dostawcy.</p>
+<p>9. Umowa stanowi całość porozumienia pomiędzy Stronami i zastępuje wcześniejsze ustalenia dotyczące jej przedmiotu. Zmiana Umowy wymaga Formy Dokumentowej pod rygorem nieważności, chyba że Umowa przewiduje możliwość dokonania zmian przez aktualizację Dokument&#243;w Programowych.</p>
+<p>10. Umowę sporządzono w dw&#243;ch jednobrzmiących egzemplarzach, po jednym dla każdej ze Stron. Załączniki, Dokumenty Programowe oraz dokumenty, do kt&#243;rych odwołuje się Umowa, stanowią jej integralną część.</p>
+<p>DOSTAWCA: ........................................ POŚREDNIK: ........................................ PARTNER: ........................................</p>
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Pobierz dokument</strong>
+    <p>Szablon DOCX służy do pracy operacyjnej, a PDF do wysyłki lub archiwizacji.</p>
+  </div>
+  <div class="download-actions">
+    <a class="download-button" href="docx/umowa-partnerska-fixon.docx" download>Pobierz szablon DOCX</a>
+    <a class="download-button secondary" href="pdf/umowa-partnerska-fixon.pdf" download>Pobierz szablon PDF</a>
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>Podgl&#261;d statyczny dokumentu programowego FIXON.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+</body>
+</html>

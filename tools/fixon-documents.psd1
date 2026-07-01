@@ -1,0 +1,144 @@
+@{
+  Documents = @(
+    @{
+      Title = 'Program Partnerski FIXON'
+      Subtitle = 'Pełna treść programu dystrybucji, ekspozycji i wsparcia magazynowego.'
+      Source = 'C:\Users\Karolina\Documents\PROGRAM PARTNERSKI FIXON.docx'
+      Slug = 'program-partnerski-fixon.html'
+      Group = 'Dokument główny'
+    }
+    @{
+      Title = 'Umowa Partnerska FIXON'
+      Subtitle = 'Podgląd umowy regulującej współpracę handlową i programową.'
+      Source = 'C:\Users\Karolina\Downloads\Umowa_partnerska_FIXON (1).docx'
+      Slug = 'umowa-partnerska-fixon.html'
+      Group = 'Umowa'
+    }
+    @{
+      Title = 'Załącznik: Karta Partnera'
+      Subtitle = 'Dane Partnera, zakres współpracy i potwierdzenie indywidualnych ustaleń.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Karta_Partnera_FIXON.docx'
+      Slug = 'zalacznik-karta-partnera.html'
+      Group = 'Start współpracy'
+    }
+    @{
+      Title = 'Załącznik: Magazyn Startowy'
+      Subtitle = 'Lista produktów i warunki startowego wdrożenia magazynowego.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Lista_Produktow_Magazyn_Startowy_FIXON.docx'
+      Slug = 'zalacznik-magazyn-startowy.html'
+      Group = 'Start współpracy'
+    }
+    @{
+      Title = 'Załącznik: Wsparcie Magazynowe'
+      Subtitle = 'Lista produktów objętych programem wsparcia dostępności magazynowej.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Lista_Produktow_Wsparcie_Magazynowe_FIXON.docx'
+      Slug = 'zalacznik-wsparcie-magazynowe.html'
+      Group = 'Magazyn i dostępność'
+    }
+    @{
+      Title = 'Załącznik: Cennik Katalogowy'
+      Subtitle = 'Podgląd cennika katalogowego do obsługi sprzedaży i rozmów handlowych.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Cennik_Katalogowy_FIXON (1).docx'
+      Slug = 'zalacznik-cennik-katalogowy.html'
+      Group = 'Sprzedaż'
+    }
+    @{
+      Title = 'Załącznik: Statusy Produktów'
+      Subtitle = 'Definicje statusów produktowych i dostępności komunikowanej Partnerowi.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Statusy_Produktow_FIXON.docx'
+      Slug = 'zalacznik-statusy-produktow.html'
+      Group = 'Sprzedaż'
+    }
+    @{
+      Title = 'Załącznik: Standardy Ekspozycji'
+      Subtitle = 'Zasady ekspozycji produktów FIXON w punkcie sprzedaży i kanale Partnera.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Standardy_Ekspozycji_FIXON.docx'
+      Slug = 'zalacznik-standardy-ekspozycji.html'
+      Group = 'Ekspozycja i marka'
+    }
+    @{
+      Title = 'Załącznik: Polityka Marki FIXON'
+      Subtitle = 'Zasady komunikacji sprzedażowej, użycia marki i bezpieczeństwa obietnic.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Polityka_Marki_FIXON_rozbudowana (1).docx'
+      Slug = 'zalacznik-polityka-marki.html'
+      Group = 'Ekspozycja i marka'
+    }
+    @{
+      Title = 'Załącznik: Procedura Raportowania'
+      Subtitle = 'Model raportowania sprzedaży, stanów i aktywności w ramach współpracy.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Procedura_Raportowania_FIXON.docx'
+      Slug = 'zalacznik-procedura-raportowania.html'
+      Group = 'Operacje'
+    }
+    @{
+      Title = 'Załącznik: Wzór Raportu Miesięcznego'
+      Subtitle = 'Szablon raportu do cyklicznej obsługi współpracy.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Wzor_Raportu_Miesiecznego_FIXON.docx'
+      Slug = 'zalacznik-wzor-raportu-miesiecznego.html'
+      Group = 'Operacje'
+    }
+    @{
+      Title = 'Załącznik: Zgłoszenie Alarmowe'
+      Subtitle = 'Wzór zgłoszenia sytuacji wymagającej szybkiej reakcji.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Wzor_Zgloszenia_Alarmowego_FIXON.docx'
+      Slug = 'zalacznik-wzor-zgloszenia-alarmowego.html'
+      Group = 'Operacje'
+    }
+    @{
+      Title = 'Załącznik: Procedura Zwrotu Towaru'
+      Subtitle = 'Zasady obsługi zwrotów produktów w modelu partnerskim.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Procedura_Zwrotu_Towaru_FIXON.docx'
+      Slug = 'zalacznik-procedura-zwrotu.html'
+      Group = 'Operacje'
+    }
+    @{
+      Title = 'Załącznik: Protokół Przekazania'
+      Subtitle = 'Protokół przekazania produktów, materiałów lub elementów ekspozycji.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Protokol_Przekazania_FIXON.docx'
+      Slug = 'zalacznik-protokol-przekazania.html'
+      Group = 'Protokoły'
+    }
+    @{
+      Title = 'Załącznik: Protokół Inwentaryzacji'
+      Subtitle = 'Wzór dokumentu do kontroli i potwierdzania stanów.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Protokol_Inwentaryzacji_FIXON.docx'
+      Slug = 'zalacznik-protokol-inwentaryzacji.html'
+      Group = 'Protokoły'
+    }
+    @{
+      Title = 'Załącznik: Rozbieżności Magazynowe'
+      Subtitle = 'Protokół zgłaszania różnic między stanem rzeczywistym i dokumentowym.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Protokol_Rozbieznosci_Magazynowych_FIXON.docx'
+      Slug = 'zalacznik-rozbieznosci-magazynowe.html'
+      Group = 'Protokoły'
+    }
+    @{
+      Title = 'Załącznik: Uszkodzenie lub Utrata Produktu'
+      Subtitle = 'Protokół dla sytuacji uszkodzenia, utraty albo niezgodności produktu.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Protokol_Uszkodzenia_Utraty_Produktu_FIXON.docx'
+      Slug = 'zalacznik-uszkodzenie-utrata.html'
+      Group = 'Protokoły'
+    }
+    @{
+      Title = 'Załącznik: Produkty Testowe i Premierowe'
+      Subtitle = 'Regulamin obsługi produktów testowych, demonstracyjnych i premierowych.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Regulamin_Produktow_Testowych_i_Premierowych_FIXON.docx'
+      Slug = 'zalacznik-produkty-testowe-premierowe.html'
+      Group = 'Rozwój współpracy'
+    }
+    @{
+      Title = 'Załącznik: Karta Uprawnienia Strategicznego'
+      Subtitle = 'Wzór karty potwierdzającej indywidualne uprawnienia strategiczne.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Karta_Uprawnienia_Strategicznego_FIXON.docx'
+      Slug = 'zalacznik-karta-uprawnienia-strategicznego.html'
+      Group = 'Rozwój współpracy'
+    }
+    @{
+      Title = 'Załącznik: Karta Centrum Demonstracyjnego'
+      Subtitle = 'Wzór dokumentu dla placówki demonstracyjnej lub showroomu FIXON.'
+      Source = 'C:\Users\Karolina\Downloads\Zalacznik_Karta_Centrum_Demonstracyjnego_FIXON.docx'
+      Slug = 'zalacznik-karta-centrum-demonstracyjnego.html'
+      Group = 'Rozwój współpracy'
+    }
+  )
+}
