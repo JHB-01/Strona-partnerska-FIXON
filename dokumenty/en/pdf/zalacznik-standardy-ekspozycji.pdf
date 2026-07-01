@@ -4,73 +4,103 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3812 >>
+<< /Length 5928 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Display Standards) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Display, shelf, QR and demonstration standards for partner locations.) Tj ET
-BT /F1 10.5 Tf 50 747 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 733 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 713 Td (1. Display Objective) Tj ET
-BT /F1 10.5 Tf 50 690 Td (The display should make the tool's practical use clear within seconds. It should not be) Tj ET
-BT /F1 10.5 Tf 50 676 Td (decorative only.) Tj ET
-BT /F1 15 Tf 50 656 Td (2. QR and E-catalogue) Tj ET
-BT /F1 10.5 Tf 50 633 Td (QR codes must lead to the current e-catalogue or approved product page. They should be) Tj ET
-BT /F1 10.5 Tf 50 619 Td (placed close to the displayed tool or material context.) Tj ET
-BT /F1 15 Tf 50 599 Td (3. Demonstration Readiness) Tj ET
-BT /F1 10.5 Tf 50 576 Td (If demonstration is promised, the tool must be clean, safe and ready to show.) Tj ET
-BT /F1 15 Tf 50 556 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 527 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 515 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 503 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 491 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 479 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 467 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 455 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 443 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 431 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 419 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 407 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 395 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 383 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 371 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 359 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 347 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 335 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 309 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 280 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 268 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 256 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 244 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 232 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 206 Td (Document table) Tj ET
-BT /F1 9 Tf 50 177 Td (Area | Standard) Tj ET
-BT /F1 9 Tf 50 165 Td (Shelf / display | Clear product name, use case and QR) Tj ET
-BT /F1 9 Tf 50 153 Td (Demo tool | Safe, complete and presentable) Tj ET
-BT /F1 9 Tf 50 141 Td (Printed materials | Only approved brand and sales claims) Tj ET
-BT /F1 9 Tf 50 129 Td (Updates | Old claims and old prices removed promptly) Tj ET
-BT /F1 10.5 Tf 50 109 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 95 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Display Standards) Tj ET
+BT /F1 10 Tf 50 764 Td (FIXON product exposure rules at the point of sale and the Partner channel.) Tj ET
+BT /F1 10 Tf 50 751 Td (The document sets out the minimum rules for presentation of products, test tools, marketing) Tj ET
+BT /F1 10 Tf 50 738 Td (materials, indications and information elements of FIXON with the Partner under the FIXON) Tj ET
+BT /F1 10 Tf 50 725 Td (Partner Programme.) Tj ET
+BT /F1 8.5 Tf 50 707 Td (Partner | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 696 Td (Location / location of the exposure | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 685 Td (Date of transmission/update of standards | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 674 Td (Document version | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 663 Td (Partner contact | ........................................................) Tj ET
+BT /F1 10 Tf 50 644 Td (The FIXON exhibition is intended to enable the Partner to actively present products to end) Tj ET
+BT /F1 10 Tf 50 631 Td (customers, contractors, traders, tabloid and construction teams and decision makers) Tj ET
+BT /F1 10 Tf 50 618 Td (responsible for purchasing tools.) Tj ET
+BT /F1 10 Tf 50 605 Td (The purpose of the exposure is to show the practical use of products, shorten the sales) Tj ET
+BT /F1 10 Tf 50 592 Td (process, facilitate the demonstration of tool operation and direct the client to the right) Tj ET
+BT /F1 10 Tf 50 579 Td (product, e-catalogue, order or FIXON Demonstration Centre.) Tj ET
+BT /F1 10 Tf 50 566 Td (Exposure is not just a decorative element. It should be maintained in such a way as to allow) Tj ET
+BT /F1 10 Tf 50 553 Td (real sale, demonstration and collection of feedback from the market.) Tj ET
+BT /F1 8.5 Tf 50 535 Td (Element | Standard required | Status / Remarks | Responsible) Tj ET
+BT /F1 8.5 Tf 50 524 Td (Physical products | Selected products according to the Partner Card, Pricelist, Product Status or) Tj ET
+BT /F1 8.5 Tf 50 513 Td (Transfer Protocol. | ................................ | Partner) Tj ET
+BT /F1 8.5 Tf 50 502 Td (Test tool | Stored in a state that allows demonstration; normal wear acceptable. |) Tj ET
+BT /F1 8.5 Tf 50 491 Td (................................ | Partner) Tj ET
+BT /F1 8.5 Tf 50 480 Td (Printed materials | Catalogues, product cards, leaflets or other materials supplied by FIXON. |) Tj ET
+BT /F1 8.5 Tf 50 469 Td (................................ | Partner) Tj ET
+BT /F1 8.5 Tf 50 458 Td (Markings | Logo, stickers, plaques, banners or rolls according to FIXON brand policy. |) Tj ET
+BT /F1 8.5 Tf 50 447 Td (................................ | Partner) Tj ET
+BT /F1 8.5 Tf 50 436 Td (QR / e-catalogue | QR code or link to e-catalogue visible at exposure or available to traders. |) Tj ET
+BT /F1 8.5 Tf 50 425 Td (................................ | Partner) Tj ET
+BT /F1 8.5 Tf 50 414 Td (Commercial information | Current information on prices, availability, delivery and delivery dates. |) Tj ET
+BT /F1 8.5 Tf 50 403 Td (................................ | Partner / Mediator) Tj ET
+BT /F1 10 Tf 50 384 Td (FIXON products should be presented in a place visible to customers, traders or sales agents,) Tj ET
+BT /F1 10 Tf 50 371 Td (with the possibility of quickly showing the tool operation or directing the customer to the) Tj ET
+BT /F1 10 Tf 50 358 Td (appropriate information material.) Tj ET
+BT /F1 10 Tf 50 345 Td (Exposure, demonstration and test products should be kept clean, orderly and safe for users.) Tj ET
+BT /F1 10 Tf 50 332 Td (Normal wear due to presentations, tests and demonstrations is acceptable.) Tj ET
+BT /F1 10 Tf 50 319 Td (The partner should not mix FIXON markings with markings of other brands in such a way as to) Tj ET
+BT /F1 10 Tf 50 306 Td (mislead the customer about the manufacturer, the origin of the product, the scope of the) Tj ET
+BT /F1 10 Tf 50 293 Td (warranty or the terms of the sale.) Tj ET
+BT /F1 10 Tf 50 280 Td (Marketing materials and markings provided to the Partner remain intended for the presentation) Tj ET
+BT /F1 10 Tf 50 267 Td (of FIXON products and cannot be used to promote competing products or to communicate contrary) Tj ET
+BT /F1 10 Tf 50 254 Td (to FIXON Brand Policy.) Tj ET
+BT /F1 10 Tf 50 241 Td (The actuality of information on prices, availability and delivery dates should be verified by) Tj ET
+BT /F1 10 Tf 50 228 Td (the Partner on the basis of the current Catalogue Pricelist, Product Status, e-catalogue or) Tj ET
+BT /F1 10 Tf 50 215 Td (information provided by the Mediator or Supplier.) Tj ET
+BT /F1 10 Tf 50 202 Td (The partner may prepare his own photographs, films, graphics, descriptions, posts, commercial) Tj ET
+BT /F1 10 Tf 50 189 Td (offers or other promotional material for FIXON products, provided that they comply with the) Tj ET
+BT /F1 10 Tf 50 176 Td (FIXON Brand Policy, do not mislead and do not violate the brand value.) Tj ET
+BT /F1 10 Tf 50 163 Td (Partner's own materials require acceptance of the Supplier or Mediator if they include) Tj ET
+BT /F1 10 Tf 50 150 Td (comparisons with competition, technical declarations, specific commercial promises, custom) Tj ET
+BT /F1 10 Tf 50 137 Td (logo use or communications that can affect the way FIXON brand is perceived.) Tj ET
+BT /F1 10 Tf 50 124 Td (Once accepted material or campaign can be reused without separate acceptance if their content,) Tj ET
+BT /F1 10 Tf 50 111 Td (meaning, graphics, trading conditions and publication context have not been substantially) Tj ET
+BT /F1 10 Tf 50 98 Td (changed.) Tj ET
+BT /F1 10 Tf 50 85 Td (The Supplier or Mediator may request the Partner to send pictures of the exposure, confirm the) Tj ET
+BT /F1 10 Tf 50 72 Td (presence of the materials, update the markings, supplement the QR codes, delete outdated) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2012 >>
+stream
+BT /F1 10 Tf 50 790 Td (information or change the presentation of the products.) Tj ET
+BT /F1 10 Tf 50 777 Td (The verification of the exposure should be carried out in an excessive manner to maintain the) Tj ET
+BT /F1 10 Tf 50 764 Td (consistency of the sale, the news and the protection of FIXON brand.) Tj ET
+BT /F1 10 Tf 50 751 Td (If significant irregularities are found, the Partner should remove them within the time limit) Tj ET
+BT /F1 10 Tf 50 738 Td (indicated by the Supplier or the Mediator, taking into account the nature of the) Tj ET
+BT /F1 10 Tf 50 725 Td (irregularities and organisational capabilities of the facility.) Tj ET
+BT /F1 10 Tf 50 712 Td (The Partner may object to this document within 7 days of its delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 699 Td (reservations within this deadline means the adoption of a document for information and use in) Tj ET
+BT /F1 10 Tf 50 686 Td (the framework of current cooperation in the FIXON Partnership Programme. If the Partner raises) Tj ET
+BT /F1 10 Tf 50 673 Td (objections, the Parties shall clarify the content of the document, remove discrepancies or) Tj ET
+BT /F1 10 Tf 50 660 Td (prepare the final agreed version of the document. The final version of the document to which) Tj ET
+BT /F1 10 Tf 50 647 Td (reservations have been made shall be approved by both Parties in the form of personal) Tj ET
+BT /F1 10 Tf 50 634 Td (signatures or electronic signatures accepted by the Parties, unless otherwise agreed by the) Tj ET
+BT /F1 10 Tf 50 621 Td (Parties in document correspondence.) Tj ET
+BT /F1 8.5 Tf 50 603 Td (Supplier / Mediator | Partner | Date) Tj ET
+BT /F1 8.5 Tf 50 592 Td (................................ | ................................ | ................................) Tj ET
+BT /F1 8.5 Tf 50 581 Td (................................ | ................................ | ................................) Tj ET
+BT /F1 10 Tf 50 562 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000004112 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-4209
+8521
 %%EOF

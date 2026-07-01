@@ -4,100 +4,493 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 8 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 4420 >>
+<< /Length 5468 >>
 stream
-BT /F1 21 Tf 50 784 Td (FIXON Partner Agreement) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Partner agreement template defining commercial cooperation, responsibilities, reporting,) Tj ET
-BT /F1 10.5 Tf 50 747 Td (stock support, confidentiality, brand use and termination.) Tj ET
-BT /F1 10.5 Tf 50 733 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 719 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 699 Td (1. Parties and Status) Tj ET
-BT /F1 10.5 Tf 50 676 Td (This agreement is concluded between FIXON and the Partner identified in the Partner) Tj ET
-BT /F1 10.5 Tf 50 662 Td (Card. The Partner remains an independent business and is not authorised to act as agent,) Tj ET
-BT /F1 10.5 Tf 50 648 Td (employee or legal representative of FIXON unless expressly agreed in writing.) Tj ET
-BT /F1 10.5 Tf 50 634 Td (The agreement does not create a franchise, business opportunity, employment relationship) Tj ET
-BT /F1 10.5 Tf 50 620 Td (or exclusive distribution right unless the local version expressly states otherwise.) Tj ET
-BT /F1 15 Tf 50 600 Td (2. Commercial Cooperation) Tj ET
-BT /F1 10.5 Tf 50 577 Td (The Partner may promote, demonstrate and sell FIXON products through the agreed channel.) Tj ET
-BT /F1 10.5 Tf 50 563 Td (The scope of products, stock, prices, discount rules and display materials is defined in) Tj ET
-BT /F1 10.5 Tf 50 549 Td (the appendices.) Tj ET
-BT /F1 10.5 Tf 50 535 Td (No guaranteed income, margin or sales volume is promised. Any forecast is indicative and) Tj ET
-BT /F1 10.5 Tf 50 521 Td (must be reviewed under local law before use.) Tj ET
-BT /F1 15 Tf 50 501 Td (3. Reporting and Settlement) Tj ET
-BT /F1 10.5 Tf 50 478 Td (The Partner provides monthly reports covering sales, stock, returns, urgent events and) Tj ET
-BT /F1 10.5 Tf 50 464 Td (customer feedback. Settlement takes place after the relevant sales period has been) Tj ET
-BT /F1 10.5 Tf 50 450 Td (confirmed.) Tj ET
-BT /F1 10.5 Tf 50 436 Td (The parties adapt tax, invoice, withholding, resale and consumer disclosure wording to) Tj ET
-BT /F1 10.5 Tf 50 422 Td (the selected jurisdiction.) Tj ET
-BT /F1 15 Tf 50 402 Td (4. Brand, Data and Termination) Tj ET
-BT /F1 10.5 Tf 50 379 Td (The Partner uses the FIXON brand only according to the Brand Policy and approved) Tj ET
-BT /F1 10.5 Tf 50 365 Td (materials. Personal data and marketing communication must follow the applicable privacy) Tj ET
-BT /F1 10.5 Tf 50 351 Td (and electronic communication laws.) Tj ET
-BT /F1 10.5 Tf 50 337 Td (Termination, notice periods, dispute resolution and post-termination duties must be) Tj ET
-BT /F1 10.5 Tf 50 323 Td (localised before signature.) Tj ET
-BT /F1 15 Tf 50 303 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 274 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 262 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 250 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 238 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 226 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 214 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 202 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 190 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 178 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 166 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 154 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 142 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 130 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 118 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 106 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 94 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 82 Td (rules, warranty and cross-border data transfers.) Tj ET
+BT /F1 20 Tf 50 784 Td (FIXON Partner Agreement) Tj ET
+BT /F1 10 Tf 50 764 Td (Preview of the agreement governing commercial and programme cooperation.) Tj ET
+BT /F1 10 Tf 50 751 Td (Distribution Program with Product Exposure and Guaranteed Warehouse Access) Tj ET
+BT /F1 10 Tf 50 738 Td (FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa \(Weso?a\), NIP: 1133178861, REGON:) Tj ET
+BT /F1 10 Tf 50 725 Td (542679041, which owns the trademark of FIXON brand No. XXXX, hereinafter referred to as 'the) Tj ET
+BT /F1 10 Tf 50 712 Td (Supplier', represented at the conclusion of this Agreement by an authorised commercial) Tj ET
+BT /F1 10 Tf 50 699 Td (representative authorised to negotiate and conclude partnership agreements on behalf of the) Tj ET
+BT /F1 10 Tf 50 686 Td (brand's owner on the basis of the mandate granted,) Tj ET
+BT /F1 10 Tf 50 673 Td (JHB FAMILY sp. z o.o. based in ?opacin, ?opacin 68E, 06-430 So?sk, NIP: 5662035359, REGON:) Tj ET
+BT /F1 10 Tf 50 660 Td (527556531, KRS: 0001084261, represented by HEORHY BRONNIKOV, President of the Board,) Tj ET
+BT /F1 10 Tf 50 647 Td (hereinafter referred to as 'the Mediator',) Tj ET
+BT /F1 10 Tf 50 634 Td (and) Tj ET
+BT /F1 10 Tf 50 621 Td (................................................................................................................................................................................,) Tj ET
+BT /F1 10 Tf 50 608 Td (hereinafter referred to as 'Partner'.) Tj ET
+BT /F1 10 Tf 50 595 Td (The supplier and Partner are hereinafter referred to together as 'the Parties'. The) Tj ET
+BT /F1 10 Tf 50 582 Td (intermediary shall participate in the implementation of the Agreement to the extent indicated) Tj ET
+BT /F1 10 Tf 50 569 Td (in its provisions.) Tj ET
+BT /F1 10 Tf 50 556 Td (1. Agreement - this FIXON Partnership Agreement together with the Annexes, Annexes and Program) Tj ET
+BT /F1 10 Tf 50 543 Td (Documents made available to the Partner by the Supplier or the Mediator.) Tj ET
+BT /F1 10 Tf 50 530 Td (2. Supplier - FIXON IRYNA MUKOSII or another entity indicated in the Agreement's composition) Tj ET
+BT /F1 10 Tf 50 517 Td (as owner of the FIXON brand or entity authorized to organise the FIXON Partnership Program.) Tj ET
+BT /F1 14 Tf 50 498 Td (3. Partner - entity concluding the Agreement for distribution, promotion and sale of FIXON) Tj ET
+BT /F1 14 Tf 50 481 Td (Products.) Tj ET
+BT /F1 10 Tf 50 461 Td (4. Mediator - an entity identified in the Comparative Agreement, authorized to maintain the) Tj ET
+BT /F1 10 Tf 50 448 Td (current relationship with the Partner, to provide commercial information, price lists, product) Tj ET
+BT /F1 10 Tf 50 435 Td (lists, Program Documents and to coordinate cooperation.) Tj ET
+BT /F1 10 Tf 50 422 Td (5. FIXON brand - trademark, visual identification, marketing materials and other elements) Tj ET
+BT /F1 10 Tf 50 409 Td (related to products offered under FIXON brand.) Tj ET
+BT /F1 10 Tf 50 396 Td (6. FIXON products - products offered under the FIXON brand, in particular tools, equipment,) Tj ET
+BT /F1 10 Tf 50 383 Td (accessories, demonstration elements, test products and goods indicated in the current offer of) Tj ET
+BT /F1 10 Tf 50 370 Td (the Supplier.) Tj ET
+BT /F1 10 Tf 50 357 Td (7. FIXON Partnership Programme - a commercial cooperation system covering distribution,) Tj ET
+BT /F1 10 Tf 50 344 Td (exposure, stock support, discounts, bonuses, market protection, product exclusivity, Strategic) Tj ET
+BT /F1 10 Tf 50 331 Td (Partner status and FIXON Demonstration Centre.) Tj ET
+BT /F1 10 Tf 50 318 Td (8. Warehouse States Support Programme - part of the FIXON Partner Programme, which grants the) Tj ET
+BT /F1 10 Tf 50 305 Td (Partner a certain level of products intended for current sale, exhibition or demonstration.) Tj ET
+BT /F1 10 Tf 50 292 Td (9. List of Products supported by the Warehouse States - the current list of products) Tj ET
+BT /F1 10 Tf 50 279 Td (supported, transmitted to the Partner by the Supplier or Mediator. Product range means every) Tj ET
+BT /F1 10 Tf 50 266 Td (product in this list.) Tj ET
+BT /F1 10 Tf 50 253 Td (10. Storage State - number of items of the Product range item awarded to the Partner under the) Tj ET
+BT /F1 10 Tf 50 240 Td (Warehouse States Support Program. The Emergency threshold means the minimum level of the) Tj ET
+BT /F1 10 Tf 50 227 Td (Warehouse State at which the Partner reports the need to supplement.) Tj ET
+BT /F1 14 Tf 50 208 Td (11. Settlement period - calendar month, unless the Parties decide otherwise in writing or in) Tj ET
+BT /F1 14 Tf 50 191 Td (writing.) Tj ET
+BT /F1 10 Tf 50 171 Td (12. Sales result - number of sales units determined in accordance with §7 of the Agreement,) Tj ET
+BT /F1 10 Tf 50 158 Td (which is the basis for establishing discounts, Warehouse States and selected programme) Tj ET
+BT /F1 10 Tf 50 145 Td (benefits.) Tj ET
+BT /F1 10 Tf 50 132 Td (13. Products for Individual Order - products carried out or delivered only on individual order) Tj ET
+BT /F1 10 Tf 50 119 Td (of the client, not covered by the Standard Storage States Support Program, unless the Supplier) Tj ET
+BT /F1 10 Tf 50 106 Td (decides otherwise.) Tj ET
+BT /F1 10 Tf 50 93 Td (14. Maintenance Articles - products intended for current consumption, periodic replacement or) Tj ET
+BT /F1 10 Tf 50 80 Td (servicing, indicated by the Supplier as excluded from the base of calculation of discounts or) Tj ET
+BT /F1 10 Tf 50 67 Td (Sales Result.) Tj ET
 endstream
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 1233 >>
+<< /Length 5576 >>
 stream
-BT /F1 15 Tf 50 790 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 761 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 749 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 737 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 725 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 713 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 687 Td (Document table) Tj ET
-BT /F1 9 Tf 50 658 Td (Clause area | Localisation before signature) Tj ET
-BT /F1 9 Tf 50 646 Td (Governing law | Insert country/state/province/canton-specific law and venue) Tj ET
-BT /F1 9 Tf 50 634 Td (Data processing | Define controller/processor roles and marketing consent) Tj ET
-BT /F1 9 Tf 50 622 Td (Product liability | Localise warranty, warnings, returns and liability limits) Tj ET
-BT /F1 9 Tf 50 610 Td (Business opportunity risk | Review especially for the USA and other regulated markets) Tj ET
-BT /F1 10.5 Tf 50 590 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 576 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 14 Tf 50 790 Td (15. Catalog prices - current prices of FIXON products in the relevant Settlement Period,) Tj ET
+BT /F1 14 Tf 50 773 Td (transmitted to the Partner by the Supplier or Mediator.) Tj ET
+BT /F1 10 Tf 50 753 Td (16. Strategic Partner, Strategic Entitlement, Additional Strategic Discount, Market) Tj ET
+BT /F1 10 Tf 50 740 Td (Protection, Product Exclusive, Extended Warehouse States Support Program and FIXON) Tj ET
+BT /F1 10 Tf 50 727 Td (Demonstration Centre - the status and privileges described in the FIXON Partnership Program) Tj ET
+BT /F1 10 Tf 50 714 Td (and Program Documents.) Tj ET
+BT /F1 10 Tf 50 701 Td (17. Program Documents - Regulations, price lists, product lists, exposure standards, storage) Tj ET
+BT /F1 10 Tf 50 688 Td (support rules, procedures, instructions and other documents concerning the FIXON Partnership) Tj ET
+BT /F1 10 Tf 50 675 Td (Programme.) Tj ET
+BT /F1 10 Tf 50 662 Td (18. Document Form - e-mail, PDF document, message in CRM/B2B system, communicator used in) Tj ET
+BT /F1 10 Tf 50 649 Td (cooperation or other permanent content fixation to identify the person making the statement.) Tj ET
+BT /F1 14 Tf 50 630 Td (19. In the event of disagreement between the Agreement and the Programme Documents, the) Tj ET
+BT /F1 14 Tf 50 613 Td (provisions of the Agreement shall prevail unless the Parties expressly agree otherwise.) Tj ET
+BT /F1 14 Tf 50 587 Td (1. The purpose of the Agreement is to build and develop long-term commercial cooperation in) Tj ET
+BT /F1 14 Tf 50 570 Td (the distribution, promotion and sale of FIXON Products.) Tj ET
+BT /F1 10 Tf 50 550 Td (2. The cooperation is carried out under the FIXON Partner Programmeme, which aims to create a) Tj ET
+BT /F1 10 Tf 50 537 Td (stable distribution network for product availability, professional customer service, sales) Tj ET
+BT /F1 10 Tf 50 524 Td (development and FIXON brand value protection.) Tj ET
+BT /F1 10 Tf 50 511 Td (3. The FIXON Partnership Programme aims in particular at: \(a\) increasing the availability of) Tj ET
+BT /F1 10 Tf 50 498 Td (FIXON Products, \(b\) building brand recognition, \(c\) giving customers the opportunity to get) Tj ET
+BT /F1 10 Tf 50 485 Td (acquainted with the products through exposure and demonstration, \(d\) maintaining sales) Tj ET
+BT /F1 10 Tf 50 472 Td (continuity, \(e\) developing local and regional sales channels, \(f\) supporting Partners in) Tj ET
+BT /F1 10 Tf 50 459 Td (commercial, marketing and training activities.) Tj ET
+BT /F1 10 Tf 50 446 Td (4. The Partner commits to actively support the objectives of the FIXON Partnership Programme) Tj ET
+BT /F1 10 Tf 50 433 Td (by maintaining exposure, sales development, reliable reporting and cooperation with the) Tj ET
+BT /F1 10 Tf 50 420 Td (Supplier and Mediator in the planning of cargo and commercial activities.) Tj ET
+BT /F1 10 Tf 50 407 Td (1. Under the Agreement, the Supplier grants the Partner the status of Authorized Partner FIXON) Tj ET
+BT /F1 10 Tf 50 394 Td (and allows participation in the FIXON Partner Programmeme on the terms set out in the) Tj ET
+BT /F1 10 Tf 50 381 Td (Agreement and Program Documents.) Tj ET
+BT /F1 10 Tf 50 368 Td (2. The cooperation shall include in particular: \(a\) the sale of FIXON Products by the Partner,) Tj ET
+BT /F1 10 Tf 50 355 Td (\(b\) the maintenance of the exposure, \(c\) participation in the Warehouse States Support) Tj ET
+BT /F1 10 Tf 50 342 Td (Programme, \(d\) promotional and marketing activities, \(e\) product and commercial training, \(f\)) Tj ET
+BT /F1 10 Tf 50 329 Td (technical support and product advice, \(g\) participation in discount, bonus and incentive) Tj ET
+BT /F1 10 Tf 50 316 Td (schemes.) Tj ET
+BT /F1 10 Tf 50 303 Td (3. The supplier undertakes to make available current commercial, technical and marketing) Tj ET
+BT /F1 10 Tf 50 290 Td (materials, to provide sales and product support and to carry out activities supporting the) Tj ET
+BT /F1 10 Tf 50 277 Td (recognition of FIXON brand.) Tj ET
+BT /F1 10 Tf 50 264 Td (4. The Partner undertakes to actively offer and promote FIXON Products, maintain standards of) Tj ET
+BT /F1 10 Tf 50 251 Td (exhibition, keep sales records, maintain a positive brand image and provide information) Tj ET
+BT /F1 10 Tf 50 238 Td (necessary for the proper implementation of the Partnership Programme.) Tj ET
+BT /F1 10 Tf 50 225 Td (5. The partner maintains full organisational, commercial and economic autonomy. The Agreement) Tj ET
+BT /F1 10 Tf 50 212 Td (shall not form a company, representativeship, employment relationship, exclusive agency or) Tj ET
+BT /F1 10 Tf 50 199 Td (joint venture.) Tj ET
+BT /F1 10 Tf 50 186 Td (6. Detailed rules of the FIXON Partnership Programme, including exposure standards, stock) Tj ET
+BT /F1 10 Tf 50 173 Td (support, bonuses, rebates, market protection and incentive programs, can be specified in) Tj ET
+BT /F1 10 Tf 50 160 Td (Program Documents. The supplier may update them to the extent that the essential conditions of) Tj ET
+BT /F1 10 Tf 50 147 Td (the Agreement do not deteriorate.) Tj ET
+BT /F1 14 Tf 50 128 Td (1. The Partner undertakes to maintain the active exposure of FIXON Products throughout the) Tj ET
+BT /F1 14 Tf 50 111 Td (duration of the Agreement.) Tj ET
+BT /F1 10 Tf 50 91 Td (2. The purpose of the exhibition is to provide customers with the opportunity to familiarize) Tj ET
+BT /F1 10 Tf 50 78 Td (themselves with the products, their functionality, quality of performance and application, as) Tj ET
+BT /F1 10 Tf 50 65 Td (well as to support the sales activities of the Partner.) Tj ET
 endstream
 endobj
 7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5283 >>
+stream
+BT /F1 10 Tf 50 790 Td (3. The exposure should ensure adequate visibility of marketing products and materials and) Tj ET
+BT /F1 10 Tf 50 777 Td (enable the presentation of products to customers visiting the point of sale, in particular to) Tj ET
+BT /F1 10 Tf 50 764 Td (test their functionality.) Tj ET
+BT /F1 10 Tf 50 751 Td (4. The supplier may set minimum exposure standards for the number of products presented, the) Tj ET
+BT /F1 10 Tf 50 738 Td (presentation method, the location of the exposure, the use of marketing materials and the) Tj ET
+BT /F1 10 Tf 50 725 Td (FIXON brand marking.) Tj ET
+BT /F1 10 Tf 50 712 Td (5. The Partner undertakes to maintain the exhibition products in a condition that enables them) Tj ET
+BT /F1 10 Tf 50 699 Td (to be presented, taking into account the normal consumption resulting from the demonstration) Tj ET
+BT /F1 10 Tf 50 686 Td (function.) Tj ET
+BT /F1 14 Tf 50 667 Td (6. Exhibition products can be used for commercial presentations, shows, trainings, open days,) Tj ET
+BT /F1 14 Tf 50 650 Td (fairs and other sales support activities.) Tj ET
+BT /F1 14 Tf 50 624 Td (7. The Partner cannot remove the exposure of FIXON products and materials without informing) Tj ET
+BT /F1 14 Tf 50 607 Td (the Supplier.) Tj ET
+BT /F1 10 Tf 50 587 Td (8. The supplier may provide the Partner with materials supporting the exposure, in particular) Tj ET
+BT /F1 10 Tf 50 574 Td (catalogues, POS materials, displays, stands, samples, training and multimedia materials. The) Tj ET
+BT /F1 10 Tf 50 561 Td (partner uses them as intended and takes care of their proper condition.) Tj ET
+BT /F1 10 Tf 50 548 Td (9. Maintaining an exposure consistent with the Supplier's requirements is a condition for) Tj ET
+BT /F1 10 Tf 50 535 Td (using the Warehouse States Support Program, the discount system, bonuses and other benefits) Tj ET
+BT /F1 10 Tf 50 522 Td (provided for Partners.) Tj ET
+BT /F1 10 Tf 50 509 Td (10. The supplier may verify the standard of exposure by visiting representatives, photographic) Tj ET
+BT /F1 10 Tf 50 496 Td (documentation, Partner reports or remote verification with the Partner's consent. In the event) Tj ET
+BT /F1 10 Tf 50 483 Td (of irregularities, the Supplier may call on the Partner to remove them and the lack of) Tj ET
+BT /F1 10 Tf 50 470 Td (improvement for more than 30 days may result in a limitation or suspension of the selected) Tj ET
+BT /F1 10 Tf 50 457 Td (programme benefits.) Tj ET
+BT /F1 10 Tf 50 444 Td (1. In order to ensure the continuity of sales, the Supplier may grant support to the Partner) Tj ET
+BT /F1 10 Tf 50 431 Td (of stock stocks. The list of products supported by the Warehouse States is transmitted) Tj ET
+BT /F1 10 Tf 50 418 Td (together with the update of the catalogue prices by the Supplier or Mediator.) Tj ET
+BT /F1 10 Tf 50 405 Td (2. During the first Clearance Period, the Supplier grants the Partner the level of warehouse) Tj ET
+BT /F1 10 Tf 50 392 Td (stocks determined individually, with the total value of all products covered by the programme) Tj ET
+BT /F1 10 Tf 50 379 Td (not exceeding PLN 15,000 gross.) Tj ET
+BT /F1 10 Tf 50 366 Td (3. In subsequent Settlement Periods, the level of stock for each Product range item is set at) Tj ET
+BT /F1 10 Tf 50 353 Td (40% of the highest sales result of this item achieved by the Partner in one Settlement Period) Tj ET
+BT /F1 10 Tf 50 340 Td (out of up to twelve previous Settlement Periods. The result is rounded up to full pieces.) Tj ET
+BT /F1 14 Tf 50 321 Td (4. For each Product range item, an Alarm threshold equal to 25% of the allocated level of) Tj ET
+BT /F1 14 Tf 50 304 Td (stock states, not less than 2 pieces.) Tj ET
+BT /F1 10 Tf 50 284 Td (5. If the storage status of the position falls below the Emergency Threshold, The partner is) Tj ET
+BT /F1 10 Tf 50 271 Td (obliged to report the need to supplement. The supplier shall carry out a complementary supply) Tj ET
+BT /F1 10 Tf 50 258 Td (in a quantity to restore the level referred to in paragraph 3 no more than once during the) Tj ET
+BT /F1 10 Tf 50 245 Td (seven consecutive calendar days.) Tj ET
+BT /F1 10 Tf 50 232 Td (6. The supplier may refuse or modify the volume of the complementary supply in exceptional) Tj ET
+BT /F1 10 Tf 50 219 Td (circumstances, production restrictions, storage shortages or a reasonable change in market) Tj ET
+BT /F1 10 Tf 50 206 Td (demand.) Tj ET
+BT /F1 14 Tf 50 187 Td (7. The partner shall carry out inventory of products covered by the Warehouse Support Scheme) Tj ET
+BT /F1 14 Tf 50 170 Td (at least once a quarter.) Tj ET
+BT /F1 10 Tf 50 150 Td (8. From the moment of the release of products to the Partner until their sale or return, the) Tj ET
+BT /F1 10 Tf 50 137 Td (Partner shall be responsible for their loss, damage, theft or destruction.) Tj ET
+BT /F1 14 Tf 50 118 Td (1. The Partner shall sell FIXON Products on his own behalf and on his own account.) Tj ET
+BT /F1 10 Tf 50 98 Td (2. Products on the current List of Products Supported by the Warehouse States remain owned) Tj ET
+BT /F1 10 Tf 50 85 Td (Suppliers until their sale by the Partner to the final customer or other buyer. The Partner) Tj ET
+BT /F1 10 Tf 50 72 Td (shall be entitled to sell these products on his own behalf and on his own account, despite the) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 5353 >>
+stream
+BT /F1 10 Tf 50 790 Td (Supplier retaining the right of ownership until the product is settled in accordance with the) Tj ET
+BT /F1 10 Tf 50 777 Td (Agreement.) Tj ET
+BT /F1 10 Tf 50 764 Td (3. The Partner may not lay down a lien, an expropriation, security or dispose of products) Tj ET
+BT /F1 10 Tf 50 751 Td (subject to storage support other than for sale in accordance with the Agreement.) Tj ET
+BT /F1 10 Tf 50 738 Td (4. The partner shall keep current records of the sales of products covered by the FIXON) Tj ET
+BT /F1 10 Tf 50 725 Td (Partnership Programme and shall forward no later than the 5th day of each month Suppliers) Tj ET
+BT /F1 10 Tf 50 712 Td (report sales for the previous Settlement Period.) Tj ET
+BT /F1 14 Tf 50 693 Td (5. The sales report shall contain at least the name of the product, the number of units sold) Tj ET
+BT /F1 14 Tf 50 676 Td (and information on returned or advertised products.) Tj ET
+BT /F1 10 Tf 50 656 Td (6. On the basis of the report, the Supplier issues a VAT invoice covering products sold by the) Tj ET
+BT /F1 10 Tf 50 643 Td (Partner. Cataloguing prices applicable during the relevant Settlement Period shall remain) Tj ET
+BT /F1 10 Tf 50 630 Td (unchanged throughout that period, and the invoice shall be issued in accordance with the) Tj ET
+BT /F1 10 Tf 50 617 Td (prices applicable for that Settlement Period, taking into account the discount provided for in) Tj ET
+BT /F1 10 Tf 50 604 Td (§7.) Tj ET
+BT /F1 14 Tf 50 585 Td (7. The deadline for payment of the invoice shall be 7 days from the date of issue.) Tj ET
+BT /F1 10 Tf 50 565 Td (8. The supplier may verify the sales report by analysing sales documents, stock analysis or) Tj ET
+BT /F1 10 Tf 50 552 Td (agreed stock audit. The Partner shall immediately inform the Supplier of the differences) Tj ET
+BT /F1 10 Tf 50 539 Td (concerning stock.) Tj ET
+BT /F1 10 Tf 50 526 Td (9. Products damaged, lost, destroyed or not further sold for reasons attributable to the) Tj ET
+BT /F1 10 Tf 50 513 Td (Partner shall be deemed to have been sold on the date of the occurrence and accounted for in) Tj ET
+BT /F1 10 Tf 50 500 Td (accordance with the Agreement.) Tj ET
+BT /F1 10 Tf 50 487 Td (10. The products covered by the final customer's complaint shall be settled in accordance with) Tj ET
+BT /F1 10 Tf 50 474 Td (the FIXON complaint procedure. The Partner is not entitled to return the products covered by) Tj ET
+BT /F1 10 Tf 50 461 Td (warehouse support without the Supplier's prior consent.) Tj ET
+BT /F1 10 Tf 50 448 Td (11. The completion of the stock does not require a separate order from the Partner unless) Tj ET
+BT /F1 10 Tf 50 435 Td (otherwise agreed by the Parties. The supplier issues invoices and billing documents in) Tj ET
+BT /F1 10 Tf 50 422 Td (electronic form, including through the National e-Faktur System, and sends them to the e-mail) Tj ET
+BT /F1 10 Tf 50 409 Td (address indicated by the Partner. The Partner agrees to receive electronic invoices.) Tj ET
+BT /F1 14 Tf 50 390 Td (12. For the Settlement Period other than the calendar month, the discount thresholds described) Tj ET
+BT /F1 14 Tf 50 373 Td (in §7 shall be amended proportionately.) Tj ET
+BT /F1 14 Tf 50 347 Td (1. The partner is entitled to commercial discounts in accordance with the current FIXON) Tj ET
+BT /F1 14 Tf 50 330 Td (Partnership Programme.) Tj ET
+BT /F1 10 Tf 50 310 Td (2. The discount system is progressive in nature and is based on the highest Sales result of) Tj ET
+BT /F1 10 Tf 50 297 Td (the FIXON Partner Programmeme achieved in up to twelve previous Settlement Periods.) Tj ET
+BT /F1 10 Tf 50 284 Td (3. The Sales result is the sum of: \(a\) the number of items sold of Product Product ranges) Tj ET
+BT /F1 10 Tf 50 271 Td (covered by the FIXON Partnership Programme and \(b\) the number of sales units determined on the) Tj ET
+BT /F1 10 Tf 50 258 Td (basis of the sales value of Products on Individual Order.) Tj ET
+BT /F1 10 Tf 50 245 Td (4. The result of the sale on the basis of the calculation of rebates shall not include) Tj ET
+BT /F1 10 Tf 50 232 Td (Operating Articles and other products indicated by The supplier as excluded from the base of) Tj ET
+BT /F1 10 Tf 50 219 Td (billing discounts in the catalogue price update.) Tj ET
+BT /F1 10 Tf 50 206 Td (5. The value of sales of Products per Individual Order shall be converted into sales units by) Tj ET
+BT /F1 10 Tf 50 193 Td (dividing the total net sales value of such products during the relevant Settlement Period by) Tj ET
+BT /F1 10 Tf 50 180 Td (the current catalogue net price of the most expensive product covered by the Warehouse Support) Tj ET
+BT /F1 10 Tf 50 167 Td (Scheme. The result shall be rounded to the integer.) Tj ET
+BT /F1 14 Tf 50 148 Td (6. The discount levels are: \(a\) 5-20 units - 5%, \(b\) 21-100 units - 10%, \(c\) 101-500 units -) Tj ET
+BT /F1 14 Tf 50 131 Td (15%, \(d\) above 500 units - 20%.) Tj ET
+BT /F1 10 Tf 50 111 Td (7. The supplier may grant additional bonuses, bonuses or special terms to partners performing) Tj ET
+BT /F1 10 Tf 50 98 Td (above average sales results. The principles of such benefits are defined by the FIXON) Tj ET
+BT /F1 10 Tf 50 85 Td (Partnership Program or separate Program Documents.) Tj ET
+BT /F1 10 Tf 50 72 Td (1. The partner undertakes to conduct commercial, marketing and promotional activities in a way) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 6045 >>
+stream
+BT /F1 10 Tf 50 790 Td (that supports the development of the FIXON brand and builds its positive image.) Tj ET
+BT /F1 10 Tf 50 777 Td (2. Partner presents FIXON Products according to their intended use, technical characteristics,) Tj ET
+BT /F1 10 Tf 50 764 Td (marketing materials and information provided by the Supplier.) Tj ET
+BT /F1 10 Tf 50 751 Td (3. The Partner may use the FIXON brand name, trademarks, photographs, catalogues, videos and) Tj ET
+BT /F1 10 Tf 50 738 Td (other materials provided by the Supplier solely for the promotion and sale of products covered) Tj ET
+BT /F1 10 Tf 50 725 Td (by the Agreement. Without the consent of the Supplier, the Partner cannot modify materials,) Tj ET
+BT /F1 10 Tf 50 712 Td (marks, technical descriptions or brand identification elements.) Tj ET
+BT /F1 14 Tf 50 693 Td (4. The Partner shall not undertake activities that may mislead customers as to the origin,) Tj ET
+BT /F1 14 Tf 50 676 Td (quality, parameters, destination or availability of FIXON products.) Tj ET
+BT /F1 10 Tf 50 656 Td (5. The supplier publishes and transmits the current Catalogue Prices of FIXON Products to) Tj ET
+BT /F1 10 Tf 50 643 Td (himself or via the Mediator. Catalog prices are the basis for billing, charging discounts and) Tj ET
+BT /F1 10 Tf 50 630 Td (running the Warehouse States Support Program.) Tj ET
+BT /F1 10 Tf 50 617 Td (6. The Partner retains the freedom to shape its own sales policy in accordance with the laws) Tj ET
+BT /F1 10 Tf 50 604 Td (and the Agreement. However, the Parties recognise that the development of the FIXON brand) Tj ET
+BT /F1 10 Tf 50 591 Td (requires stable commercial conditions, protection of brand value and professional presentation) Tj ET
+BT /F1 10 Tf 50 578 Td (of products.) Tj ET
+BT /F1 10 Tf 50 565 Td (7. The supplier does not support activities involving the long-term and systematic offer of) Tj ET
+BT /F1 10 Tf 50 552 Td (FIXON products at prices significantly different from the current Catalog Price, if these) Tj ET
+BT /F1 10 Tf 50 539 Td (activities may lead to destabilization of the distribution network, a reduction in the) Tj ET
+BT /F1 10 Tf 50 526 Td (profitability of Partners or a decrease in the perceived brand value.) Tj ET
+BT /F1 10 Tf 50 513 Td (8. The activities referred to in paragraph 7 shall not be considered, in particular, temporary) Tj ET
+BT /F1 10 Tf 50 500 Td (promotions, stock-sales, disposals of withdrawn products, offers to customers carrying out) Tj ET
+BT /F1 10 Tf 50 487 Td (contracts exceeding the allocated stock, participation in tenders or other legitimate) Tj ET
+BT /F1 10 Tf 50 474 Td (commercial activities resulting from market specifics or transactions.) Tj ET
+BT /F1 10 Tf 50 461 Td (9. In the case of activities which may fulfil the conditions of paragraph 7 The supplier may) Tj ET
+BT /F1 10 Tf 50 448 Td (ask the Partner to justify the sales policy. The partner shall reply within 14 days of) Tj ET
+BT /F1 10 Tf 50 435 Td (receiving the request.) Tj ET
+BT /F1 10 Tf 50 422 Td (10. If the explanations do not confirm objective reasons or the Partner will not respond) Tj ET
+BT /F1 10 Tf 50 409 Td (within the time limit, The supplier may call on the Partner to remove violations. Failure to) Tj ET
+BT /F1 10 Tf 50 396 Td (comply with the call may result in limiting or excluding the selected benefits of the Partner) Tj ET
+BT /F1 10 Tf 50 383 Td (Programme, in particular additional discounts, bonuses, market protection, strategic partner) Tj ET
+BT /F1 10 Tf 50 370 Td (status or Warehouse Support Program.) Tj ET
+BT /F1 10 Tf 50 357 Td (11. The limitation or exclusion of the benefits referred to in paragraph 10 shall not) Tj ET
+BT /F1 10 Tf 50 344 Td (constitute a breach of the Agreement by the Supplier and shall not give rise to compensation) Tj ET
+BT /F1 10 Tf 50 331 Td (claims by the Partner.) Tj ET
+BT /F1 10 Tf 50 318 Td (12. Infringement of the provisions of this paragraph, despite a call to remedy infringements,) Tj ET
+BT /F1 10 Tf 50 305 Td (may give rise to the termination of the Agreement with immediate effect. The provisions on) Tj ET
+BT /F1 10 Tf 50 292 Td (brand protection remain in force also after the termination or expiry of the Agreement.) Tj ET
+BT /F1 10 Tf 50 279 Td (1. The partner, who achieves above average sales results, actively develops the FIXON product) Tj ET
+BT /F1 10 Tf 50 266 Td (market and pursues the objectives of the FIXON Partner Programmeme, can become a Strategic) Tj ET
+BT /F1 10 Tf 50 253 Td (Partner.) Tj ET
+BT /F1 10 Tf 50 240 Td (2. The status of Strategic Partner is awarded only by the Supplier on the basis of an) Tj ET
+BT /F1 10 Tf 50 227 Td (individual assessment of cooperation. The Strategic Partner has the right to choose one) Tj ET
+BT /F1 10 Tf 50 214 Td (Strategic Powers from the catalogue set out in the FIXON Partnership Programme.) Tj ET
+BT /F1 10 Tf 50 201 Td (3. The scope, duration and terms of use of Strategic Rights are defined by the Supplier. In) Tj ET
+BT /F1 10 Tf 50 188 Td (principle, the Strategic Partner has one active Strategic Entitlement and in justified cases) Tj ET
+BT /F1 10 Tf 50 175 Td (The supplier may grant more than one entitlement.) Tj ET
+BT /F1 10 Tf 50 162 Td (4. Within 12 months of the granting of Strategic Power, the Partner may request its change.) Tj ET
+BT /F1 10 Tf 50 149 Td (The supplier may agree after assessing the course of cooperation.) Tj ET
+BT /F1 10 Tf 50 136 Td (5. Strategic powers may be restricted, suspended or revoked in the event of a breach of the) Tj ET
+BT /F1 10 Tf 50 123 Td (Agreement, loss of the status of Strategic Partner or circumstances justifying a change in the) Tj ET
+BT /F1 10 Tf 50 110 Td (structure of the FIXON distribution network.) Tj ET
+BT /F1 10 Tf 50 97 Td (6. The FIXON Demonstration Centre is the highest level of cooperation within the FIXON) Tj ET
+BT /F1 10 Tf 50 84 Td (Partnership Programme and can only be awarded to the Strategic Partner.) Tj ET
+BT /F1 10 Tf 50 71 Td (7. The granting of FIXON Demonstration Centre status shall not result in the loss or) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 6304 >>
+stream
+BT /F1 10 Tf 50 790 Td (limitation of the previously granted Strategic Powers. The Centre may also benefit from the) Tj ET
+BT /F1 10 Tf 50 777 Td (benefits of other Strategic Entitlements, with their scope limited to the scope of the Partner) Tj ET
+BT /F1 10 Tf 50 764 Td (for which the right is fundamental.) Tj ET
+BT /F1 10 Tf 50 751 Td (8. FIXON Demonstration Centre is an authorized point of presentation, demonstration, testing,) Tj ET
+BT /F1 10 Tf 50 738 Td (implementation and distribution of FIXON Products. Its purpose is to serve customers requiring) Tj ET
+BT /F1 10 Tf 50 725 Td (extended technical or commercial support.) Tj ET
+BT /F1 10 Tf 50 712 Td (9. The partner running the FIXON Demonstration Centre maintains the exposure of the products) Tj ET
+BT /F1 10 Tf 50 699 Td (indicated by the Supplier and ensures that they can be demonstrated and presented. The Centre) Tj ET
+BT /F1 10 Tf 50 686 Td (can be presented, tested, stored or demonstrated standard products, products covered by) Tj ET
+BT /F1 10 Tf 50 673 Td (Product Exclusive, test products, prototype products, pre-premiere products, prepared for) Tj ET
+BT /F1 10 Tf 50 660 Td (implementation and products available from the other Partners only on order.) Tj ET
+BT /F1 10 Tf 50 647 Td (10. The Supplier may grant the Demonstration Centre the right to maintain stock stocks of) Tj ET
+BT /F1 10 Tf 50 634 Td (products that are not covered by the Warehouse States Support Program with other Partners, are) Tj ET
+BT /F1 10 Tf 50 621 Td (available only on order or have not yet been introduced into the standard distribution.) Tj ET
+BT /F1 10 Tf 50 608 Td (11. The demonstration centre can serve as the regional reference magazine of FIXON brand. The) Tj ET
+BT /F1 10 Tf 50 595 Td (supplier may address to him customers, commercial inquiries, investment projects, promotional) Tj ET
+BT /F1 10 Tf 50 582 Td (activities and customers interested in special or non-standard products.) Tj ET
+BT /F1 10 Tf 50 569 Td (12. Detailed scope of activity, area of activity, scope of benefit and range of products) Tj ET
+BT /F1 10 Tf 50 556 Td (covered by the status of the Demonstration Centre is defined by the Supplier. Status may be) Tj ET
+BT /F1 10 Tf 50 543 Td (restricted, suspended or revoked on the terms of the Strategic Partner.) Tj ET
+BT /F1 10 Tf 50 530 Td (1. The agreement shall be concluded for an indefinite period. Each Party may terminate the) Tj ET
+BT /F1 10 Tf 50 517 Td (Agreement with a three-month notice period with effect at the end of the Settlement Period.) Tj ET
+BT /F1 14 Tf 50 498 Td (2. During the period of notice, the Parties shall exercise the obligations under the Agreement) Tj ET
+BT /F1 14 Tf 50 481 Td (on the basis of the existing arrangements.) Tj ET
+BT /F1 10 Tf 50 461 Td (3. The Supplier may terminate the Agreement with immediate effect in the case of: \(a\) the) Tj ET
+BT /F1 10 Tf 50 448 Td (submission by the Partner of false information relevant to the Agreement, \(b\) a breach of) Tj ET
+BT /F1 10 Tf 50 435 Td (brand protection, confidentiality or intellectual property rights, \(c\) a default with payments) Tj ET
+BT /F1 10 Tf 50 422 Td (over 30 days, \(d\) a breach of the Partnership Programme despite a call, \(e\) the opening of the) Tj ET
+BT /F1 10 Tf 50 409 Td (liquidation of the Partner, a request for bankruptcy or the initiation of restructuring.) Tj ET
+BT /F1 10 Tf 50 396 Td (4. The Partner may terminate the Agreement with immediate effect in the event of a serious) Tj ET
+BT /F1 10 Tf 50 383 Td (breach of the Agreement by the Supplier, after an unsuccessful 30 days after the notice has) Tj ET
+BT /F1 10 Tf 50 370 Td (been served to remedy the infringements.) Tj ET
+BT /F1 10 Tf 50 357 Td (5. The termination of the Agreement will automatically expire the status of Strategic Partner,) Tj ET
+BT /F1 10 Tf 50 344 Td (the FIXON Demonstration Centre and any benefits granted under the FIXON Partnership Programme.) Tj ET
+BT /F1 10 Tf 50 331 Td (6. Within 14 days of the termination or expiry of the Agreement, the Partner ceases to use) Tj ET
+BT /F1 10 Tf 50 318 Td (FIXON brand markings and returns the materials, documents and equipment owned by the Supplier,) Tj ET
+BT /F1 10 Tf 50 305 Td (if such an obligation arises from separate arrangements.) Tj ET
+BT /F1 10 Tf 50 292 Td (7. The termination of the Agreement shall not exempt the Parties from the obligation to settle) Tj ET
+BT /F1 10 Tf 50 279 Td (each other's accounts. The provisions on confidentiality, brand protection, intellectual) Tj ET
+BT /F1 10 Tf 50 266 Td (property and settlements shall remain in force upon termination or expiry of the Agreement.) Tj ET
+BT /F1 10 Tf 50 253 Td (8. If the Agreement is terminated, terminated or terminated, the Partner shall finalise the) Tj ET
+BT /F1 10 Tf 50 240 Td (products covered by the Warehouse Support Programme. Within 7 days he prepares and transmits) Tj ET
+BT /F1 10 Tf 50 227 Td (to the Supplier the final stock report.) Tj ET
+BT /F1 10 Tf 50 214 Td (9. Within 14 days of receipt of the report, the Supplier may: \(a\) collect the remaining) Tj ET
+BT /F1 10 Tf 50 201 Td (products, \(b\) consent to further sale by the Partner, \(c\) sell the products to the Partner,) Tj ET
+BT /F1 10 Tf 50 188 Td (\(d\) apply a combination of the above solutions.) Tj ET
+BT /F1 10 Tf 50 175 Td (10. The Partner shall ensure that the products can be received by the Supplier or the) Tj ET
+BT /F1 10 Tf 50 162 Td (designated carrier. The cost of transport shall be borne by the Supplier unless the reception) Tj ET
+BT /F1 10 Tf 50 149 Td (is due to breach of the Agreement by the Partner.) Tj ET
+BT /F1 10 Tf 50 136 Td (11. The returned products of the Suppliers shall be in a condition that allows for further) Tj ET
+BT /F1 10 Tf 50 123 Td (sale, taking into account normal demonstration or exposure wear. Products damaged, destroyed,) Tj ET
+BT /F1 10 Tf 50 110 Td (lost or not representing commercial value for reasons attributable to the Partner shall be) Tj ET
+BT /F1 10 Tf 50 97 Td (deemed to have been sold to the Partner and accounted for according to the Catalog Price) Tj ET
+BT /F1 10 Tf 50 84 Td (applicable during the last Settlement Period.) Tj ET
+BT /F1 10 Tf 50 71 Td (12. Until the final settlement is completed, the Partner shall be responsible for the products) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 5913 >>
+stream
+BT /F1 10 Tf 50 790 Td (in its possession. The supplier may carry out the final inventory himself or through the) Tj ET
+BT /F1 10 Tf 50 777 Td (Mediator. In the event of termination of the Agreement for reasons attributable to the) Tj ET
+BT /F1 10 Tf 50 764 Td (Partner, the Supplier may refuse to accept any or all of the products, in which case they) Tj ET
+BT /F1 10 Tf 50 751 Td (shall be deemed to have been sold to the Partner.) Tj ET
+BT /F1 10 Tf 50 738 Td (13. The provisions of this paragraph shall apply mutatis mutandis to demonstration, exhibition) Tj ET
+BT /F1 10 Tf 50 725 Td (and other products transferred to the Partner in connection with the FIXON Partnership) Tj ET
+BT /F1 10 Tf 50 712 Td (Programme.) Tj ET
+BT /F1 14 Tf 50 693 Td (1. The Partner undertakes to keep confidential any information obtained from the Supplier or) Tj ET
+BT /F1 14 Tf 50 676 Td (Mediator in connection with the conclusion and implementation of the Agreement.) Tj ET
+BT /F1 10 Tf 50 656 Td (2. Confidential information is considered, in particular, commercial terms, discounts, bonuses) Tj ET
+BT /F1 10 Tf 50 643 Td (and other benefits, FIXON Partner Programme rules, Strategic Rights, stock information, sales) Tj ET
+BT /F1 10 Tf 50 630 Td (data, network development plans, information on new and pre-preliminary products, technical) Tj ET
+BT /F1 10 Tf 50 617 Td (documentation, non-public marketing materials and sales, logistics and marketing strategies.) Tj ET
+BT /F1 14 Tf 50 598 Td (3. The Partner does not disclose Confidential Information to third parties without prior) Tj ET
+BT /F1 14 Tf 50 581 Td (consent of the Supplier and uses it solely for the purpose of executing the Agreement.) Tj ET
+BT /F1 10 Tf 50 561 Td (4. The obligation of confidentiality shall not apply to publicly available information which) Tj ET
+BT /F1 10 Tf 50 548 Td (is disclosed under the law requested by a competent public authority or legally obtained from) Tj ET
+BT /F1 10 Tf 50 535 Td (a third party not covered by the obligation of confidentiality.) Tj ET
+BT /F1 14 Tf 50 516 Td (5. The Partner shall be responsible for the activities of its employees, co-workers,) Tj ET
+BT /F1 14 Tf 50 499 Td (representatives and persons to whom Confidential Information has been made available.) Tj ET
+BT /F1 10 Tf 50 479 Td (6. At the request of the Supplier, the Partner ceases to use Confidential Information and) Tj ET
+BT /F1 10 Tf 50 466 Td (returns or removes media containing such information unless they are necessary for the) Tj ET
+BT /F1 10 Tf 50 453 Td (performance of legal obligations.) Tj ET
+BT /F1 10 Tf 50 440 Td (7. Confidentiality shall apply during the duration of the Agreement and for 5 years after its) Tj ET
+BT /F1 10 Tf 50 427 Td (termination or expiry. The breach of confidentiality may constitute the basis for the) Tj ET
+BT /F1 10 Tf 50 414 Td (withdrawal of the status and the programming powers and the termination of the Agreement with) Tj ET
+BT /F1 10 Tf 50 401 Td (immediate effect.) Tj ET
+BT /F1 10 Tf 50 388 Td (1. All rights to the FIXON brand, trademarks, trade marks, product names, marketing materials,) Tj ET
+BT /F1 10 Tf 50 375 Td (technical documentation, product designs and visual identification elements belong exclusively) Tj ET
+BT /F1 10 Tf 50 362 Td (to the Supplier or entities cooperating with the Supplier.) Tj ET
+BT /F1 10 Tf 50 349 Td (2. Conclusion of the Agreement shall not result in the transfer to the Partner of any) Tj ET
+BT /F1 10 Tf 50 336 Td (intellectual property rights related to the FIXON brand. The Partner obtains a non-exclusive,) Tj ET
+BT /F1 10 Tf 50 323 Td (non-transferable and revokeable right to use the materials made available by the Supplier only) Tj ET
+BT /F1 10 Tf 50 310 Td (to the extent necessary to perform the Agreement.) Tj ET
+BT /F1 10 Tf 50 297 Td (3. The Partner may use FIXON brand markings only for the promotion and sale of FIXON Products,) Tj ET
+BT /F1 10 Tf 50 284 Td (in accordance with the Supplier's guidelines and for the duration of the Agreement.) Tj ET
+BT /F1 10 Tf 50 271 Td (4. The Partner shall not be entitled to register trademarks or domains similar to FIXON) Tj ET
+BT /F1 10 Tf 50 258 Td (markings, copy or modify materials outside the scope of the Agreement, delete brand) Tj ET
+BT /F1 10 Tf 50 245 Td (designations or take action infringing the Supplier's intellectual property rights.) Tj ET
+BT /F1 10 Tf 50 232 Td (5. In particular, FIXON trademarks, logos, product names, product designs, technical) Tj ET
+BT /F1 10 Tf 50 219 Td (documentation, instructions, catalogues, photographs, films, graphics, visualizations, 3D) Tj ET
+BT /F1 10 Tf 50 206 Td (models, training materials, demonstrations and online content are subject to protection.) Tj ET
+BT /F1 10 Tf 50 193 Td (6. Materials developed by Partner using materials Suppliers may only be used in connection) Tj ET
+BT /F1 10 Tf 50 180 Td (with the Agreement. If Partner creates materials for FIXON Products, The supplier obtains the) Tj ET
+BT /F1 10 Tf 50 167 Td (free, non-exclusive and unlimited territorial right to use them for the promotion and sale of) Tj ET
+BT /F1 10 Tf 50 154 Td (FIXON products.) Tj ET
+BT /F1 10 Tf 50 141 Td (7. The Partner shall immediately inform the Supplier of known violations of brand rights,) Tj ET
+BT /F1 10 Tf 50 128 Td (unauthorised use of trademarks, counterfeiting of products or copying of materials.) Tj ET
+BT /F1 10 Tf 50 115 Td (8. Upon termination or expiry of the Agreement, the Partner ceases to use FIXON brand) Tj ET
+BT /F1 10 Tf 50 102 Td (markings, except for products legally acquired and remaining in its offer. The provisions of) Tj ET
+BT /F1 10 Tf 50 89 Td (this paragraph shall remain in force indefinitely.) Tj ET
+BT /F1 10 Tf 50 76 Td (1. Neither Party shall be liable for the failure or improper performance of obligations under) Tj ET
+BT /F1 10 Tf 50 63 Td (the Agreement if it is caused by the Higher Force.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 19 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 5287 >>
+stream
+BT /F1 10 Tf 50 790 Td (2. Higher power shall mean an external event, exceptional, foreseeable and preventable with) Tj ET
+BT /F1 10 Tf 50 777 Td (due care, beyond the control of the Party citing its occurrence, in particular natural) Tj ET
+BT /F1 10 Tf 50 764 Td (disasters, fires, floods, epidemics, war activities, acts of terrorism, riots, strikes,) Tj ET
+BT /F1 10 Tf 50 751 Td (transport blockades, critical infrastructure failures, decisions by public authorities and) Tj ET
+BT /F1 10 Tf 50 738 Td (interruptions in energy, raw materials or materials supplies.) Tj ET
+BT /F1 10 Tf 50 725 Td (3. The party citing the Higher Force shall inform the other Party as soon as the event has) Tj ET
+BT /F1 10 Tf 50 712 Td (been notified. The time limits for carrying out the duties shall be extended accordingly by) Tj ET
+BT /F1 10 Tf 50 699 Td (the duration of the obstacle and the period necessary to restore normal activity.) Tj ET
+BT /F1 10 Tf 50 686 Td (4. If the Higher Power continues continuously for more than 90 days, either Party may) Tj ET
+BT /F1 10 Tf 50 673 Td (terminate the Agreement with a 30-day period of notice, without the right to seek compensation) Tj ET
+BT /F1 10 Tf 50 660 Td (or loss of benefits from it.) Tj ET
+BT /F1 14 Tf 50 641 Td (1. In matters not regulated by the Agreement, Polish law, in particular the Civil Code,) Tj ET
+BT /F1 14 Tf 50 624 Td (applies.) Tj ET
+BT /F1 10 Tf 50 604 Td (2. Declarations, notices, commercial information, price lists, product lists, Program) Tj ET
+BT /F1 10 Tf 50 591 Td (Documents, Calls and other information related to the implementation of the Agreement may be) Tj ET
+BT /F1 10 Tf 50 578 Td (transmitted in the Document Form.) Tj ET
+BT /F1 10 Tf 50 565 Td (3. In particular, information transmitted by e-mail, by CRM/B2B, communicators used in the) Tj ET
+BT /F1 10 Tf 50 552 Td (current cooperation or via the Mediator shall be considered to be effectively served.) Tj ET
+BT /F1 10 Tf 50 539 Td (4. The intermediary is entitled to the current trade service of the Partner, to provide) Tj ET
+BT /F1 10 Tf 50 526 Td (commercial information, price lists, product lists and Program Documents, to receive) Tj ET
+BT /F1 10 Tf 50 513 Td (applications, coordinate cooperation and transfer and receive accounting documents. Statements) Tj ET
+BT /F1 10 Tf 50 500 Td (and information provided to the Partner by the Mediator for the implementation of the) Tj ET
+BT /F1 10 Tf 50 487 Td (Agreement shall be deemed to have been provided by the Supplier.) Tj ET
+BT /F1 10 Tf 50 474 Td (5. The supplier may periodically update Catalog Prices, List of Products supported by the) Tj ET
+BT /F1 10 Tf 50 461 Td (Warehouse States, exhibition standards, principles of the Partner Programme, rules for) Tj ET
+BT /F1 10 Tf 50 448 Td (granting Strategic Rights, principles of operation of Demonstration Centres and Program) Tj ET
+BT /F1 10 Tf 50 435 Td (Documents.) Tj ET
+BT /F1 10 Tf 50 422 Td (6. The updates referred to in paragraph 5 shall not constitute an amendment to the Agreement) Tj ET
+BT /F1 10 Tf 50 409 Td (and shall not require an annex unless they lead to a change in the material provisions of the) Tj ET
+BT /F1 10 Tf 50 396 Td (Agreement. Updates shall apply from the beginning of the first Settlement Period following) Tj ET
+BT /F1 10 Tf 50 383 Td (their transfer to the Partner unless the Supplier indicates a later date.) Tj ET
+BT /F1 10 Tf 50 370 Td (7. In the event of a discrepancy between the Agreement and the Programme Documents, the) Tj ET
+BT /F1 10 Tf 50 357 Td (provisions of the Agreement shall prevail. In the event of a discrepancy between the Programme) Tj ET
+BT /F1 10 Tf 50 344 Td (Documents, priority shall be given to documents published or transmitted later.) Tj ET
+BT /F1 10 Tf 50 331 Td (8. The Parties undertake to resolve disputes amicably. If it proves impossible to resolve the) Tj ET
+BT /F1 10 Tf 50 318 Td (dispute by negotiation within 30 days of the submission of the dispute, it will be subject to) Tj ET
+BT /F1 10 Tf 50 305 Td (the decision of the general court of the place of establishment of the Supplier.) Tj ET
+BT /F1 10 Tf 50 292 Td (9. The Agreement constitutes the whole of the Agreement between the Parties and replaces the) Tj ET
+BT /F1 10 Tf 50 279 Td (earlier arrangements concerning its subject matter. The amendment of the Agreement requires a) Tj ET
+BT /F1 10 Tf 50 266 Td (Documentary Form under the rigor of invalidity, unless the Agreement provides for the) Tj ET
+BT /F1 10 Tf 50 253 Td (possibility of amendment by updating the Program Documents.) Tj ET
+BT /F1 10 Tf 50 240 Td (10. The Agreement shall be drawn up in two identical copies, one for each Party. Annexes,) Tj ET
+BT /F1 10 Tf 50 227 Td (Programme Documents and documents to which the Agreement refers shall form an integral part) Tj ET
+BT /F1 10 Tf 50 214 Td (thereof.) Tj ET
+BT /F1 10 Tf 50 201 Td (SUPPLIER: ................................................................... INTERMEDIATE:) Tj ET
+BT /F1 10 Tf 50 188 Td (................................................................... PARTNER:) Tj ET
+BT /F1 10 Tf 50 175 Td (...................................................................) Tj ET
+BT /F1 10 Tf 50 162 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+19 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 8
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000128 00000 n 
-0000000254 00000 n 
-0000004726 00000 n 
-0000004852 00000 n 
-0000006137 00000 n 
 trailer
-<< /Size 8 /Root 1 0 R >>
+<< /Size 20 /Root 1 0 R >>
 startxref
-6234
+46941
 %%EOF

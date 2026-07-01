@@ -4,70 +4,108 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3548 >>
+<< /Length 5584 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Stock Discrepancy Protocol) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Stock-discrepancy protocol for differences between expected and confirmed stock.) Tj ET
-BT /F1 10.5 Tf 50 747 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 733 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 713 Td (1. Identification) Tj ET
-BT /F1 10.5 Tf 50 690 Td (The discrepancy is linked to the relevant inventory, report, handover or return) Tj ET
-BT /F1 10.5 Tf 50 676 Td (document.) Tj ET
-BT /F1 15 Tf 50 656 Td (2. Explanation) Tj ET
-BT /F1 10.5 Tf 50 633 Td (The Partner provides available explanation and supporting evidence.) Tj ET
-BT /F1 15 Tf 50 613 Td (3. Decision) Tj ET
-BT /F1 10.5 Tf 50 590 Td (FIXON and the Partner agree correction, replacement, settlement adjustment or further) Tj ET
-BT /F1 10.5 Tf 50 576 Td (investigation.) Tj ET
-BT /F1 15 Tf 50 556 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 527 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 515 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 503 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 491 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 479 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 467 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 455 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 443 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 431 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 419 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 407 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 395 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 383 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 371 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 359 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 347 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 335 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 309 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 280 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 268 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 256 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 244 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 232 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 206 Td (Document table) Tj ET
-BT /F1 9 Tf 50 177 Td (Product | Expected | Confirmed | Difference | Decision) Tj ET
-BT /F1 9 Tf 50 165 Td ([Product] | [Qty] | [Qty] | [+/-] | [Correction / investigation]) Tj ET
-BT /F1 10.5 Tf 50 145 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 131 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Stock Discrepancy Protocol) Tj ET
+BT /F1 10 Tf 50 764 Td (Report on actual and documentary state differences.) Tj ET
+BT /F1 8.5 Tf 50 746 Td (Protocol number | | Date of preparation |) Tj ET
+BT /F1 8.5 Tf 50 735 Td (Place of preparation | | Period/date of inspection |) Tj ET
+BT /F1 8.5 Tf 50 724 Td (Related inventory protocol | | Related monthly report |) Tj ET
+BT /F1 8.5 Tf 50 713 Td (Partner | | Location |) Tj ET
+BT /F1 8.5 Tf 50 702 Td (Reporting person | | Verification person |) Tj ET
+BT /F1 10 Tf 50 683 Td (The FIXON Warehouse Divergentity Protocol serves to document differences between the) Tj ET
+BT /F1 10 Tf 50 670 Td (registered state, reported or resulting from transfer documents and the condition actually) Tj ET
+BT /F1 10 Tf 50 657 Td (identified with the Partner.) Tj ET
+BT /F1 10 Tf 50 644 Td (The protocol may be drawn up after inventory, periodic inspection, emergency notification,) Tj ET
+BT /F1 10 Tf 50 631 Td (monthly report, return of goods, termination of cooperation or in any other case where the) Tj ET
+BT /F1 10 Tf 50 618 Td (absence, excess, damage, value incompatibility, non-compliance with the status of the product) Tj ET
+BT /F1 10 Tf 50 605 Td (or any other difference requiring clarification has been disclosed.) Tj ET
+BT /F1 10 Tf 50 592 Td (The protocol does not itself determine the Partner's guilt, but is an explanatory and billing) Tj ET
+BT /F1 10 Tf 50 579 Td (document. The final decision on how to settle discrepancies follows the verification of data,) Tj ET
+BT /F1 10 Tf 50 566 Td (documents, photographs, reports and explanations of the Partner.) Tj ET
+BT /F1 8.5 Tf 50 548 Td (Lp. | Product name / element | SKU / code | Product status | Registration | Facts | Difference +/- |) Tj ET
+BT /F1 8.5 Tf 50 537 Td (Gross price | Difference value | Type of discrepancy | Remarks) Tj ET
+BT /F1 8.5 Tf 50 526 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 515 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 504 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 493 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 482 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 471 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 460 Td (| | | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 436 Td (Type of discrepancy | Description | Default direction of explanation) Tj ET
+BT /F1 8.5 Tf 50 425 Td (No quantitative | The actual state is lower than the state resulting from documents or reports. |) Tj ET
+BT /F1 8.5 Tf 50 414 Td (Determine whether the product has been sold, misreported, damaged, lost or moved.) Tj ET
+BT /F1 8.5 Tf 50 403 Td (Quantity surplus | The actual state is higher than the state resulting from documents or reports. |) Tj ET
+BT /F1 8.5 Tf 50 392 Td (Determination of the source of surplus, reporting error, dual issue or unaccounted delivery.) Tj ET
+BT /F1 8.5 Tf 50 381 Td (Value discrepancy | The quantity may be compatible, but the value, price, discount or delivery cost are) Tj ET
+BT /F1 8.5 Tf 50 370 Td (incompatible with the applicable price list or document. | Verification of pricelist, discount, product) Tj ET
+BT /F1 8.5 Tf 50 359 Td (status, invoice, delivery cost and duration of the document.) Tj ET
+BT /F1 8.5 Tf 50 348 Td (Divergent status | The product was marked or used not according to its status, e.g. test, exhibition,) Tj ET
+BT /F1 8.5 Tf 50 337 Td (warehouse, premiere or excluded from the sales result. | Verification of the Product Status Sheet,) Tj ET
+BT /F1 8.5 Tf 50 326 Td (Transfer Protocols and Software Documents.) Tj ET
+BT /F1 8.5 Tf 50 315 Td (Damage/over-normative wear | The product or exposure element has damage beyond normal wear. |) Tj ET
+BT /F1 8.5 Tf 50 304 Td (Establishing the cause, responsible person and method of accounting.) Tj ET
+BT /F1 8.5 Tf 50 293 Td (No documentation | No report, photo, protocol, sales confirmation, release, return or complaint. |) Tj ET
+BT /F1 8.5 Tf 50 282 Td (Documentation and clearance verification.) Tj ET
+BT /F1 10 Tf 50 263 Td (The Partner may provide explanations of any discrepancy, in particular, indicate sales,) Tj ET
+BT /F1 10 Tf 50 250 Td (return, complaint, transfer between establishments, damage, report error, mistake in accepting) Tj ET
+BT /F1 10 Tf 50 237 Td (delivery or other reason for the difference.) Tj ET
+BT /F1 10 Tf 50 224 Td (Explanations should be provided in documentary form together with supporting documents where) Tj ET
+BT /F1 10 Tf 50 211 Td (available. The explanations may be accompanied by photographs, sales records, cash reports,) Tj ET
+BT /F1 10 Tf 50 198 Td (release documents, customer correspondence, complaint documents or other evidence.) Tj ET
+BT /F1 8.5 Tf 50 180 Td (Description of the Partner's explanations |) Tj ET
+BT /F1 8.5 Tf 50 169 Td (Documents / attachments provided by the Partner |) Tj ET
+BT /F1 8.5 Tf 50 158 Td (Position Supplier / Mediator |) Tj ET
+BT /F1 8.5 Tf 50 147 Td (Final findings |) Tj ET
+BT /F1 10 Tf 50 128 Td (After verification of discrepancies the Supplier or the Mediator acting in agreement with the) Tj ET
+BT /F1 10 Tf 50 115 Td (Supplier shall indicate the method of settlement. The decision may include, in particular, a) Tj ET
+BT /F1 10 Tf 50 102 Td (correction of the report, a correction of the stock, recognition of sales, recognition of) Tj ET
+BT /F1 10 Tf 50 89 Td (return, recognition of claims, issuing an invoice, correction of invoice, obligation to return) Tj ET
+BT /F1 10 Tf 50 76 Td (the product, completion of documents or withdrawal of the settlement if the difference has) Tj ET
+BT /F1 10 Tf 50 63 Td (been clarified.) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2088 >>
+stream
+BT /F1 8.5 Tf 50 790 Td (Decision | YES/NO | Value / quantity | Remarks) Tj ET
+BT /F1 8.5 Tf 50 779 Td (Correction of the report / state | | |) Tj ET
+BT /F1 8.5 Tf 50 768 Td (Invoice / clearing note | | |) Tj ET
+BT /F1 8.5 Tf 50 757 Td (Product return / receipt | | |) Tj ET
+BT /F1 8.5 Tf 50 746 Td (No further action | | |) Tj ET
+BT /F1 10 Tf 50 727 Td (The Partner confirms that he has taken note of the content of this Protocol and that the data) Tj ET
+BT /F1 10 Tf 50 714 Td (indicated therein will be the basis for further verification and possible settlement of) Tj ET
+BT /F1 10 Tf 50 701 Td (discrepancies in accordance with the FIXON Partnership Programme and related documents.) Tj ET
+BT /F1 10 Tf 50 688 Td (If the Partner disagrees with the whole or part of the Protocol, he or she should indicate) Tj ET
+BT /F1 10 Tf 50 675 Td (reservations in a place reserved for comments or make them subject to the procedure set out in) Tj ET
+BT /F1 10 Tf 50 662 Td (the reservation clause.) Tj ET
+BT /F1 10 Tf 50 649 Td (Reservations to this document may be notified within 7 days of its delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 636 Td (reservations within this deadline means the adoption of a document for information and use in) Tj ET
+BT /F1 10 Tf 50 623 Td (the framework of current cooperation in the FIXON Partnership Programme. In the event of a) Tj ET
+BT /F1 10 Tf 50 610 Td (statement of objections, the document shall not be adopted in the absence of any objection to) Tj ET
+BT /F1 10 Tf 50 597 Td (the scope covered by the declaration, and the final agreed version shall be approved by both) Tj ET
+BT /F1 10 Tf 50 584 Td (Parties in the form of personal signatures or electronic signatures accepted by the Parties,) Tj ET
+BT /F1 10 Tf 50 571 Td (unless otherwise agreed by the Parties in document correspondence.) Tj ET
+BT /F1 8.5 Tf 50 553 Td (Supplier / FIXON | Partner | Mediator) Tj ET
+BT /F1 8.5 Tf 50 542 Td (| |) Tj ET
+BT /F1 8.5 Tf 50 531 Td (| |) Tj ET
+BT /F1 10 Tf 50 512 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000003848 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-3945
+8253
 %%EOF

@@ -4,75 +4,113 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3856 >>
+<< /Length 6008 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Reporting Procedure) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Monthly reporting procedure for sales, stock, settlement, customer feedback and product) Tj ET
-BT /F1 10.5 Tf 50 747 Td (decisions.) Tj ET
-BT /F1 10.5 Tf 50 733 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 719 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 699 Td (1. Reporting Rhythm) Tj ET
-BT /F1 10.5 Tf 50 676 Td (The standard reporting rhythm is monthly unless the parties agree a shorter pilot) Tj ET
-BT /F1 10.5 Tf 50 662 Td (rhythm.) Tj ET
-BT /F1 15 Tf 50 642 Td (2. Report Content) Tj ET
-BT /F1 10.5 Tf 50 619 Td (Reports include sales, stock, pending orders, returns, customer questions, demonstration) Tj ET
-BT /F1 10.5 Tf 50 605 Td (activity and urgent events.) Tj ET
-BT /F1 15 Tf 50 585 Td (3. Settlement Link) Tj ET
-BT /F1 10.5 Tf 50 562 Td (Settlement and stock decisions are based on confirmed reports and agreed supporting) Tj ET
-BT /F1 10.5 Tf 50 548 Td (documents.) Tj ET
-BT /F1 15 Tf 50 528 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 499 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 487 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 475 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 463 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 451 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 439 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 427 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 415 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 403 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 391 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 379 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 367 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 355 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 343 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 331 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 319 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 307 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 281 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 252 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 240 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 228 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 216 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 204 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 178 Td (Document table) Tj ET
-BT /F1 9 Tf 50 149 Td (Report field | Purpose) Tj ET
-BT /F1 9 Tf 50 137 Td (Sales by product | Settlement and demand analysis) Tj ET
-BT /F1 9 Tf 50 125 Td (Stock status | Replenishment decisions) Tj ET
-BT /F1 9 Tf 50 113 Td (Customer feedback | Product and sales improvement) Tj ET
-BT /F1 9 Tf 50 101 Td (Exceptions | Urgent response and risk control) Tj ET
-BT /F1 10.5 Tf 50 81 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 67 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Reporting Procedure) Tj ET
+BT /F1 10 Tf 50 764 Td (Model of reporting sales, states and activity within the framework of cooperation.) Tj ET
+BT /F1 10 Tf 50 751 Td (A program document specifying the rules for reporting sales reports, stocks, discrepancies,) Tj ET
+BT /F1 10 Tf 50 738 Td (alert thresholds and events related to FIXON products.) Tj ET
+BT /F1 8.5 Tf 50 720 Td (Document No | PR/FIXON/) Tj ET
+BT /F1 8.5 Tf 50 709 Td (Date of issue | ____ / ____ / ______) Tj ET
+BT /F1 8.5 Tf 50 698 Td (Version | ____) Tj ET
+BT /F1 8.5 Tf 50 687 Td (Partner | ____________________________) Tj ET
+BT /F1 8.5 Tf 50 676 Td (Mediator | JHB FAMILY sp. z o.o. / person leading:) Tj ET
+BT /F1 10 Tf 50 657 Td (The procedure lays down the rules for reporting sales, stock, products transferred to the) Tj ET
+BT /F1 10 Tf 50 644 Td (Partner, products sold, returned, advertised, damaged, lost, transferred to the exposure, used) Tj ET
+BT /F1 10 Tf 50 631 Td (as test tools and products available on order. The procedure is used to properly settle sales,) Tj ET
+BT /F1 10 Tf 50 618 Td (establish discounts, update the allocated stock, operate alarm thresholds and check the) Tj ET
+BT /F1 10 Tf 50 605 Td (compliance of cooperation with the FIXON Partner Programme.) Tj ET
+BT /F1 10 Tf 50 592 Td (The partner shall indicate the person responsible for the preparation and transmission of the) Tj ET
+BT /F1 10 Tf 50 579 Td (reports and the replacement. The data of these persons should be entered in the Partner) Tj ET
+BT /F1 10 Tf 50 566 Td (Charter or given to the Mediator in documentary form. The change of the person responsible for) Tj ET
+BT /F1 10 Tf 50 553 Td (reporting shall require the update to be transmitted no later than 3 working days after the) Tj ET
+BT /F1 10 Tf 50 540 Td (change.) Tj ET
+BT /F1 8.5 Tf 50 522 Td (Function | Name | Email / phone | Remarks) Tj ET
+BT /F1 8.5 Tf 50 511 Td (Reporting person | ____________________________ | ____________________________ |) Tj ET
+BT /F1 8.5 Tf 50 500 Td (____________________________) Tj ET
+BT /F1 8.5 Tf 50 489 Td (Replacer | ____________________________ | ____________________________ | ____________________________) Tj ET
+BT /F1 8.5 Tf 50 478 Td (Person on the Mediator side | ____________________________ | ____________________________ |) Tj ET
+BT /F1 8.5 Tf 50 467 Td (____________________________) Tj ET
+BT /F1 10 Tf 50 448 Td (The monthly report shall be submitted to the 5th day of the month following the end of the) Tj ET
+BT /F1 10 Tf 50 435 Td (Settlement Period. The report may be sent by e-mail, by CRM system, B2B system, a form) Tj ET
+BT /F1 10 Tf 50 422 Td (indicated by the Supplier, a report sheet or other document form accepted by the Supplier or) Tj ET
+BT /F1 10 Tf 50 409 Td (Mediator. If the 5th day of the month falls on a public holiday, the report may be transmitted) Tj ET
+BT /F1 10 Tf 50 396 Td (on the next working day.) Tj ET
+BT /F1 8.5 Tf 50 378 Td (Report area | Data scope | Required / Remarks) Tj ET
+BT /F1 8.5 Tf 50 367 Td (Sales of FIXON products | number of pieces sold, product name, index/SCU, price, discount, sales date,) Tj ET
+BT /F1 8.5 Tf 50 356 Td (sales document number, sales channel. | YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 345 Td (Stocks | initial status, acceptances, sales, returns, final status, storage status, alert threshold. |) Tj ET
+BT /F1 8.5 Tf 50 334 Td (YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 323 Td (Launch warehouse | products issued in the framework of the starting warehouse, sales, remaining state,) Tj ET
+BT /F1 8.5 Tf 50 312 Td (value of the limit allocated and used. | YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 301 Td (Storage support | Supported products, current maximum sales, awarded states, level of additions, reported) Tj ET
+BT /F1 8.5 Tf 50 290 Td (alert thresholds. | YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 279 Td (Custom products | products ordered outside the current state, date of implementation, status of) Tj ET
+BT /F1 8.5 Tf 50 268 Td (execution, value of sales and conversion to Sales Units, if applicable. | YES / according to the) Tj ET
+BT /F1 8.5 Tf 50 257 Td (reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 246 Td (Returns and complaints | notification number, date of notification, product, quantity, reason, status of) Tj ET
+BT /F1 8.5 Tf 50 235 Td (the case, decision of the Supplier. | YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 224 Td (Exposure and test tools | products submitted for exposure or testing, condition, wear, damage, loss, sale) Tj ET
+BT /F1 8.5 Tf 50 213 Td (with the consent of the Supplier, if applicable. | YES / according to the reporting pattern) Tj ET
+BT /F1 8.5 Tf 50 202 Td (Divergentities and exceptional occurrences | deficiencies, damage, loss, incompatibility, delays,) Tj ET
+BT /F1 8.5 Tf 50 191 Td (logistical events or other circumstances affecting settlements. | YES / according to the reporting) Tj ET
+BT /F1 8.5 Tf 50 180 Td (pattern) Tj ET
+BT /F1 10 Tf 50 161 Td (A partner may report an alert threshold at any time if the condition of at least one item) Tj ET
+BT /F1 10 Tf 50 148 Td (covered by storage support reaches the alert threshold specified for that item. An alert does) Tj ET
+BT /F1 10 Tf 50 135 Td (not replace the monthly report and should cover the current state of play of all products) Tj ET
+BT /F1 10 Tf 50 122 Td (covered by storage support in order to enable an assessment of the appropriateness of) Tj ET
+BT /F1 10 Tf 50 109 Td (supplementing the entire warehouse to the levels allocated.) Tj ET
+BT /F1 10 Tf 50 96 Td (The supplier or intermediary may verify the report, request explanations, photographs of the) Tj ET
+BT /F1 10 Tf 50 83 Td (stocks, sales records, copies of billing documents or other information necessary to determine) Tj ET
+BT /F1 10 Tf 50 70 Td (the correct result of the sale, discount, allocated stock, alert threshold or product) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3032 >>
+stream
+BT /F1 10 Tf 50 790 Td (liability. The Partner should provide explanations within 3 working days, unless otherwise) Tj ET
+BT /F1 10 Tf 50 777 Td (agreed by the Parties.) Tj ET
+BT /F1 10 Tf 50 764 Td (Failure to submit the report within the time limit, transmission of the incomplete report or) Tj ET
+BT /F1 10 Tf 50 751 Td (the lack of explanation of significant discrepancies may suspend the calculation of the) Tj ET
+BT /F1 10 Tf 50 738 Td (discount, the issue of billing documents, the addition of the warehouse, the update of the) Tj ET
+BT /F1 10 Tf 50 725 Td (allocated stock and the granting or maintenance of additional allowances provided for in the) Tj ET
+BT /F1 10 Tf 50 712 Td (FIXON Partnership Programme. If the Partner fails to submit the report despite the call, The) Tj ET
+BT /F1 10 Tf 50 699 Td (supplier may settle the cooperation on the basis of available data, request inventory, suspend) Tj ET
+BT /F1 10 Tf 50 686 Td (deliveries or apply other measures provided for in the FIXON Partnership Programme.) Tj ET
+BT /F1 10 Tf 50 673 Td (The report shall be submitted in accordance with the reporting pattern indicated by the) Tj ET
+BT /F1 10 Tf 50 660 Td (Supplier or Mediator. The model report may take the form of a spreadsheet, electronic form,) Tj ET
+BT /F1 10 Tf 50 647 Td (PDF file, B2B system exports or other document form. The amendment of the template of the) Tj ET
+BT /F1 10 Tf 50 634 Td (report does not require an annex if it is submitted to the Partner under the FIXON Partnership) Tj ET
+BT /F1 10 Tf 50 621 Td (Programme in accordance with the rules for the transmission of programming documents.) Tj ET
+BT /F1 10 Tf 50 608 Td (The Partner may object to this Reporting Procedure within 7 days of delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 595 Td (reservations within this deadline means the adoption of a procedure for informing and applying) Tj ET
+BT /F1 10 Tf 50 582 Td (in the framework of current cooperation in the FIXON Partnership Programme. In the event of a) Tj ET
+BT /F1 10 Tf 50 569 Td (statement of objections, the Parties shall clarify the content of the document, remove the) Tj ET
+BT /F1 10 Tf 50 556 Td (discrepancies or prepare the final agreed version of the document. The final version of the) Tj ET
+BT /F1 10 Tf 50 543 Td (document to which reservations have been made shall be approved by both Parties in the form of) Tj ET
+BT /F1 10 Tf 50 530 Td (personal signatures or electronic signatures accepted by the Parties, unless otherwise agreed) Tj ET
+BT /F1 10 Tf 50 517 Td (by the Parties in document correspondence.) Tj ET
+BT /F1 8.5 Tf 50 499 Td (Supplier | Partner | Mediator) Tj ET
+BT /F1 8.5 Tf 50 488 Td (Name, function: | Name, function: | Name, function:) Tj ET
+BT /F1 8.5 Tf 50 477 Td (Date and signature / electronic signature: | Date and signature / electronic signature: | Date and) Tj ET
+BT /F1 8.5 Tf 50 466 Td (signature / electronic signature:) Tj ET
+BT /F1 10 Tf 50 447 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000004156 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-4253
+9621
 %%EOF

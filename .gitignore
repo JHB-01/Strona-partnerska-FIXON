@@ -28,3 +28,9 @@ okladki_marketplace/_render/
 # Internal prompt/source working notes
 prompty_okladki_marketplace_FIXON*.md
 FIXON_opisy_marketplace_*.docx
+
+# Local translation runtime and caches
+.translation-runtime/
+.translation-cache/
+__pycache__/
+tools/__pycache__/

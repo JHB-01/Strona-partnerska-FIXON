@@ -10,80 +10,109 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3924 >>
+<< /Length 6881 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Product Statuses) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Definitions of product availability and sales statuses used in the catalogue and) Tj ET
-BT /F1 10.5 Tf 50 747 Td (reports.) Tj ET
-BT /F1 10.5 Tf 50 733 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 719 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 699 Td (1. Purpose) Tj ET
-BT /F1 10.5 Tf 50 676 Td (Product statuses prevent unclear promises and help the salesperson explain availability) Tj ET
-BT /F1 10.5 Tf 50 662 Td (responsibly.) Tj ET
-BT /F1 15 Tf 50 642 Td (2. Communication) Tj ET
-BT /F1 10.5 Tf 50 619 Td (The Partner may communicate only the current approved status from the e-catalogue or) Tj ET
-BT /F1 10.5 Tf 50 605 Td (FIXON update.) Tj ET
-BT /F1 15 Tf 50 585 Td (3. Updates) Tj ET
-BT /F1 10.5 Tf 50 562 Td (Status changes should be reflected in the monthly report and urgent notice process when) Tj ET
-BT /F1 10.5 Tf 50 548 Td (they affect confirmed orders.) Tj ET
-BT /F1 15 Tf 50 528 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 499 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 487 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 475 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 463 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 451 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 439 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 427 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 415 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 403 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 391 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 379 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 367 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 355 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 343 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 331 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 319 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 307 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 281 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 252 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 240 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 228 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 216 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 204 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 178 Td (Document table) Tj ET
-BT /F1 9 Tf 50 149 Td (Status | Sales meaning) Tj ET
-BT /F1 9 Tf 50 137 Td (Available | Product can be offered under current terms) Tj ET
-BT /F1 9 Tf 50 125 Td (Order 7 / 14 | Product expected within the indicated ordering period) Tj ET
-BT /F1 9 Tf 50 113 Td (On request | Requires confirmation before customer commitment) Tj ET
-BT /F1 9 Tf 50 101 Td (Paused | Do not actively offer until updated) Tj ET
-BT /F1 9 Tf 50 89 Td (Discontinued | Do not sell unless replacement or remaining stock is approved) Tj ET
-BT /F1 10.5 Tf 50 69 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Product Statuses) Tj ET
+BT /F1 10 Tf 50 764 Td (Definitions of product status and accessibility communicated to the Partner.) Tj ET
+BT /F1 10 Tf 50 751 Td (ANNEX No FIXON PRODUCT STATUS) Tj ET
+BT /F1 10 Tf 50 738 Td (Document drawn up on the basis of the 'Product Statuses' sheet from the current FIXON price) Tj ET
+BT /F1 10 Tf 50 725 Td (and storage table.) Tj ET
+BT /F1 10 Tf 50 712 Td (Partner:) Tj ET
+BT /F1 10 Tf 50 699 Td (...........................................................................................................................) Tj ET
+BT /F1 10 Tf 50 686 Td (Date of the document version: ............... ............... ...............) Tj ET
+BT /F1 10 Tf 50 673 Td (Source table version:) Tj ET
+BT /F1 10 Tf 50 660 Td (............................................................................................................................................................................................................................................) Tj ET
+BT /F1 10 Tf 50 647 Td (Product status table) Tj ET
+BT /F1 10 Tf 50 634 Td (Legend of the columns: MS - available in the starting warehouse; WM - covered by storage) Tj ET
+BT /F1 10 Tf 50 621 Td (support; OD - available in stock with delivery from the manufacturer; Z7 - available on order,) Tj ET
+BT /F1 10 Tf 50 608 Td (7 days; Z14 - available on order, deadline up to 14 days; TEST - test tool; EKS - purchase for) Tj ET
+BT /F1 10 Tf 50 595 Td (exposure with discount 50%; EXCL - in-service product/off from the result of sale.) Tj ET
+BT /F1 8.5 Tf 50 577 Td (Lp. | Product name | MS | WM | IP | Z7 | Z14 | TEST | EKS | EXCL) Tj ET
+BT /F1 8.5 Tf 50 566 Td (1 | LEVEL kit - Leading and profiling system 2 elements | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 555 Td (2 | MASTER set - Comprehensive paving work 4 tools. Full work control. | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 544 Td (| NO) Tj ET
+BT /F1 8.5 Tf 50 533 Td (3 | Set of CRAVES - Precise setting of 2 tools. | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 522 Td (4 | GRIX HOLD PRO Professional ankle and plate gripper. | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 511 Td (5 | GRIX HOLD - Professional knuckle and plate gripper | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 500 Td (6 | GRIX - Professional tabloid catcher 30-300mm | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 489 Td (7 | GRIX PLUS - Professional tabloid catcher 30-300 mm | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 478 Td (8 | Lift adapter - GRIX system \(PLUS / HOLD\) | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 467 Td (9 | GRIX HARD - 50-500 mm digger grip | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 456 Td (10 | FlatFix DUO Professional level cap with double roll system | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 445 Td (11 | FlatFix with roll | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 434 Td (12 | FlatFix - with plastic pad | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 423 Td (13 | FlatFix Standard | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 412 Td (14 | KatFix PRO - precise angle and length determination for large formats | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 401 Td (| NO | NO) Tj ET
+BT /F1 8.5 Tf 50 390 Td (15 | KatFix - for precise angle and length determination when cutting the ankle b... | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 379 Td (| NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 368 Td (16 | LineFix - a professional tabloid string holder | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 357 Td (17 | FlatFix PLUS - Standard | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 346 Td (18 | FlatFix PLUS - with plastic base | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 335 Td (19 | FlatFix PLUS - with roller | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 324 Td (20 | BLOCKLIFT 500 - Grab on heavy blocks. | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 313 Td (21 | BLOCKLIFT 300 - grip for heavy blocks | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 302 Td (22 | CyrkielFix - construction circus for large districts \(up to 120 cm\) | NO | NO | NO | NO | NO | NO |) Tj ET
+BT /F1 8.5 Tf 50 291 Td (NO | NO) Tj ET
+BT /F1 8.5 Tf 50 280 Td (23 | BRUKFILL Professional device for fuzzing paving cubes | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 269 Td (24 | KrawFix INOX - professional stainless steel chassis puller | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 258 Td (25 | KrawFix ROLLER - stainless steel roller puller | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 247 Td (26 | KrawFix - lifter by curbs | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 236 Td (27 | MONOX 6.0 Professional road grader 6.0m | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 225 Td (28 | MONOX 8.0 Professional road grader 8 m | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 214 Td (29 | FormFix DUAL Stainless steel hand profile patch with double rollers | NO | NO | NO | NO | NO | NO |) Tj ET
+BT /F1 8.5 Tf 50 203 Td (NO | NO) Tj ET
+BT /F1 8.5 Tf 50 192 Td (30 | FormFix MAX 1250-3500 mm Professional manual profile patch | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 181 Td (31 | FormFix byt 1250 to 2200 mm adjustment - hand-held steel profile patch nonrd... | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 170 Td (| NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 159 Td (32 | FormFixMini 80-130 cm- compact adjustable profile patch | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 148 Td (33 | HandLift - universal tabloid catcher up to 60 sm | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 137 Td (34 | GRIPTOR - catcher for plates and curbs | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 126 Td (35 | HARDTAP - hand brat 5 kg | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 115 Td (36 | HARDTAP - hand-operated toilet 10 kg | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 104 Td (37 | HARDTAP - hand-operated toilet15 kg | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 93 Td (38 | HARDTAP - hand-operated toilet 20kg | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 82 Td (39 | RolLift - Tray trolley for plate and curb transport | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 71 Td (40 | LiftX - expanding handle for RollFit Brussels trolley | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 60 Td (41 | Plate compactor ground 120 kg 32 kN LONCIN | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
 endstream
 endobj
 5 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 70 >>
+<< /Length 2518 >>
 stream
-BT /F1 10.5 Tf 50 790 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 8.5 Tf 50 790 Td (42 | WallFix - a set of sliding sheet for resistance walls | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 779 Td (43 | LevelFix - Profile patches management system | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 768 Td (44 | 60x30x22mm | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 757 Td (45 | GRIX PLUS bumper - stainless steel protective element | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 746 Td (46 | UrbanRoot STEEL | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 735 Td (47 | UrbanRoot INOX Stainless steel tree crater | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 8.5 Tf 50 724 Td (48 | UrbanRoot CUSTOM Tree Krautnica made on individual request | NO | NO | NO | NO | NO | NO | NO | NO) Tj ET
+BT /F1 10 Tf 50 705 Td (Nature of the document) Tj ET
+BT /F1 10 Tf 50 692 Td (This document defines the status of FIXON products used in current cooperation with Partner) Tj ET
+BT /F1 10 Tf 50 679 Td (and provides the basis for copying data to documents concerning price list, starting) Tj ET
+BT /F1 10 Tf 50 666 Td (warehouse, storage support, exposure, testing tools and exclusions from the Sales Result.) Tj ET
+BT /F1 10 Tf 50 653 Td (Reservations) Tj ET
+BT /F1 10 Tf 50 640 Td (Reservations to this document may be notified within 7 days of its delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 627 Td (reservations within this deadline means the adoption of a document for information and use in) Tj ET
+BT /F1 10 Tf 50 614 Td (the framework of current cooperation in the FIXON Partnership Programme. Where objections are) Tj ET
+BT /F1 10 Tf 50 601 Td (raised, the final agreed version of the document shall be approved by both Parties in the form) Tj ET
+BT /F1 10 Tf 50 588 Td (of personal signatures or electronic signatures accepted by the Parties, unless otherwise) Tj ET
+BT /F1 10 Tf 50 575 Td (agreed by the Parties in document correspondence.) Tj ET
+BT /F1 10 Tf 50 562 Td (Signatures/approval of the document) Tj ET
+BT /F1 8.5 Tf 50 544 Td (Supplier / Authorised Person | Partner / Authorised Person) Tj ET
+BT /F1 8.5 Tf 50 533 Td (................................................................................... Date and signature |) Tj ET
+BT /F1 8.5 Tf 50 522 Td (................................................................................... Date and signature) Tj ET
+BT /F1 10 Tf 50 503 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
 endstream
 endobj
 7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 8
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000128 00000 n 
-0000000254 00000 n 
-0000004230 00000 n 
-0000004356 00000 n 
-0000004476 00000 n 
 trailer
 << /Size 8 /Root 1 0 R >>
 startxref
-4573
+9980
 %%EOF

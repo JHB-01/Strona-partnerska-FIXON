@@ -4,70 +4,124 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3514 >>
+<< /Length 7476 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Inventory Protocol) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Inventory protocol for periodic confirmation of stock, display and demonstration) Tj ET
-BT /F1 10.5 Tf 50 747 Td (products.) Tj ET
-BT /F1 10.5 Tf 50 733 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 719 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 699 Td (1. Inventory Date) Tj ET
-BT /F1 10.5 Tf 50 676 Td (The protocol records the date, location and persons responsible for the count.) Tj ET
-BT /F1 15 Tf 50 656 Td (2. Count) Tj ET
-BT /F1 10.5 Tf 50 633 Td (Actual stock is compared with the report and previous handover documents.) Tj ET
-BT /F1 15 Tf 50 613 Td (3. Differences) Tj ET
-BT /F1 10.5 Tf 50 590 Td (Differences are transferred to the stock-discrepancy protocol if not explained) Tj ET
-BT /F1 10.5 Tf 50 576 Td (immediately.) Tj ET
-BT /F1 15 Tf 50 556 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 527 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 515 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 503 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 491 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 479 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 467 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 455 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 443 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 431 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 419 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 407 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 395 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 383 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 371 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 359 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 347 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 335 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 309 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 280 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 268 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 256 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 244 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 232 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 206 Td (Document table) Tj ET
-BT /F1 9 Tf 50 177 Td (Product | Expected | Actual | Difference | Comment) Tj ET
-BT /F1 9 Tf 50 165 Td ([Product] | [Qty] | [Qty] | [+/-] | [Explanation]) Tj ET
-BT /F1 10.5 Tf 50 145 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 131 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Inventory Protocol) Tj ET
+BT /F1 10 Tf 50 764 Td (Model document to control and confirm states.) Tj ET
+BT /F1 10 Tf 50 751 Td (The document is used for periodic or ad-hoc confirmation of FIXON product states located with) Tj ET
+BT /F1 10 Tf 50 738 Td (the Partner, in particular products provided in the framework of the starting warehouse,) Tj ET
+BT /F1 10 Tf 50 725 Td (storage support, exposure, test tools, premiere products, marketing materials and other) Tj ET
+BT /F1 10 Tf 50 712 Td (elements of the cooperation records.) Tj ET
+BT /F1 8.5 Tf 50 694 Td (Protocol number | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 683 Td (Date of inventory | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 672 Td (Place of inventory / facility | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 661 Td (Period/ Condition per day | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 650 Td (Type of inventory | ? Periodic ? Quarterly ? Transient ? Ad hoc ? ? After notification of discrepancies ?) Tj ET
+BT /F1 8.5 Tf 50 639 Td (On termination of cooperation) Tj ET
+BT /F1 8.5 Tf 50 628 Td (Ground for implementation | ? Partnership programme ? Reporting procedure ? Transfer protocol ? Partner) Tj ET
+BT /F1 8.5 Tf 50 617 Td (notification ? Supplier / Mediator decision) Tj ET
+BT /F1 8.5 Tf 50 593 Td (Supplier | FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa \(Weso?a\), NIP 1133178861) Tj ET
+BT /F1 8.5 Tf 50 582 Td (Mediator | JHB FAMILY sp. z o.o., Lopacin 68E, 06-430 So?sk, NIP 5662035359) Tj ET
+BT /F1 8.5 Tf 50 571 Td (Partner |) Tj ET
+BT /F1 8.5 Tf 50 560 Td (................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 549 Td (Partner side |) Tj ET
+BT /F1 8.5 Tf 50 538 Td (................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 527 Td (Person on the Supplier's side / Mediator |) Tj ET
+BT /F1 8.5 Tf 50 516 Td (................................................................................................................) Tj ET
+BT /F1 10 Tf 50 497 Td (The inventory shall cover all products, exposure elements, test tools, premiere products,) Tj ET
+BT /F1 10 Tf 50 484 Td (demonstration products, marketing materials and other components provided to the Partner or in) Tj ET
+BT /F1 10 Tf 50 471 Td (its records in connection with the implementation of the FIXON Partnership Programme, unless) Tj ET
+BT /F1 10 Tf 50 458 Td (the content of this Protocol clearly indicates a narrower scope of control.) Tj ET
+BT /F1 10 Tf 50 445 Td (Scope of the check: ? start-up warehouse ? products subject to storage support ? exposure ?) Tj ET
+BT /F1 10 Tf 50 432 Td (test tools ? premiere products ? marketing materials ? other:) Tj ET
+BT /F1 10 Tf 50 419 Td (...................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 401 Td (Lp. | Product code/name | Position status | Status as recorded | Facts | Difference | Gross price |) Tj ET
+BT /F1 8.5 Tf 50 390 Td (Difference value | Remarks / Technical condition) Tj ET
+BT /F1 8.5 Tf 50 379 Td (1 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 368 Td (2 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 357 Td (3 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 346 Td (4 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 335 Td (5 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 324 Td (6 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 313 Td (7 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 302 Td (8 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 291 Td (9 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 280 Td (10 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 269 Td (11 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 258 Td (12 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 234 Td (Number of inventory items |) Tj ET
+BT /F1 8.5 Tf 50 223 Td (.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 212 Td (Number of positions without discrepancy |) Tj ET
+BT /F1 8.5 Tf 50 201 Td (.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 190 Td (Number of positions with discrepancies |) Tj ET
+BT /F1 8.5 Tf 50 179 Td (.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 168 Td (Total gross positive differences |) Tj ET
+BT /F1 8.5 Tf 50 157 Td (..................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 146 Td (Total gross negative differences |) Tj ET
+BT /F1 8.5 Tf 50 135 Td (..................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 124 Td (Total value of damaged/lost products |) Tj ET
+BT /F1 8.5 Tf 50 113 Td (..................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 102 Td (Is the gap threshold for further verification exceeded? | ? NO ? YES, description:) Tj ET
+BT /F1 8.5 Tf 50 91 Td (...................................................................) Tj ET
+BT /F1 10 Tf 50 72 Td (In the event of disclosure of differences between the registration status and the actual) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 11643 >>
+stream
+BT /F1 10 Tf 50 790 Td (condition, the Partner shall indicate the reason for the discrepancy, if known, and shall) Tj ET
+BT /F1 10 Tf 50 777 Td (provide the available documents confirming the sale, return, complaint, shift, damage, loss or) Tj ET
+BT /F1 10 Tf 50 764 Td (other event affecting the condition of the product.) Tj ET
+BT /F1 10 Tf 50 751 Td (Description of discrepancies / damage / deficiencies:) Tj ET
+BT /F1 10 Tf 50 738 Td (.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................) Tj ET
+BT /F1 10 Tf 50 725 Td (Annexes confirming the explanations: ? sales report ? photographs ? damage report ? complaint) Tj ET
+BT /F1 10 Tf 50 712 Td (? return document ? correspondence ? other:) Tj ET
+BT /F1 10 Tf 50 699 Td (...................................................................) Tj ET
+BT /F1 10 Tf 50 686 Td (Pursuant to this Protocol, the Supplier or the Mediator may accept the condition of the) Tj ET
+BT /F1 10 Tf 50 673 Td (warehouse, call upon the Partner to complete the explanations, correct the records, activate) Tj ET
+BT /F1 10 Tf 50 660 Td (the supplement of the warehouse, suspend the addition until the discrepancies are resolved,) Tj ET
+BT /F1 10 Tf 50 647 Td (request the return of the products or settle the lost, damaged or damaged products under the) Tj ET
+BT /F1 10 Tf 50 634 Td (terms of the Partnership Programme and related documents.) Tj ET
+BT /F1 8.5 Tf 50 616 Td (Decision after inventory | ? State accepted ? ? Required explanations ? Revision of the records ?) Tj ET
+BT /F1 8.5 Tf 50 605 Td (Supplement to the warehouse ? Suspension of the replenishment ? Settlement of differences ? Reception of) Tj ET
+BT /F1 8.5 Tf 50 594 Td (products) Tj ET
+BT /F1 8.5 Tf 50 583 Td (Deadline for further action | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 572 Td (Person responsible for further action | ........................................................) Tj ET
+BT /F1 10 Tf 50 553 Td (The Partner declares that the data indicated in this Protocol have been provided to the best) Tj ET
+BT /F1 10 Tf 50 540 Td (of his knowledge at the date of the inventory and that the products and items under control) Tj ET
+BT /F1 10 Tf 50 527 Td (have been made available for verification within the scope of the Protocol. The Partner) Tj ET
+BT /F1 10 Tf 50 514 Td (undertakes to provide additional explanations or documents without delay if they prove) Tj ET
+BT /F1 10 Tf 50 501 Td (necessary to settle discrepancies or update the records.) Tj ET
+BT /F1 10 Tf 50 488 Td (Reservations to this Protocol may be made within 7 days of its delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 475 Td (reservations within the above deadline means the adoption of a protocol for information and) Tj ET
+BT /F1 10 Tf 50 462 Td (application in the framework of ongoing cooperation. Where reservations are raised, the) Tj ET
+BT /F1 10 Tf 50 449 Td (Parties shall clarify their scope and the final agreed version of the Protocol shall be) Tj ET
+BT /F1 10 Tf 50 436 Td (approved by both Parties in the form of personal signatures or electronic signatures accepted) Tj ET
+BT /F1 10 Tf 50 423 Td (by the Parties.) Tj ET
+BT /F1 10 Tf 50 410 Td (Content of the objections/final comments:) Tj ET
+BT /F1 10 Tf 50 397 Td (.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 379 Td (Supplier | INTERMEDIATE | PARTNER) Tj ET
+BT /F1 8.5 Tf 50 368 Td (Name, function: | Name, function: | Name, function:) Tj ET
+BT /F1 8.5 Tf 50 357 Td (Personal signature/electronic signature: | Personal signature/electronic signature: | Personal) Tj ET
+BT /F1 8.5 Tf 50 346 Td (signature/electronic signature:) Tj ET
+BT /F1 8.5 Tf 50 335 Td (Date: | Date: | Date:) Tj ET
+BT /F1 10 Tf 50 316 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000003814 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-3911
+19701
 %%EOF

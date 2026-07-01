@@ -4,75 +4,131 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3894 >>
+<< /Length 5995 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Product Return Procedure) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Return procedure for products, including approval, condition check, documentation and) Tj ET
-BT /F1 10.5 Tf 50 747 Td (settlement impact.) Tj ET
-BT /F1 10.5 Tf 50 733 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 719 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 699 Td (1. Return Approval) Tj ET
-BT /F1 10.5 Tf 50 676 Td (Returns require prior confirmation unless local mandatory law gives the customer or) Tj ET
-BT /F1 10.5 Tf 50 662 Td (Partner a non-excludable right.) Tj ET
-BT /F1 15 Tf 50 642 Td (2. Condition) Tj ET
-BT /F1 10.5 Tf 50 619 Td (Returned products should be identified, counted and checked for use, damage, missing) Tj ET
-BT /F1 10.5 Tf 50 605 Td (parts and packaging condition.) Tj ET
-BT /F1 15 Tf 50 585 Td (3. Settlement) Tj ET
-BT /F1 10.5 Tf 50 562 Td (The settlement effect of a return depends on the approved reason, time, condition and) Tj ET
-BT /F1 10.5 Tf 50 548 Td (local law.) Tj ET
-BT /F1 15 Tf 50 528 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 499 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 487 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 475 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 463 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 451 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 439 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 427 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 415 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 403 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 391 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 379 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 367 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 355 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 343 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 331 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 319 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 307 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 281 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 252 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 240 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 228 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 216 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 204 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 178 Td (Document table) Tj ET
-BT /F1 9 Tf 50 149 Td (Return reason | Required action) Tj ET
-BT /F1 9 Tf 50 137 Td (Wrong product | Confirm order and replacement) Tj ET
-BT /F1 9 Tf 50 125 Td (Damage | Use damage/loss protocol) Tj ET
-BT /F1 9 Tf 50 113 Td (Customer withdrawal | Apply local law and agreed policy) Tj ET
-BT /F1 9 Tf 50 101 Td (Stock correction | Connect with inventory protocol) Tj ET
-BT /F1 10.5 Tf 50 81 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 67 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Product Return Procedure) Tj ET
+BT /F1 10 Tf 50 764 Td (Rules for handling product returns in the partner model.) Tj ET
+BT /F1 10 Tf 50 751 Td (A document setting out the rules for reporting, receiving, verifying and clearing returns) Tj ET
+BT /F1 10 Tf 50 738 Td (under the FIXON Partnership Programme.) Tj ET
+BT /F1 8.5 Tf 50 720 Td (Field | Data / value) Tj ET
+BT /F1 8.5 Tf 50 709 Td (Document No | ZST/FIXON/ /) Tj ET
+BT /F1 8.5 Tf 50 698 Td (Date of issue | ____ / ____ / ______) Tj ET
+BT /F1 8.5 Tf 50 687 Td (Partner | ________________________________________) Tj ET
+BT /F1 8.5 Tf 50 676 Td (Supplier | FIXON IRYNA MUKOSIA) Tj ET
+BT /F1 8.5 Tf 50 665 Td (Mediator | JHB FAMILY sp. z o.o.) Tj ET
+BT /F1 8.5 Tf 50 654 Td (Period / scope | from / / to be cancelled or updated) Tj ET
+BT /F1 10 Tf 50 635 Td (The procedure shall lay down uniform rules for handling returns of FIXON products transferred) Tj ET
+BT /F1 10 Tf 50 622 Td (or sold to the Partner under the Partner Programmeme, including products from the starting) Tj ET
+BT /F1 10 Tf 50 609 Td (warehouse, products covered by storage support, products ordered individually, exhibition) Tj ET
+BT /F1 10 Tf 50 596 Td (items, test tools and other products or materials provided to the Partner. The purpose of the) Tj ET
+BT /F1 10 Tf 50 583 Td (procedure is to organise the circulation of information, to reduce the stock gap, to correctly) Tj ET
+BT /F1 10 Tf 50 570 Td (settle returns and to ensure that return does not undermine the value of the brand, product) Tj ET
+BT /F1 10 Tf 50 557 Td (quality or cooperation rules.) Tj ET
+BT /F1 10 Tf 50 544 Td (The procedure applies to returns made by the Partner to the Supplier or to the place indicated) Tj ET
+BT /F1 10 Tf 50 531 Td (by the Supplier or Mediator. The procedure shall include returns resulting from the) Tj ET
+BT /F1 10 Tf 50 518 Td (termination of cooperation, the updating of the list of products, the exchange of exposures,) Tj ET
+BT /F1 10 Tf 50 505 Td (the correction of stocks, the mis-issue, the transfer of products, the decision of the) Tj ET
+BT /F1 10 Tf 50 492 Td (Supplier, the accepted complaint, the withdrawal of the product from the offer or other agreed) Tj ET
+BT /F1 10 Tf 50 479 Td (circumstances. The procedure shall not replace the FIXON Complaint Procedure if the basis for) Tj ET
+BT /F1 10 Tf 50 466 Td (the refund is the product defect reported by the final customer.) Tj ET
+BT /F1 10 Tf 50 453 Td (The refund should be notified before the goods are returned. The notification shall indicate) Tj ET
+BT /F1 10 Tf 50 440 Td (the Partner, the contact person, the document number, the reason for return, the product list,) Tj ET
+BT /F1 10 Tf 50 427 Td (the quantity, the status of the products, the invoice numbers or the transfer documents, the) Tj ET
+BT /F1 10 Tf 50 414 Td (proposed means of receipt and whether the return relates to the product sold, warehouse,) Tj ET
+BT /F1 10 Tf 50 401 Td (exhibition, test, demonstration, premiere or other. A non-notified refund may be accepted) Tj ET
+BT /F1 10 Tf 50 388 Td (conditionally or returned to the Partner at its expense if it is not possible to determine the) Tj ET
+BT /F1 10 Tf 50 375 Td (basis for reimbursement.) Tj ET
+BT /F1 10 Tf 50 362 Td (The return requires the acceptance of the Supplier or Agent acting in the field of) Tj ET
+BT /F1 10 Tf 50 349 Td (cooperation, unless the return is directly attributable to the supplier's previous written) Tj ET
+BT /F1 10 Tf 50 336 Td (order. The reimbursement may be accepted in document form, in particular by e-mail, through a) Tj ET
+BT /F1 10 Tf 50 323 Td (CRM system, B2B system or a communicator. Repayment acceptance does not mean automatic) Tj ET
+BT /F1 10 Tf 50 310 Td (recognition of the value of the return settlement, which may depend on the condition of the) Tj ET
+BT /F1 10 Tf 50 297 Td (product, completeness, packaging, documents and reason for return.) Tj ET
+BT /F1 10 Tf 50 284 Td (The returned goods should be complete, clean, secured for transport and described in such a) Tj ET
+BT /F1 10 Tf 50 271 Td (way as to identify the product and Partner. The product shall have all the elements,) Tj ET
+BT /F1 10 Tf 50 258 Td (accessories, markings and documents that have been provided with the product, unless the lack) Tj ET
+BT /F1 10 Tf 50 245 Td (of them results from normal use accepted by the Supplier. Products damaged, incomplete,) Tj ET
+BT /F1 10 Tf 50 232 Td (over-used, destroyed, modified, unmarked or returned without the required information may be) Tj ET
+BT /F1 10 Tf 50 219 Td (accepted subject to, accounted for in lower value or not accepted.) Tj ET
+BT /F1 10 Tf 50 206 Td (The costs of transport of returned goods shall be borne by the Partner unless the reason for) Tj ET
+BT /F1 10 Tf 50 193 Td (return lies with the Supplier or the Parties agree otherwise in document form. The risk of) Tj ET
+BT /F1 10 Tf 50 180 Td (loss, damage or destruction of the goods during transport to the place indicated by the) Tj ET
+BT /F1 10 Tf 50 167 Td (Supplier shall be borne by the transport operator unless the Parties agree otherwise to) Tj ET
+BT /F1 10 Tf 50 154 Td (receive the goods. The partner should protect the product in a manner appropriate to its type,) Tj ET
+BT /F1 10 Tf 50 141 Td (value and weight.) Tj ET
+BT /F1 10 Tf 50 128 Td (Upon receipt of the goods, the Supplier or the person indicated by him shall carry out) Tj ET
+BT /F1 10 Tf 50 115 Td (quantitative and qualitative checks on the return. Verification may include verification of) Tj ET
+BT /F1 10 Tf 50 102 Td (compliance with the return document, completeness, condition of packaging, technical) Tj ET
+BT /F1 10 Tf 50 89 Td (condition, traces of use, damage, dirt, modifications, markings, product numbers and) Tj ET
+BT /F1 10 Tf 50 76 Td (compliance with sales or transfer documents. The result of the verification can be described) Tj ET
+BT /F1 10 Tf 50 63 Td (in the protocol, email, system note or other document.) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4582 >>
+stream
+BT /F1 10 Tf 50 790 Td (A refund accepted and accepted without reservation may be settled either by an invoice) Tj ET
+BT /F1 10 Tf 50 777 Td (correction, a stock adjustment, a replacement of a product, a reduction in the subsequent) Tj ET
+BT /F1 10 Tf 50 764 Td (settlement, an update of the report or otherwise agreed by the Parties. The return of the) Tj ET
+BT /F1 10 Tf 50 751 Td (damaged, incomplete, over-used or returned product for reasons attributable to the Partner may) Tj ET
+BT /F1 10 Tf 50 738 Td (be settled with a deduction of the value, according to the rules set out in the Partner) Tj ET
+BT /F1 10 Tf 50 725 Td (Programme, Pricelist, Transfer Protocol or individual Supplier Decision.) Tj ET
+BT /F1 10 Tf 50 712 Td (In the event of termination of the cooperation, the Partner is obliged to prepare for the) Tj ET
+BT /F1 10 Tf 50 699 Td (return of the products, materials and items remaining in the supplier's ownership, in) Tj ET
+BT /F1 10 Tf 50 686 Td (particular products from the starting warehouse, products covered by storage support, test) Tj ET
+BT /F1 10 Tf 50 673 Td (tools, exposure elements and marketing materials, unless otherwise agreed by the Parties. The) Tj ET
+BT /F1 10 Tf 50 660 Td (phrase should be preceded by a state statement and, if necessary, by an inventory. Failure to) Tj ET
+BT /F1 10 Tf 50 647 Td (cooperate on receiving or returning may result in the value of the transferred products in) Tj ET
+BT /F1 10 Tf 50 634 Td (accordance with the Partner Programmeme.) Tj ET
+BT /F1 10 Tf 50 621 Td (A refund may be required: return declaration, product listing, photographs, status) Tj ET
+BT /F1 10 Tf 50 608 Td (description, transfer document, invoice number, monthly report number, discrepancy protocol,) Tj ET
+BT /F1 10 Tf 50 595 Td (damage protocol or other document indicated by the Supplier or Mediator. Documents may be kept) Tj ET
+BT /F1 10 Tf 50 582 Td (in documentary form. The partner should keep the acknowledgement of transmission, receipt and) Tj ET
+BT /F1 10 Tf 50 569 Td (correspondence concerning return until final settlement.) Tj ET
+BT /F1 10 Tf 50 556 Td (Return table) Tj ET
+BT /F1 8.5 Tf 50 538 Td (Lp. | Product name / element | Code / SKU | Quantity | Product status | Reason for reimbursement |) Tj ET
+BT /F1 8.5 Tf 50 527 Td (Product status | Gross value | Decision) Tj ET
+BT /F1 8.5 Tf 50 516 Td (1 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 505 Td (2 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 494 Td (3 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 483 Td (4 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 472 Td (5 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 461 Td (6 | | | | | | | |) Tj ET
+BT /F1 8.5 Tf 50 450 Td (7 | | | | | | | |) Tj ET
+BT /F1 10 Tf 50 431 Td (Reservation and approval clause) Tj ET
+BT /F1 10 Tf 50 418 Td (This document shall be forwarded to the Partner under the FIXON Partnership Programme. The) Tj ET
+BT /F1 10 Tf 50 405 Td (Partner may object to the content of the document within 7 days of its delivery. The absence) Tj ET
+BT /F1 10 Tf 50 392 Td (of reservations within that period shall mean the adoption of a document for information and) Tj ET
+BT /F1 10 Tf 50 379 Td (use in current cooperation. In the event of a statement of objections, the document shall not) Tj ET
+BT /F1 10 Tf 50 366 Td (be adopted in the absence of any objection to the scope covered by the declaration, and the) Tj ET
+BT /F1 10 Tf 50 353 Td (final agreed version shall be approved by both Parties in the form of personal signatures or) Tj ET
+BT /F1 10 Tf 50 340 Td (electronic signatures accepted by the Parties, unless otherwise agreed by the Parties in) Tj ET
+BT /F1 10 Tf 50 327 Td (document correspondence.) Tj ET
+BT /F1 10 Tf 50 314 Td (Signatures/approval of final version) Tj ET
+BT /F1 8.5 Tf 50 296 Td (Supplier | Partner | Mediator) Tj ET
+BT /F1 8.5 Tf 50 285 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 274 Td (Date and signature / electronic signature |) Tj ET
+BT /F1 8.5 Tf 50 263 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 252 Td (Date and signature / electronic signature |) Tj ET
+BT /F1 8.5 Tf 50 241 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 230 Td (Date and signature / electronic signature) Tj ET
+BT /F1 10 Tf 50 211 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000004194 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-4291
+11158
 %%EOF

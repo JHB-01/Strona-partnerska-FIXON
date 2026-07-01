@@ -1,27 +1,465 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Anlage: FIXON Markenrichtlinie | FIXON</title>
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
-    :root{--green:#124A2E;--dark:#06271b;--ink:#141917;--muted:#5b6762;--line:#d7ded8;--bg:#eef1ec;--soft:#e8f0eb;--paper:#fff;--yellow:#d4b15a;--shadow:0 18px 44px rgba(15,22,18,.10)}
-    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fafaf5 0%,var(--bg) 62%,#fff 100%);color:var(--ink);font-family:"League Spartan",Arial,sans-serif}a{color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:0 auto}.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900;text-transform:uppercase;text-decoration:none;color:var(--green);font-size:26px}.langs{display:flex;gap:6px;flex-wrap:wrap}.langs a{padding:8px 10px;border:1px solid var(--line);border-radius:4px;text-decoration:none;font-weight:800;color:var(--green);background:#fff}.hero{padding:58px 0 34px;background:linear-gradient(135deg,var(--dark),var(--green));color:#fff}.hero h1{max-width:940px;margin:0 0 12px;font-size:clamp(38px,6vw,70px);line-height:.96;text-transform:uppercase}.lead{max-width:820px;color:rgba(255,255,255,.84);font-size:21px;line-height:1.42}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 15px;border-radius:4px;background:var(--green);border:1px solid var(--green);color:#fff;font-weight:900;text-decoration:none}.hero .btn{background:#fff;color:var(--dark);border-color:#fff}.btn.alt{background:transparent;color:#fff;border-color:rgba(255,255,255,.62)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.notice{padding:16px;border-left:5px solid var(--yellow);background:#fff7df;font-weight:800}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card,.document{padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:var(--shadow)}section{padding:36px 0}h2{margin:0 0 12px;font-size:clamp(28px,4vw,46px);line-height:1;text-transform:uppercase}h3{margin:22px 0 8px;font-size:24px;color:var(--dark)}p,li{line-height:1.56}.muted{color:var(--muted)}.table-scroll{overflow:auto;border:1px solid var(--line);border-radius:8px;background:#fff;margin:14px 0}table{width:100%;border-collapse:collapse;min-width:720px}th,td{padding:11px;border:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.45}th{background:var(--soft);color:var(--dark)}.document-title{border-bottom:2px solid var(--green);padding-bottom:14px;margin-bottom:18px}.document-title strong{display:block;color:var(--green);text-transform:uppercase}.download-list{display:flex;flex-wrap:wrap;gap:10px}.download-list .btn{background:#fff;color:var(--green);border-color:var(--line)}footer{padding:28px 0;border-top:1px solid var(--line);background:#fff;color:var(--muted)}@media(max-width:780px){.nav{align-items:flex-start;flex-direction:column;padding:12px 0}.grid{grid-template-columns:1fr}.btn{width:100%}}
-    @media print{.top,.hero .actions,.download-list{display:none}.hero{background:#fff;color:#000;padding:20px 0}.lead{color:#333}.document{box-shadow:none;border:0}.wrap{width:100%}body{background:#fff}}
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Book.woff2") format("woff2"), local("Gotham Book"), local("Gotham"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Bold.woff2") format("woff2"), local("Gotham Bold"), local("Gotham Pro Bold"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Black.woff2") format("woff2"), local("Gotham Black"), local("Gotham Pro Black"); font-weight: 900; font-display: swap; }
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Gotham, "Montserrat", "Avenir Next", Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
   </style>
 </head>
-<body><main><section><div class="wrap">
-    <article class="document">
-      <div class="document-title"><strong>FIXON Tools & Tech</strong><h2>Anlage: FIXON Markenrichtlinie</h2><p class="muted">Brand-policy appendix controlling FIXON name, visuals, claims, sales language and safe communication.</p></div>
-      <p class="notice">Juristischer und kommerzieller Arbeitsentwurf. Diese &uuml;bersetzte Fassung ist zum Lesen, Herunterladen und zur Pr&uuml;fung durch lokale Rechtsberatung vorbereitet.</p>
-      <h3>1. Zweck des Dokuments</h3><p>Diese adaptierte Fassung beschreibt die praktische Nutzung des Dokuments im FIXON Partnerprogramm. Sie ersetzt nicht die lokale rechtliche Pr&uuml;fung.</p><p>Das Dokument ist f&uuml;r Lesen, Download, interne Abstimmung und Vorbereitung einer lokalen Landesfassung vorgesehen.</p><h3>2. Operativer Anwendungsbereich</h3><p>Die Regelung gilt f&uuml;r den vereinbarten Partnerkanal, die im Programm best&auml;tigten Produkte und die im jeweiligen Markt zul&auml;ssige Kommunikation.</p><p>Der Start kann ohne Pflicht zum Aufbau eines vollen Lagers erfolgen; QR, E-Katalog, Demonstration und ein Pilotumfang reichen f&uuml;r den Beginn.</p><h3>3. Pflichten und Nachweise</h3><p>Der Partner dokumentiert Verkaufs-, Lager-, R&uuml;ckgabe- und Ausnahmeereignisse nachvollziehbar. FIXON stellt freigegebene Produkt-, Marken- und Kataloginformationen bereit.</p><p>Monatliche Daten bilden die Grundlage f&uuml;r Abrechnung, Nachversorgung und Weiterentwicklung der Zusammenarbeit.</p><h3>4. Lokale Anpassung</h3><p>Vor Unterschrift oder Versand an einen Partner m&uuml;ssen Rechtswahl, Gerichtsstand, Datenschutz, Marketing, Gew&auml;hrleistung, Produkthaftung, Steuer- und Importregeln an das konkrete Land angepasst werden.</p>
-      <h3>Lokalisierung nach Land</h3>
-      <div class="table-scroll"><table><tr><th>Land</th><th>Anpassung</th></tr><tr><td>UK</td><td>UK-Rechtswahl und Zust&auml;ndigkeit einsetzen; UK GDPR, PECR, Produkthaftung und B2B-Verkaufsbedingungen pr&uuml;fen.</td></tr><tr><td>USA</td><td>Bundesstaatliches Recht und Gerichtsstand einsetzen; Business-Opportunity-/Franchise-Risiken, Ertragsaussagen, Gew&auml;hrleistung, Sales Tax und Datenschutz pr&uuml;fen.</td></tr><tr><td>Kanada</td><td>Provinzspezifisches Recht einsetzen; CASL, Datenschutz, m&ouml;gliche Zweisprachigkeit, Gew&auml;hrleistung, Steuern und Produktsicherheit pr&uuml;fen.</td></tr><tr><td>Australien</td><td>Australian Consumer Law, unfair contract terms, Datenschutz, Produktsicherheit, Gew&auml;hrleistung, Import und Steuern pr&uuml;fen.</td></tr><tr><td>S&uuml;dafrika</td><td>POPIA, elektronische Kommunikation, Consumer-Protection-Risiken, Produkthaftung, Import, Steuern und Streitbeilegung pr&uuml;fen.</td></tr><tr><td>Deutschland</td><td>Deutsches Recht verwenden; BGB/HGB, DSGVO/BDSG, UWG, Gew&auml;hrleistung, Eigentumsvorbehalt und AGB-Kontrolle pr&uuml;fen.</td></tr><tr><td>&Ouml;sterreich</td><td>&Ouml;sterreichisches Recht verwenden; ABGB/UGB, DSGVO/DSG, UWG, Gew&auml;hrleistung, Eigentumsvorbehalt und AGB-Kontrolle pr&uuml;fen.</td></tr><tr><td>Schweiz</td><td>Schweizer Recht verwenden; Obligationenrecht, revidiertes DSG, Wettbewerbsrecht, Gew&auml;hrleistung und Daten&uuml;bermittlung pr&uuml;fen.</td></tr></table></div>
-      <h3>Lokale Klauseln vor Unterschrift</h3>
-      <div class="table-scroll"><table><tr><th>Bereich</th><th>Vor Nutzung zu pr&uuml;fen</th></tr><tr><td>Rechtswahl</td><td>Land, Gerichtsstand, Sprache und Streitbeilegung</td></tr><tr><td>Datenschutz</td><td>Rollen, Hinweise, Einwilligungen und Daten&uuml;bermittlung</td></tr><tr><td>Produkt & Verkauf</td><td>Gew&auml;hrleistung, Haftung, Sicherheit, Steuern und Import</td></tr><tr><td>Marketing</td><td>Elektronische Kommunikation, Aussagen, Testimonials und Preisangaben</td></tr></table></div>
-      <h3>Kontakt und Version</h3>
-      <p>Karolina Tarasenko, Spezialistin f&uuml;r den Ausbau des Partnernetzwerks, +48 531 448 893, heorhiibronnikov.commercial@gmail.com</p>
-      <p>Status: adaptierte Arbeitsfassung zur lokalen Pr&uuml;fung.</p>
-    </article></div></section></main></body>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../../FIXON_partnerprogramm_de.html#documents">Zurück zu den Dokumenten</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Inhaltsverzeichnis</button>
+      <div class="meta">Präsentation und Marke<br>1:1 aus der polnischen Quelle übersetzt</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero">
+      <span class="kicker">FIXE Tools &amp; Tech</span>
+      <h1>Anlage: FIXON Markenrichtlinie</h1>
+      <p>Grundsätze der Verkaufskommunikation, Markennutzung und Versprechensicherheit.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Schließen">×</button>
+        <strong>Dokumentnavigation</strong>
+        <a href="#section-zalacznik-nr-13-polityka-marki-i-komunikacji-sprzedazowej-fixon">ANHANG Nr. 13 KENNZEICHEN UND FESTVERKAUFSPOLITIK</a>
+<a href="#section-1-cel-dokumentu-i-zakres-stosowania">§ 1. Zweck des Dokuments und Umfang</a>
+<a href="#section-2-podstawowe-pozycjonowanie-marki-fixon">§ 2. Grundlegende Positionierung der Marke FIXON</a>
+<a href="#section-3-dozwolone-glowne-komunikaty-sprzedazowe">§ 3. Hauptverkaufskommunikation erlaubt</a>
+<a href="#section-4-zakazane-lub-wymagajace-ostroznosci-komunikaty">§ 4. Verbotene oder sensible Kommunikation</a>
+<a href="#section-5-jezyk-rozmowy-handlowej">§ 5. Handelssprache</a>
+<a href="#section-6-komunikacja-ceny-rabatow-i-rrp">§ 6. Mitteilung von Preisen, Rabatten und RRP</a>
+<a href="#section-7-komunikacja-dostepnosci-i-terminow">§ 7. Mitteilungen über Zugänglichkeit und Fristen</a>
+<a href="#section-8-materialy-marketingowe-i-materialy-wlasne-partnera">§ 8. Marketingmaterialien und eigene Materialien des Partners</a>
+<a href="#section-9-strony-internetowe-marketplace-social-media-i-reklama-platna">§ 9. Websites, Marktplätze, Social Media und bezahlte Werbung</a>
+<a href="#section-10-porownania-z-konkurencja-i-komunikacja-przewagi">§ 10. Vergleich mit dem Wettbewerb und Mitteilung von Vorteilen</a>
+<a href="#section-11-komunikacja-reklamacji-zwrotow-i-sytuacji-spornych">§ 11. Mitteilung von Beschwerden, Sätzen und strittigen Situationen</a>
+<a href="#section-12-szkolenie-zespolu-partnera-i-odpowiedzialnosc-za-komunikacje">§ 12. Schulung des Partnerteams und Verantwortung für die Kommunikation</a>
+<a href="#section-13-kontrola-korekta-i-naruszenia-polityki">§ 13. Kontrolle, Korrektur und Verstoß gegen die Richtlinie</a>
+<a href="#section-14-lista-kontrolna-komunikacji-sprzedazowej">§ 14. Verzeichnis der Verkaufsmitteilungen</a>
+<a href="#section-15-klauzula-zastrzezen-i-zatwierdzenie">§ 15. Einspruchsklausel und Zustimmung</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Alles erweitern</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Alles zusammenbrechen</button>
+        </div>
+        <div class="doc-tools"><a class="download-button secondary" href="../zalacznik-polityka-marki.html">PL</a><a class="download-button secondary" href="../en/zalacznik-polityka-marki.html">EN</a><a class="download-button secondary" href="../de/zalacznik-polityka-marki.html">DE</a></div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-13-polityka-marki-i-komunikacji-sprzedazowej-fixon" open>
+<summary><span>ANHANG Nr. 13 KENNZEICHEN UND FESTVERKAUFSPOLITIK</span></summary>
+<div class="doc-section-body">
+<p>Das Dokument enthält Regeln für die Verwendung von FIXON-Marken, Marketingmaterialien, Produktbeschreibungen, Verkaufsmitteilungen, kommerziellen Argumenten, Werbung, Online-Publikationen und Kundenkontakten im Rahmen des FIXON-Partnerprogramms. Das Dokument kann dem Partner dokumentarisch, elektronisch oder als Teil eines Pakets von Programmanhängen übermittelt werden.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Feld</th>
+<th>Auszufüllender Inhalt</th>
+</tr>
+<tr>
+<td>Nummer/Version des Dokuments</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Datum der Lieferung an den Partner</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Partner</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Verantwortung des Partners</td>
+<td>........................................................</td>
+</tr>
+<tr>
+<td>Kooperationsbeauftragter</td>
+<td>JHB FAMILY sp. z o.o. /........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-1-cel-dokumentu-i-zakres-stosowania" open>
+<summary><span>§ 1. Zweck des Dokuments und Umfang</span></summary>
+<div class="doc-section-body">
+<p>1. Diese FIXON Marken- und Vertriebskommunikationsrichtlinie legt die Grundsätze fest, die der Partner bei der Präsentation, Förderung und dem Verkauf von FIXON-Produkten befolgen sollte, unabhängig davon, ob die Kommunikation in einer kommerziellen Einrichtung, vor Ort, telefonisch, per E-Mail, über einen kommerziellen Vertreter, in einem Katalog, E-Katalog, B2B-System, Social Media, bezahlte Werbung, auf einer Website, während Messen, Shows, Demonstrationen oder im direkten Gespräch mit dem Auftragnehmer stattfindet.</p>
+<p>2. Zweck des Dokuments ist es, den Markenwert von FIXON zu schützen, die Kohärenz der Übertragung zu wahren, das Risiko falscher Verkaufsversprechen zu verringern, Partnerhändler bei der effektiven Argumentation zu unterstützen und sicherzustellen, dass FIXON-Produkte als professionelle Werkzeuge für die Boulevardzeitung und die Bauindustrie und nicht als zufällige Katalogergänzung präsentiert werden.</p>
+<p>3. Die Richtlinie umfasst insbesondere die Verwendung von FIXON-Namen und -Bezeichnungen, Produktbeschreibung, Leistungskommunikation, Preis- und Rabattkommunikation, Vergleiche mit dem Wettbewerb, eigene Materialien des Partners, im Internet veröffentlichte Inhalte, Kundenantworten, Kontakt mit Auftragnehmern und Kommunikation bei Beschwerden, Streitigkeiten oder Krisen.</p>
+</div></details>
+<details class="doc-section" id="section-2-podstawowe-pozycjonowanie-marki-fixon" open>
+<summary><span>§ 2. Grundlegende Positionierung der Marke FIXON</span></summary>
+<div class="doc-section-body">
+<p>1. Die Marke FIXON sollte als polnische Marke für professionelle Werkzeuge für die Einbau- und Bauindustrie kommuniziert werden, die sich auf die tatsächliche Verbesserung der Arbeit der Auftragnehmer, die Entlastung der physischen Arbeiter, die Verbesserung der Präzision und die Begrenzung der provisorischen Lösungen für den Bau konzentriert.</p>
+<p>2. Die grundlegende Richtung der Verkaufskommunikation sollte den praktischen Wert von Werkzeugen betonen: weniger unnötiges Biegen, leichteres Greifen und Bewegen von Komponenten, schnelleres sich wiederholendes Arbeiten, mehr Kontrolle über Positionierung und Profilierung, weniger Verschleiß von improvisierten Lösungen und mehr Ordnung im Umsetzungsprozess.</p>
+<p>3. In der Kommunikation sollte die Präsentation von FIXON-Produkten als Gadgets, Seitenzubehör oder ausschließlich Werbeartikel vermieden werden. Produkte sollten als Werkzeuge zur Unterstützung der täglichen Arbeit des Teams präsentiert werden, insbesondere wenn sich wiederholende kleine Aktivitäten Zeit erfordern, die Mitarbeiter belasten und das Tempo der Ausführung des Auftrags beeinflussen.</p>
+<p>4. Es kann betont werden, dass viele FIXON-Produkte entweder die Marktlücke ergänzen oder behelfsmäßige Lösungen ersetzen, sofern in der Mitteilung keine nicht vorhandenen Forschungsergebnisse, Zertifikate, garantierten Ergebnisse oder eine automatische Steigerung des Kundengewinns vorgeschlagen werden.</p>
+</div></details>
+<details class="doc-section" id="section-3-dozwolone-glowne-komunikaty-sprzedazowe" open>
+<summary><span>§ 3. Hauptverkaufskommunikation erlaubt</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Zone</th>
+<th>Zulässige Kommunikationsrichtung</th>
+<th>Beispiel für eine sichere Formulierung</th>
+</tr>
+<tr>
+<td>Entladen</td>
+<td>Hervorhebung einer geringeren Last mit wiederholbaren Operationen.</td>
+<td>Das Werkzeug hilft, einige unnötige Bewegungen zu reduzieren und erleichtert sich wiederholende Arbeiten am Knöchel oder an Bauelementen.</td>
+</tr>
+<tr>
+<td>Betriebsdrehzahl</td>
+<td>Mitteilung von Verbesserungen der Arbeitsorganisation, ohne einen bestimmten Prozentsatz zu garantieren.</td>
+<td>In vielen Arbeiten ermöglicht es Ihnen, sich wiederholende Aufgaben schneller auszuführen und den Rhythmus der Arbeit des Teams besser zu halten.</td>
+</tr>
+<tr>
+<td>Präzision</td>
+<td>Hervorhebung von Kontroll-, Wiederholbarkeits- und Komforteinstellungen.</td>
+<td>Das Tool hilft, genauer zu arbeiten und die Improvisation in der Profilerstellungs- oder Setzphase zu reduzieren.</td>
+</tr>
+<tr>
+<td>Professionalisierung</td>
+<td>Zeigen Sie den Vorteil des Werkzeugs gegenüber Baulösungen.</td>
+<td>Anstelle von provisorischen Lösungen erhält der Auftragnehmer ein fertiges Werkzeug, das für eine bestimmte Aufgabe entwickelt wurde.</td>
+</tr>
+<tr>
+<td>Leistungsqualität</td>
+<td>Informationen über Material und Robustheit, sofern mit der Produktkarte kompatibel.</td>
+<td>Das Produkt besteht aus rostfreiem Stahl und ist für den professionellen Gebrauch konzipiert.</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-4-zakazane-lub-wymagajace-ostroznosci-komunikaty" open>
+<summary><span>§ 4. Verbotene oder sensible Kommunikation</span></summary>
+<div class="doc-section-body">
+<p>1. Der Partner sollte keine Formulierung verwenden, die den Kunden über die Eigenschaften des Produkts, die Auswirkungen der Verwendung, die garantierte Arbeitszeit, Einsparungen, Sicherheit, Widerstandsfähigkeit, Zertifizierung, Exklusivität, Herkunft oder kommerzielle Bedingungen irreführen könnte.</p>
+<p>2. Es ist verboten, Versprechungen der Art zu machen: "Garantie für doppelt schnellere Arbeit", "Ermüdung beseitigt", "nicht beschädigt werden kann", "bestes Produkt auf dem Markt", "nur solches Produkt", "verringert immer die Arbeitskosten", wenn der Partner das vom Lieferanten genehmigte Material nicht hat, um eine solche Mitteilung zu bestätigen.</p>
+<p>3. Der Partner sollte die technischen Parameter, die Tragfähigkeit, die Widerstandsfähigkeit, den Zweck, die Kompatibilität, die Garantieregeln oder die Verwendung nicht selbst angeben, außer aus der Produktkarte des Lieferanten, den Anweisungen, der Preisliste, dem Katalog oder den schriftlichen Informationen.</p>
+<p>4. In der Kommunikation sollte eine Tonoffensive gegenüber Auftragnehmern, Wettbewerbern, anderen Partnern, Materialherstellern, Großhändlern oder Händlern vermieden werden. FIXON kann dynamisch und spezifisch kommuniziert werden, aber nicht durch Diskreditierung des Marktes oder aggressive Angriffe auf andere Unternehmen.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Nicht verwenden</th>
+<th>Bessere Version</th>
+</tr>
+<tr>
+<td>Dieses Produkt wird das Team doppelt so schnell arbeiten lassen.</td>
+<td>Das Produkt kann einige sich wiederholende Aktivitäten verbessern und dem Team helfen, ein besseres Arbeitstempo beizubehalten.</td>
+</tr>
+<tr>
+<td>Dieses Tool eliminiert Müdigkeit vollständig.</td>
+<td>Das Werkzeug hilft, einige der Ladebewegungen zu reduzieren und verbessert den Bedienkomfort bei sich wiederholenden Operationen.</td>
+</tr>
+<tr>
+<td>Die Konkurrenz hat nichts dergleichen.</td>
+<td>Das Produkt reagiert auf einen praktischen Bedarf, den Darsteller oft vorläufig lösen.</td>
+</tr>
+<tr>
+<td>Das billigste und beste auf dem Markt.</td>
+<td>Ein sehr günstiges Verhältnis von Leistungsqualität, Haltbarkeit und Katalogpreis.</td>
+</tr>
+<tr>
+<td>Kaufen Sie es jetzt, weil es später nicht verfügbar sein wird.</td>
+<td>Die Verfügbarkeit der Produkte hängt von den aktuellen Zuständen und Fristen ab, die in den Programmierungsdokumenten angegeben sind.</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-5-jezyk-rozmowy-handlowej" open>
+<summary><span>§ 5. Handelssprache</span></summary>
+<div class="doc-section-body">
+<p>1. Die Verkaufskommunikation sollte mit dem Problem des Kunden beginnen, nicht mit der Produktliste. Der Händler sollte zuerst bestimmen, mit welchen Aktivitäten der Kunde das größte Problem hat: Greifen und Bewegen von Elementen, sich wiederholendes Biegen, Nivellieren, Profiling, Positionsorganisation, Arbeit in größeren Formaten, Umgang mit mehreren Personen im Team oder die Notwendigkeit, das Werkzeug vor dem Kauf zu zeigen.</p>
+<p>2. Die grundlegende Struktur des von FIXON empfohlenen Gesprächs: eine Diagnose der Arbeit des Kunden, eine Angabe des Ortes des Zeit- oder Lastverlusts, die Darstellung des Werkzeugs als Lösung einer bestimmten Aufgabe, eine Erklärung seiner Verwendung, die Darstellung des Preises und der Verfügbarkeit, ein Kauf- oder Testangebot und größere Aufträge, die an die verantwortliche Person oder das Demonstrationszentrum gerichtet sind.</p>
+<p>3. Ein Händler sollte nicht nur in der Katalogsprache sprechen. FIXON-Produkte werden am besten in Bezug auf die reale Bausituation verkauft: sich wiederholendes Heben, Verbesserung, Messung, Transfer, Profilierung und Organisation der Arbeit rund um das Material.</p>
+<p>4. Eine einfache, energische und praktische Sprache ist im Gespräch mit dem Auftragnehmer akzeptabel, jedoch ohne Vulgarität, Druck, Fehlinformationen und Versprechen, die vom Lieferanten nicht genehmigt wurden. Kommunikation sollte so klingen, als würde man mit einem Profi sprechen und kein zufälliges Werbeprodukt verkaufen.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Gesprächsphase</th>
+<th>Ziel</th>
+<th>Beispielformel</th>
+</tr>
+<tr>
+<td>Öffnung</td>
+<td>Eingeben durch ein Arbeitsproblem.</td>
+<td>Ich kann sehen, dass mit diesem Job die meiste Zeit zum wiederholten Heben und Einstellen von Elementen geht. Wir haben ein Werkzeug, das genau diese Phase in Ordnung ist.</td>
+</tr>
+<tr>
+<td>Diagnose</td>
+<td>Bestimmen Sie, ob das Produkt zur Arbeit des Kunden passt.</td>
+<td>Arbeiten Sie häufiger an einem kleinen Knöchel, größeren Platten oder Elementen, die genau eingestellt werden müssen?</td>
+</tr>
+<tr>
+<td>Argumente</td>
+<td>Verknüpfung des Produkts mit der praktischen Wirkung.</td>
+<td>Es geht nicht um den Spaß, es geht darum, weniger müde zu werden, sich zu wiederholen und zum richtigen Job zurückzukehren.</td>
+</tr>
+<tr>
+<td>Verfügbarkeit</td>
+<td>Ein klarer Hinweis auf die Umsetzung.</td>
+<td>Dieses Produkt ist auf Lager / auf Bestellung gemäß dem aktuellen Status in FIXON-Dokumenten erhältlich.</td>
+</tr>
+<tr>
+<td>Schließen</td>
+<td>Eine Entscheidung treffen.</td>
+<td>Wir können ein Stück nach dem anderen auswählen oder ein Set für das gesamte Team vorbereiten.</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-6-komunikacja-ceny-rabatow-i-rrp" open>
+<summary><span>§ 6. Mitteilung von Preisen, Rabatten und RRP</span></summary>
+<div class="doc-section-body">
+<p>1. Der Partner sollte den Preis von FIXON-Produkten gemäß der aktuellen Katalogpreisliste, Softwaredokumenten und RRP-Regeln mitteilen. Der Preis darf nicht in einer Weise dargestellt werden, die auf einen Rabatt, eine Promotion oder eine Verfügbarkeit hindeutet, die in den vorhandenen Dokumenten nicht bestätigt wurde.</p>
+<p>2. In der Preiskommunikation sollten aggressives Dumping, die Senkung des Markenwerts und die Präsentation von FIXON-Produkten als billiges Additiv zu Grundstoffen vermieden werden. Es ist akzeptabel, Produkte mit dem Partnermaterialangebot zu kombinieren, aber die Nachricht sollte den tatsächlichen Wert des Tools für den Auftragnehmer angeben.</p>
+<p>3. Wenn ein Partner Rabatt, Promotion, Paket, Set oder individuelles Angebot kommuniziert, sollte er sicherstellen, dass der Kunde versteht, worauf sich die Ermäßigung bezieht, ob sie Lieferkosten enthält, wie das Verfügbarkeitsdatum ist und ob das Angebot zeitlich oder quantitativ begrenzt ist.</p>
+<p>4. Der Partner sollte individuelle Rabattkonditionen, zusätzliche strategische Rabatte, Exklusivkonditionen, Marktschutz oder andere Vorteile des Programms nicht öffentlich mitteilen, es sei denn, dies ist direkt auf vom Lieferanten genehmigte Materialien zurückzuführen.</p>
+</div></details>
+<details class="doc-section" id="section-7-komunikacja-dostepnosci-i-terminow" open>
+<summary><span>§ 7. Mitteilungen über Zugänglichkeit und Fristen</span></summary>
+<div class="doc-section-body">
+<p>1. Informationen über die Verfügbarkeit von Produkten sollten auf dem aktuellen Produktstatus, der Preisliste, der Startlagerliste, der Lagerunterstützungsliste oder den vom Lieferanten oder Mediator erhaltenen Informationen basieren. Ein Partner sollte die Verfügbarkeit von "off-site" nicht versprechen, wenn das Produkt auf Bestellung erhältlich ist oder eine Bestätigung der Frist erfordert.</p>
+<p>2. Der zulässige Kommunikationsstatus sollte dem in den Programmierdokumenten verwendeten Status entsprechen, insbesondere: im Startlager verfügbar, vorbehaltlich der Lagerunterstützung, sofort mit Lieferung vom Hersteller verfügbar, auf Bestellung mit einer Frist von 7 Tagen verfügbar, auf Bestellung mit einer Frist von bis zu 14 Tagen verfügbar, als Testwerkzeug verfügbar, für eine 50% Rabattbelastung oder ein in Betrieb befindliches Produkt / aus dem Verkaufsergebnis erhältlich.</p>
+<p>3. Wenn die Frist aus Produktions-, Logistik-, Lager- oder Transportgründen geändert werden kann, sollte der Partner sie als erwartete Frist oder Bestätigung anstelle einer garantierten Frist mitteilen.</p>
+</div></details>
+<details class="doc-section" id="section-8-materialy-marketingowe-i-materialy-wlasne-partnera" open>
+<summary><span>§ 8. Marketingmaterialien und eigene Materialien des Partners</span></summary>
+<div class="doc-section-body">
+<p>1. Der Partner darf die vom Lieferanten oder Mediator zur Verfügung gestellten Marketingmaterialien ausschließlich zum Zwecke der bestimmungsgemäßen Werbung und des Verkaufs von FIXON-Produkten verwenden, ohne dass Indikationen, Inhaltsverzerrungen, Änderungen technischer Parameter oder das Hinzufügen nicht genehmigter Erklärungen gelöscht werden.</p>
+<p>2. Der Partner kann eigene Werbung, Grafiken, Fotos, Filme, Beschreibungen, Präsentationen, Posts, Mailings, Landing Pages, Kataloge oder Schulungsmaterialien für FIXON-Produkte erstellen, sofern diese Materialien nicht gegen diese Richtlinie verstoßen und vom Lieferanten akzeptiert werden, wenn sie neue Produktbotschaften, Vergleiche, Effektversprechen, Verkaufspasswörter oder eine intensive Verwendung von FIXON-Logos und -Markierungen enthalten.</p>
+<p>3. Nach der Annahme kann das Material vom Partner im gleichen oder im Wesentlichen gleichen Kontext wiederverwendet werden, es sei denn, seine Bedeutung, sein Inhalt, seine Produktgrafiken, seine Preisbedingungen, sein Verfügbarkeitsstatus oder sein Publikum ändern sich.</p>
+<p>4. Der Partner darf keine Materialien erstellen, die den Eindruck der offiziellen Website des Herstellers, des offiziellen FIXON-Kontos, eines offiziellen Zertifikats, einer höheren Autorisierung als tatsächlich erteilt oder der Exklusivität vermitteln, die der Partner nicht hat.</p>
+</div></details>
+<details class="doc-section" id="section-9-strony-internetowe-marketplace-social-media-i-reklama-platna" open>
+<summary><span>§ 9. Websites, Marktplätze, Social Media und bezahlte Werbung</span></summary>
+<div class="doc-section-body">
+<p>1. In Online-Produktbeschreibungen sollte FIXON Partner aktuelle Produktnamen, Fotos, Preise, Status und Beschreibungen verwenden, die mit Softwaredokumenten übereinstimmen. Aus der Beschreibung muss eindeutig hervorgehen, ob das Produkt auf Lager, auf Bestellung, als Test, Display oder in einem anderen im Programm vorgesehenen Modus erhältlich ist.</p>
+<p>2. Der Partner kann Bildungs-, Reiseführer-, Demonstrations- und Verkaufsinhalte zu FIXON-Produkten veröffentlichen, einschließlich Tools-Videos, Belichtungsfotos, Präsentationen für Boulevard-Teams und Beiträge, die die praktische Anwendung der Produkte zeigen, sofern sie nicht gegen die Grundsätze der Sicherheit, der Würde der Mitarbeiter, des Markenrufs oder der Rechte Dritter verstoßen.</p>
+<p>3. Bezahlte Werbung sollte nicht darauf hindeuten, dass es sich bei dem Partner um einen Hersteller von FIXON-Produkten handelt, es sei denn, in der Mitteilung wird seine tatsächliche Rolle als Partner, Händler, Verkäufer, Demonstrationszentrum oder andere Einrichtung innerhalb des Programms eindeutig angegeben.</p>
+<p>4. In Werbung, Marktplatzbeschreibungen und Posts sollte der Partner keine Clickbaits verwenden, die auf Angst, falscher Unzugänglichkeit, Zeitdruck, unfairem Vergleich oder Diskreditierung des Wettbewerbs beruhen. Dynamische, praktische und verkaufsbezogene Kommunikation ist akzeptabel, basiert jedoch auf echten Produkteigenschaften und den Bedürfnissen der Auftragnehmer.</p>
+</div></details>
+<details class="doc-section" id="section-10-porownania-z-konkurencja-i-komunikacja-przewagi" open>
+<summary><span>§ 10. Vergleich mit dem Wettbewerb und Mitteilung von Vorteilen</span></summary>
+<div class="doc-section-body">
+<p>1. Der Vergleich von FIXON-Produkten mit Konkurrenzprodukten erfordert besondere Sorgfalt. Ein Partner kann Vorteile wie Leistungsmaterial, Präzision, Bequemlichkeit, Verfügbarkeit, Katalogpreis, Praktikabilität oder Zweck kommunizieren, wenn sie wahrheitsgetreu und nachweisbar sind und den guten Namen von Wettbewerbern nicht verletzen.</p>
+<p>2. Öffentliche Vergleiche mit namentlich genannten Wettbewerbern, Wettbewerbsprodukten, spezifischen Preisen, technischen Parametern oder „besser als-Slogans bedürfen der vorherigen Zustimmung des Lieferanten, es sei denn, der Partner verwendet ein vom Lieferanten erstelltes oder genehmigtes Vergleichsmaterial.</p>
+<p>3. Ein sicherer Kommunikationsvorteil besteht darin, das Konstruktionsproblem und seine Lösung durch FIXON aufzuzeigen, ohne einen bestimmten Konkurrenten anzugeben. Empfohlene Kommunikation: "Anstatt eine provisorische Lösung auf den Bau zu extrapolieren, können Sie ein für diesen Vorgang entwickeltes Werkzeug verwenden."</p>
+</div></details>
+<details class="doc-section" id="section-11-komunikacja-reklamacji-zwrotow-i-sytuacji-spornych" open>
+<summary><span>§ 11. Mitteilung von Beschwerden, Sätzen und strittigen Situationen</span></summary>
+<div class="doc-section-body">
+<p>1. Im Falle von Reklamation, Rückgabe, Verspätung, Lagerdiskrepanz oder Kundenunzufriedenheit sollte der Partner ruhig, sachlich und in Übereinstimmung mit FIXON-Verfahren kommunizieren. Dem Kunden sollte die Anerkennung der Reklamation, des Umtauschs, des Rabatts, der Rückerstattung oder des Lieferdatums nicht versprochen werden, wenn die Angelegenheit eine Entscheidung des Lieferanten oder Mediators erfordert.</p>
+<p>2. Der Partner sollte es vermeiden, die Schuld ohne vorherige Überprüfung auf den Kunden, die Besatzung, den Hersteller, das Luftfahrtunternehmen oder eine andere Partei abzuwälzen. Die akzeptable Nachricht sollte lauten: "Wir akzeptieren die Benachrichtigung, wir werden sie zur Überprüfung übermitteln und mit einer Antwort gemäß dem Verfahren zurückkehren".</p>
+<p>3. Im öffentlichen Verkehr, insbesondere in Internet- und Social-Media-Kommentaren, sollte der Partner keine Kundendaten, Details des Streitfalls, Geschäftsunterlagen, individuelle Bedingungen oder interne Regelungen des Programms offenlegen.</p>
+</div></details>
+<details class="doc-section" id="section-12-szkolenie-zespolu-partnera-i-odpowiedzialnosc-za-komunikacje" open>
+<summary><span>§ 12. Schulung des Partnerteams und Verantwortung für die Kommunikation</span></summary>
+<div class="doc-section-body">
+<p>1. Der Partner sollte sicherstellen, dass die an Vertrieb, Kundenservice, Marketing, Exposition, E-Commerce und Berichterstattung Beteiligten die Grundprinzipien dieser Richtlinie kennen und aktuelles Material und Programmierdokumente verwenden.</p>
+<p>2. Der Lieferant oder Vermittler kann dem Partner zusätzliche Schulungsmaterialien, Konversationsskripte, Argumentkarten, Antworten auf die häufigsten Fragen, Postmuster, Produktbeschreibungen, Fotos, Videos und Gebrauchsempfehlungen zur Verfügung stellen. Diese Materialien sollten als bevorzugtes Kommunikationsmuster behandelt werden.</p>
+<p>3. Der Partner ist für die Kommunikation verantwortlich, die von seinen Institutionen, Vertretern, Mitarbeitern, Unterauftragnehmern, Marketingagenturen und Personen, die in seinem Auftrag zur Förderung oder zum Verkauf von FIXON-Produkten handeln, durchgeführt wird.</p>
+</div></details>
+<details class="doc-section" id="section-13-kontrola-korekta-i-naruszenia-polityki" open>
+<summary><span>§ 13. Kontrolle, Korrektur und Verstoß gegen die Richtlinie</span></summary>
+<div class="doc-section-body">
+<p>1. Der Lieferant oder Mediator kann den Partner auffordern, die Nachricht, Werbung, Beschreibung, Grafik, Film, Post, Angebote, Website, Kampagne oder Material zu ändern, zu löschen oder zu korrigieren, wenn er gegen diese Richtlinie, Softwaredokumente, RRP-Regeln, Markenrechte oder FIXON-Interessen verstößt.</p>
+<p>2. Der Partner sollte die erforderliche Anpassung unverzüglich vornehmen, spätestens zu dem vom Lieferanten oder dem Mediator angegebenen Zeitpunkt, und wenn es sich um eine Mitteilung handelt, die Kunden irreführen, gegen das Gesetz verstoßen, nicht vorhandene Bedingungen vorschlagen oder die Marke schädigen kann, sollte die Korrektur unverzüglich durchgeführt werden.</p>
+<p>3. Wiederholte Verstöße gegen die Richtlinie können die Einschränkung von Marketingmaterialien, die Einschränkung von Programmierrechten, die Aussetzung der Zustimmung zu Kampagnen, den Widerruf der Zustimmung zur Verwendung ausgewählter Materialien, die Änderung des Status eines Partners oder andere im Partnerschaftsprogramm und in Kooperationsdokumenten vorgesehene Aktivitäten rechtfertigen.</p>
+</div></details>
+<details class="doc-section" id="section-14-lista-kontrolna-komunikacji-sprzedazowej" open>
+<summary><span>§ 14. Verzeichnis der Verkaufsmitteilungen</span></summary>
+<div class="doc-section-body">
+<div class="table-scroll"><table>
+<tr>
+<th>Prüffrage</th>
+<th>JA/NEIN/Anmerkungen</th>
+</tr>
+<tr>
+<td>Beginnt die Nachricht mit dem tatsächlichen Problem des Auftragnehmers oder der spezifischen Verwendung des Produkts?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Wurden der aktuelle Produktname, Preis, Verfügbarkeitsstatus und Lieferbedingungen verwendet?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Verspricht die Nachricht nicht ein garantiertes Ergebnis, einen Prozentsatz der Einsparungen oder einen Effekt, der vom Lieferanten nicht bestätigt wurde?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Bedeutet die Nachricht nicht nicht vorhandene Exklusivität, Autorisierung, Zertifikat oder Partnerstatus?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Verstößt Werbung nicht gegen die RRP und baut den Verkauf ausschließlich auf Preisdumping aus?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Erfordert das Material des Partners die Annahme des Lieferanten oder Mediators vor der Veröffentlichung?</td>
+<td>........................................</td>
+</tr>
+<tr>
+<td>Weiß der Händler, wie er eine Frage zu Verfügbarkeit, Test, Exposition, Bestellung und Beschwerde beantworten kann?</td>
+<td>........................................</td>
+</tr>
+</table></div>
+
+</div></details>
+<details class="doc-section" id="section-15-klauzula-zastrzezen-i-zatwierdzenie" open>
+<summary><span>§ 15. Einspruchsklausel und Zustimmung</span></summary>
+<div class="doc-section-body">
+<p>Das Dokument, das dem Partner im Rahmen des FIXON-Partnerschaftsprogramms vorgelegt wird, erfordert keine persönliche Unterschrift, es sei denn, der Partner widerspricht seinem Inhalt innerhalb von 7 Tagen nach seiner Lieferung. Das Fehlen von Vorbehalten innerhalb dieser Frist bedeutet die Annahme eines Dokuments zur Information und Nutzung im Rahmen der laufenden Zusammenarbeit. Das Dokument kann auch eine elektronische Signatur, eine digitale Signatur, eine vertrauenswürdige Signatur, eine qualifizierte elektronische Signatur oder eine andere von den Vertragsparteien akzeptierte Form der elektronischen Bestätigung tragen. Wenn der Partner innerhalb von 7 Tagen nach seiner Lieferung Einwände gegen das Dokument erhebt, wird das Dokument nicht angenommen, wenn keine Vorbehalte im Rahmen der Benachrichtigung vorliegen, und die endgültige vereinbarte Version wird von beiden Parteien in Form von persönlichen Unterschriften oder elektronischen Unterschriften genehmigt, die von den Parteien akzeptiert werden, sofern die Parteien in der Dokumentenkorrespondenz nichts anderes vereinbart haben.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>Lieferant / FIXON</th>
+<th>Partner</th>
+<th>Mediator</th>
+</tr>
+<tr>
+<td>............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... Datum, Unterschrift / elektronische Unterschrift</td>
+<td>............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... Datum, Unterschrift / elektronische Unterschrift</td>
+<td>............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... Datum, Unterschrift / elektronische Unterschrift</td>
+</tr>
+</table></div>
+
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Download-Dokument</strong>
+    <p>Die DOCX-Vorlage wird für operative Arbeiten und PDF für den Versand oder die Archivierung verwendet.</p>
+  </div>
+  <div class="download-actions">
+    <a class="download-button" href="docx/zalacznik-polityka-marki.docx" download>Download DOCX Template</a>
+    <a class="download-button secondary" href="pdf/zalacznik-polityka-marki.pdf" download>Download PDF Template</a>
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>Die statische Vorschau des FIXON Softwaredokuments.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+</body>
 </html>

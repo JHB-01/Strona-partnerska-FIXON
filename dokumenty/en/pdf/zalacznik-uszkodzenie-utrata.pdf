@@ -4,74 +4,129 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 3764 >>
+<< /Length 6249 >>
 stream
-BT /F1 21 Tf 50 784 Td (Appendix: Damage or Loss Protocol) Tj ET
-BT /F1 10.5 Tf 50 761 Td (Damage or loss protocol for products, tools, displays or demonstration elements.) Tj ET
-BT /F1 10.5 Tf 50 747 Td (Working legal/commercial draft. This translated version is prepared for reading,) Tj ET
-BT /F1 10.5 Tf 50 733 Td (download and local counsel review before use in the selected country.) Tj ET
-BT /F1 15 Tf 50 713 Td (1. Event Description) Tj ET
-BT /F1 10.5 Tf 50 690 Td (The protocol records when and how the product was damaged or lost and who discovered the) Tj ET
-BT /F1 10.5 Tf 50 676 Td (event.) Tj ET
-BT /F1 15 Tf 50 656 Td (2. Evidence) Tj ET
-BT /F1 10.5 Tf 50 633 Td (Photos, customer information, courier records or internal notes should be attached when) Tj ET
-BT /F1 10.5 Tf 50 619 Td (available.) Tj ET
-BT /F1 15 Tf 50 599 Td (3. Responsibility) Tj ET
-BT /F1 10.5 Tf 50 576 Td (Responsibility and settlement effect must be decided according to the agreement and) Tj ET
-BT /F1 10.5 Tf 50 562 Td (local mandatory law.) Tj ET
-BT /F1 15 Tf 50 542 Td (Country localisation matrix) Tj ET
-BT /F1 9 Tf 50 513 Td (Market | Adaptation) Tj ET
-BT /F1 9 Tf 50 501 Td (UK | Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability) Tj ET
-BT /F1 9 Tf 50 489 Td (and B2B sale terms.) Tj ET
-BT /F1 9 Tf 50 477 Td (USA | Use state-specific law and venue; review business opportunity/franchise triggers, earnings) Tj ET
-BT /F1 9 Tf 50 465 Td (claims, warranty, sales tax and privacy rules.) Tj ET
-BT /F1 9 Tf 50 453 Td (Canada | Use province-specific law; review CASL, privacy, bilingual requirements where applicable,) Tj ET
-BT /F1 9 Tf 50 441 Td (warranty, tax and product safety.) Tj ET
-BT /F1 9 Tf 50 429 Td (Australia | Review Australian Consumer Law, unfair contract terms, privacy, product safety,) Tj ET
-BT /F1 9 Tf 50 417 Td (warranty, import and tax clauses.) Tj ET
-BT /F1 9 Tf 50 405 Td (South Africa | Review POPIA, electronic communications, Consumer Protection Act exposure, product) Tj ET
-BT /F1 9 Tf 50 393 Td (liability, import, tax and dispute wording.) Tj ET
-BT /F1 9 Tf 50 381 Td (Germany | Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 369 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 357 Td (Austria | Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty,) Tj ET
-BT /F1 9 Tf 50 345 Td (retention of title and standard-term controls.) Tj ET
-BT /F1 9 Tf 50 333 Td (Switzerland | Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition) Tj ET
-BT /F1 9 Tf 50 321 Td (rules, warranty and cross-border data transfers.) Tj ET
-BT /F1 15 Tf 50 295 Td (Local clauses before signature) Tj ET
-BT /F1 9 Tf 50 266 Td (Area | To review before use) Tj ET
-BT /F1 9 Tf 50 254 Td (Governing law | Country, venue, language and dispute resolution) Tj ET
-BT /F1 9 Tf 50 242 Td (Privacy | Roles, notices, consent and data transfers) Tj ET
-BT /F1 9 Tf 50 230 Td (Product & sales | Warranty, liability, safety, tax and import) Tj ET
-BT /F1 9 Tf 50 218 Td (Marketing | Electronic communication, claims, testimonials and pricing displays) Tj ET
-BT /F1 15 Tf 50 192 Td (Document table) Tj ET
-BT /F1 9 Tf 50 163 Td (Field | Value) Tj ET
-BT /F1 9 Tf 50 151 Td (Product | [Name / SKU]) Tj ET
-BT /F1 9 Tf 50 139 Td (Event date | [Date]) Tj ET
-BT /F1 9 Tf 50 127 Td (Condition | [Damaged / missing / incomplete]) Tj ET
-BT /F1 9 Tf 50 115 Td (Proposed action | [Repair / replacement / write-off / investigation]) Tj ET
-BT /F1 10.5 Tf 50 95 Td (Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893,) Tj ET
-BT /F1 10.5 Tf 50 81 Td (heorhiibronnikov.commercial@gmail.com) Tj ET
+BT /F1 20 Tf 50 784 Td (Appendix: Damage or Loss Protocol) Tj ET
+BT /F1 10 Tf 50 764 Td (Protocol for damage, loss or non-conformity of the product.) Tj ET
+BT /F1 10 Tf 50 751 Td (Accounting document for products, test tools, expositions, demonstrations, warehouses and) Tj ET
+BT /F1 10 Tf 50 738 Td (materials transferred to the Partner) Tj ET
+BT /F1 8.5 Tf 50 720 Td (Protocol number | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 709 Td (Date of preparation | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 698 Td (Place of preparation | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 687 Td (Related document | ? Protocol of transmission ? Inventory ? Monthly report ? Complaint ? Other:) Tj ET
+BT /F1 8.5 Tf 50 676 Td (................) Tj ET
+BT /F1 8.5 Tf 50 665 Td (Period/event | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 641 Td (Supplier | FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa \(Weso?a\), NIP 1133178861, REGON) Tj ET
+BT /F1 8.5 Tf 50 630 Td (542669041) Tj ET
+BT /F1 8.5 Tf 50 619 Td (Mediator | JHB FAMILY sp. z o.o., Lopacin 68E, 06-430 So?sk, NIP 5662035359, REGON 52756531, KRS) Tj ET
+BT /F1 8.5 Tf 50 608 Td (0001084261) Tj ET
+BT /F1 8.5 Tf 50 597 Td (Partner |) Tj ET
+BT /F1 8.5 Tf 50 586 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 575 Td (Subsidiary |) Tj ET
+BT /F1 8.5 Tf 50 564 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 553 Td (Person receiving the notification |) Tj ET
+BT /F1 8.5 Tf 50 542 Td (................................................................................................................................................) Tj ET
+BT /F1 10 Tf 50 523 Td (This Protocol is used to document damage, destruction, loss, disappearance, unauthorised) Tj ET
+BT /F1 10 Tf 50 510 Td (release, unexplained discrepancy or any other event concerning a FIXON product or item) Tj ET
+BT /F1 10 Tf 50 497 Td (transferred to a Partner under the FIXON Partner Programme.) Tj ET
+BT /F1 10 Tf 50 484 Td (In particular, the Protocol may cover start-up products, warehouse-support products, test) Tj ET
+BT /F1 10 Tf 50 471 Td (tools, demonstration products, exhibition products, premiere products, custom products,) Tj ET
+BT /F1 10 Tf 50 458 Td (marketing materials and other elements entrusted to the Partner.) Tj ET
+BT /F1 10 Tf 50 445 Td (The conclusion of the Protocol does not automatically prejudge the Partner's guilt or the) Tj ET
+BT /F1 10 Tf 50 432 Td (manner in which the event is settled, but provides the basis for verification, clearing) Tj ET
+BT /F1 10 Tf 50 419 Td (decision and possible issuing of the accounting document in accordance with the FIXON) Tj ET
+BT /F1 10 Tf 50 406 Td (Partnership Programme, Pricelist and related documents.) Tj ET
+BT /F1 8.5 Tf 50 388 Td (Lp. | Product name / element | Code / SKU | Position status | Quantity | Gross price | Event type | State) Tj ET
+BT /F1 8.5 Tf 50 377 Td (Description / Notes | Value to be settled) Tj ET
+BT /F1 8.5 Tf 50 366 Td (1 | | | ? Launch magazine ? Support ? Test ? Exposure ? Demo ? Other | | | ? Damage ? Loss ? Destruction) Tj ET
+BT /F1 8.5 Tf 50 355 Td (? Lack ? Other | |) Tj ET
+BT /F1 8.5 Tf 50 344 Td (2 | | | ? Launch magazine ? Support ? Test ? Exposure ? Demo ? Other | | | ? Damage ? Loss ? Destruction) Tj ET
+BT /F1 8.5 Tf 50 333 Td (? Lack ? Other | |) Tj ET
+BT /F1 8.5 Tf 50 322 Td (3 | | | ? Launch magazine ? Support ? Test ? Exposure ? Demo ? Other | | | ? Damage ? Loss ? Destruction) Tj ET
+BT /F1 8.5 Tf 50 311 Td (? Lack ? Other | |) Tj ET
+BT /F1 8.5 Tf 50 300 Td (4 | | | ? Launch magazine ? Support ? Test ? Exposure ? Demo ? Other | | | ? Damage ? Loss ? Destruction) Tj ET
+BT /F1 8.5 Tf 50 289 Td (? Lack ? Other | |) Tj ET
+BT /F1 8.5 Tf 50 278 Td (5 | | | ? Launch magazine ? Support ? Test ? Exposure ? Demo ? Other | | | ? Damage ? Loss ? Destruction) Tj ET
+BT /F1 8.5 Tf 50 267 Td (? Lack ? Other | |) Tj ET
+BT /F1 8.5 Tf 50 243 Td (Event disclosure date |) Tj ET
+BT /F1 8.5 Tf 50 232 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 221 Td (Date of occurrence, if known |) Tj ET
+BT /F1 8.5 Tf 50 210 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 199 Td (Location |) Tj ET
+BT /F1 8.5 Tf 50 188 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 177 Td (Persons with knowledge of the event |) Tj ET
+BT /F1 8.5 Tf 50 166 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 155 Td (Description of circumstances |) Tj ET
+BT /F1 8.5 Tf 50 144 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 133 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 122 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 111 Td (Photo documentation / attachments | ? YES ? NO Number of annexes: ...) Tj ET
+BT /F1 10 Tf 50 92 Td (For the purposes of the initial qualification of the event, it is indicated: ? normal wear and) Tj ET
+BT /F1 10 Tf 50 79 Td (tear, ? product defect, ? transport damage, ? damage caused during exposure or demonstration,) Tj ET
+BT /F1 10 Tf 50 66 Td (? damage caused during test use, ? loss or loss of the product, ? lack of storage, ?) Tj ET
 endstream
 endobj
 5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4698 >>
+stream
+BT /F1 10 Tf 50 790 Td (unauthorised product regulation, ? other:) Tj ET
+BT /F1 10 Tf 50 777 Td (....................................................................) Tj ET
+BT /F1 10 Tf 50 764 Td (If the event concerns normal use of the test, demonstration or display tool, The Partner shall) Tj ET
+BT /F1 10 Tf 50 751 Td (not be liable to the extent provided for in the Partnership Programme, provided that the) Tj ET
+BT /F1 10 Tf 50 738 Td (consumption is within the limits of proper use and is not attributable to the Partner's fault,) Tj ET
+BT /F1 10 Tf 50 725 Td (its employees, associates, customers or third parties for which the Partner is responsible.) Tj ET
+BT /F1 10 Tf 50 712 Td (If the event is due to Partner's fault, incorrect storage, incorrect exposure, unauthorised) Tj ET
+BT /F1 10 Tf 50 699 Td (release, lack of proper care, mechanical damage, loss, disappearance or destruction, The) Tj ET
+BT /F1 10 Tf 50 686 Td (supplier may settle according to the Partner Programme, Pricelist and relevant transfer) Tj ET
+BT /F1 10 Tf 50 673 Td (documents.) Tj ET
+BT /F1 8.5 Tf 50 655 Td (Decision | ? Without accounting ? Exchange ? Repair ? Settlement 50% of the catalogue price ? Settlement) Tj ET
+BT /F1 8.5 Tf 50 644 Td (100% of the catalogue price ? for further verification) Tj ET
+BT /F1 8.5 Tf 50 633 Td (Reasons for the decision |) Tj ET
+BT /F1 8.5 Tf 50 622 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 611 Td (................................................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 600 Td (Gross settlement amount | ........................................................) Tj ET
+BT /F1 8.5 Tf 50 589 Td (Accounting document / invoice | ? YES ? NO ? after further verification) Tj ET
+BT /F1 8.5 Tf 50 578 Td (Deadline for reimbursement / restocking / repair |) Tj ET
+BT /F1 8.5 Tf 50 567 Td (........................................................) Tj ET
+BT /F1 10 Tf 50 548 Td (The Partner declares that the information indicated in the Protocol is in accordance with his) Tj ET
+BT /F1 10 Tf 50 535 Td (best knowledge at the date of drawing up the document and that he has given the Supplier or) Tj ET
+BT /F1 10 Tf 50 522 Td (the Mediator all the circumstances known to him concerning the event.) Tj ET
+BT /F1 10 Tf 50 509 Td (The Partner undertakes to retain the product or element covered by the Protocol until the) Tj ET
+BT /F1 10 Tf 50 496 Td (Supplier has decided, unless the Supplier or the Mediator indicates otherwise. The partner) Tj ET
+BT /F1 10 Tf 50 483 Td (should not repair, modify, delete markings, dispose or transfer the product to a third party) Tj ET
+BT /F1 10 Tf 50 470 Td (without the supplier's prior consent.) Tj ET
+BT /F1 10 Tf 50 457 Td (Reservations to this Protocol may be notified within 7 days of its delivery. The absence of) Tj ET
+BT /F1 10 Tf 50 444 Td (reservations within this deadline means the adoption of the Protocol for information and) Tj ET
+BT /F1 10 Tf 50 431 Td (application on current cooperation in the FIXON Partnership Programme. Where objections are) Tj ET
+BT /F1 10 Tf 50 418 Td (raised, the Parties shall clarify the content of the Protocol, remove the discrepancies or) Tj ET
+BT /F1 10 Tf 50 405 Td (prepare the final agreed version of the document. The final version of the Protocol to which) Tj ET
+BT /F1 10 Tf 50 392 Td (reservations have been made shall be approved by both Parties in the form of personal) Tj ET
+BT /F1 10 Tf 50 379 Td (signatures or electronic signatures accepted by the Parties, unless otherwise agreed by the) Tj ET
+BT /F1 10 Tf 50 366 Td (Parties in document correspondence.) Tj ET
+BT /F1 8.5 Tf 50 348 Td (Supplier / Authorised Person | Mediator/ Driver | Partner / Authorised Person) Tj ET
+BT /F1 8.5 Tf 50 337 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 326 Td (Date and signature / electronic signature |) Tj ET
+BT /F1 8.5 Tf 50 315 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 304 Td (Date and signature / electronic signature |) Tj ET
+BT /F1 8.5 Tf 50 293 Td (.....................................................................................................................) Tj ET
+BT /F1 8.5 Tf 50 282 Td (Date and signature / electronic signature) Tj ET
+BT /F1 10 Tf 50 263 Td (DOCX template is used for operational work and PDF for shipping or archiving.) Tj ET
+endstream
+endobj
+7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-xref
-0 6
-0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000248 00000 n 
-0000004064 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-4161
+11528
 %%EOF

@@ -1,27 +1,350 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Appendix: Strategic Entitlement Card | FIXON</title>
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
-    :root{--green:#124A2E;--dark:#06271b;--ink:#141917;--muted:#5b6762;--line:#d7ded8;--bg:#eef1ec;--soft:#e8f0eb;--paper:#fff;--yellow:#d4b15a;--shadow:0 18px 44px rgba(15,22,18,.10)}
-    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fafaf5 0%,var(--bg) 62%,#fff 100%);color:var(--ink);font-family:"League Spartan",Arial,sans-serif}a{color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:0 auto}.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900;text-transform:uppercase;text-decoration:none;color:var(--green);font-size:26px}.langs{display:flex;gap:6px;flex-wrap:wrap}.langs a{padding:8px 10px;border:1px solid var(--line);border-radius:4px;text-decoration:none;font-weight:800;color:var(--green);background:#fff}.hero{padding:58px 0 34px;background:linear-gradient(135deg,var(--dark),var(--green));color:#fff}.hero h1{max-width:940px;margin:0 0 12px;font-size:clamp(38px,6vw,70px);line-height:.96;text-transform:uppercase}.lead{max-width:820px;color:rgba(255,255,255,.84);font-size:21px;line-height:1.42}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 15px;border-radius:4px;background:var(--green);border:1px solid var(--green);color:#fff;font-weight:900;text-decoration:none}.hero .btn{background:#fff;color:var(--dark);border-color:#fff}.btn.alt{background:transparent;color:#fff;border-color:rgba(255,255,255,.62)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.notice{padding:16px;border-left:5px solid var(--yellow);background:#fff7df;font-weight:800}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card,.document{padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:var(--shadow)}section{padding:36px 0}h2{margin:0 0 12px;font-size:clamp(28px,4vw,46px);line-height:1;text-transform:uppercase}h3{margin:22px 0 8px;font-size:24px;color:var(--dark)}p,li{line-height:1.56}.muted{color:var(--muted)}.table-scroll{overflow:auto;border:1px solid var(--line);border-radius:8px;background:#fff;margin:14px 0}table{width:100%;border-collapse:collapse;min-width:720px}th,td{padding:11px;border:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.45}th{background:var(--soft);color:var(--dark)}.document-title{border-bottom:2px solid var(--green);padding-bottom:14px;margin-bottom:18px}.document-title strong{display:block;color:var(--green);text-transform:uppercase}.download-list{display:flex;flex-wrap:wrap;gap:10px}.download-list .btn{background:#fff;color:var(--green);border-color:var(--line)}footer{padding:28px 0;border-top:1px solid var(--line);background:#fff;color:var(--muted)}@media(max-width:780px){.nav{align-items:flex-start;flex-direction:column;padding:12px 0}.grid{grid-template-columns:1fr}.btn{width:100%}}
-    @media print{.top,.hero .actions,.download-list{display:none}.hero{background:#fff;color:#000;padding:20px 0}.lead{color:#333}.document{box-shadow:none;border:0}.wrap{width:100%}body{background:#fff}}
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Book.woff2") format("woff2"), local("Gotham Book"), local("Gotham"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Bold.woff2") format("woff2"), local("Gotham Bold"), local("Gotham Pro Bold"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: Gotham; src: url("../../assets/fonts/Gotham-Black.woff2") format("woff2"), local("Gotham Black"), local("Gotham Pro Black"); font-weight: 900; font-display: swap; }
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Gotham, "Montserrat", "Avenir Next", Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
   </style>
 </head>
-<body><main><section><div class="wrap">
-    <article class="document">
-      <div class="document-title"><strong>FIXON Tools & Tech</strong><h2>Appendix: Strategic Entitlement Card</h2><p class="muted">Strategic entitlement card for individually granted partner benefits or extended rights.</p></div>
-      <p class="notice">Working legal/commercial draft. This translated version is prepared for reading, download and local counsel review before use in the selected country.</p>
-      <h3>1. Entitlement</h3><p>The card identifies the special entitlement granted to the Partner and the reason for it.</p><h3>2. Conditions</h3><p>Entitlements may depend on reporting, display quality, sales activity, geographic scope or demonstration readiness.</p><h3>3. Review</h3><p>Entitlements are reviewed periodically and may be changed according to the agreement.</p>
-      <h3>Country localisation matrix</h3>
-      <div class="table-scroll"><table><tr><th>Market</th><th>Adaptation</th></tr><tr><td>UK</td><td>Use UK governing law and jurisdiction where applicable; review UK GDPR, PECR, product liability and B2B sale terms.</td></tr><tr><td>USA</td><td>Use state-specific law and venue; review business opportunity/franchise triggers, earnings claims, warranty, sales tax and privacy rules.</td></tr><tr><td>Canada</td><td>Use province-specific law; review CASL, privacy, bilingual requirements where applicable, warranty, tax and product safety.</td></tr><tr><td>Australia</td><td>Review Australian Consumer Law, unfair contract terms, privacy, product safety, warranty, import and tax clauses.</td></tr><tr><td>South Africa</td><td>Review POPIA, electronic communications, Consumer Protection Act exposure, product liability, import, tax and dispute wording.</td></tr><tr><td>Germany</td><td>Use German-law drafting; review BGB/HGB, GDPR/BDSG, UWG marketing rules, warranty, retention of title and standard-term controls.</td></tr><tr><td>Austria</td><td>Use Austrian-law drafting; review ABGB/UGB, GDPR/DSG, UWG marketing rules, warranty, retention of title and standard-term controls.</td></tr><tr><td>Switzerland</td><td>Use Swiss-law drafting; review the Code of Obligations, revised FADP, competition rules, warranty and cross-border data transfers.</td></tr></table></div>
-      <h3>Local clauses before signature</h3>
-      <div class="table-scroll"><table><tr><th>Area</th><th>To review before use</th></tr><tr><td>Governing law</td><td>Country, venue, language and dispute resolution</td></tr><tr><td>Privacy</td><td>Roles, notices, consent and data transfers</td></tr><tr><td>Product & sales</td><td>Warranty, liability, safety, tax and import</td></tr><tr><td>Marketing</td><td>Electronic communication, claims, testimonials and pricing displays</td></tr></table></div>
-      <h3>Contact and version</h3>
-      <p>Karolina Tarasenko, Partner Network Development Specialist, +48 531 448 893, heorhiibronnikov.commercial@gmail.com</p>
-      <p>Status: adapted working draft for local review.</p>
-    </article></div></section></main></body>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../../FIXON_partner_program_en.html#documents">Back to documents</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Table of contents</button>
+      <div class="meta">Growth of cooperation<br>Translated 1:1 from Polish source</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Appendix: Strategic Entitlement Card</h1>
+      <p>Model card confirming individual strategic powers.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Close">×</button>
+        <strong>Document navigation</strong>
+        <a href="#section-zalacznik-nr-14-karta-uprawnienia-strategicznego-fixon">ANNEX No 14 CARD OF STRATEGIC POWER OF FIXON</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Expand Everything</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Collapse Everything</button>
+        </div>
+        <div class="doc-tools"><a class="download-button secondary" href="../zalacznik-karta-uprawnienia-strategicznego.html">PL</a><a class="download-button secondary" href="../en/zalacznik-karta-uprawnienia-strategicznego.html">EN</a><a class="download-button secondary" href="../de/zalacznik-karta-uprawnienia-strategicznego.html">DE</a></div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-14-karta-uprawnienia-strategicznego-fixon" open>
+<summary><span>ANNEX No 14 CARD OF STRATEGIC POWER OF FIXON</span></summary>
+<div class="doc-section-body">
+<p>The document defines the individual strategic competence granted to the Partner under the FIXON Partnership Programme. The Charter shall apply only to the extent indicated therein and shall not mean the automatic allocation of other strategic powers unless explicitly indicated otherwise.</p>
+<h3 id="1-dane-dokumentu">1. Document details</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Card Number</th>
+<th>................................</th>
+<th>Date of issue</th>
+<th>................................</th>
+</tr>
+<tr>
+<td>Document version</td>
+<td>................................</td>
+<td>Duration</td>
+<td>From... to...</td>
+</tr>
+<tr>
+<td>Grounds for granting</td>
+<td>Partner Programme / Partner Card / Supplier Decision</td>
+<td>Partner Status</td>
+<td>Strategic Partner / Other: ............</td>
+</tr>
+<tr>
+<td>Person leading the Mediator side</td>
+<td>................................</td>
+<td>Channel / facility / market</td>
+<td>................................</td>
+</tr>
+</table></div>
+
+<h3 id="2-strony-i-identyfikacja-partnera">2. Pages and Partner Identification</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Supplier</th>
+<th>FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa (Wesoła), NIP 1133178861, REGON 542669041</th>
+</tr>
+<tr>
+<td>Mediator</td>
+<td>JHB FAMILY sp. z o.o., Lopacin 68E, 06-430 Sońsk, NIP 5662035359, REGON 52756531, KRS 0001084261</td>
+</tr>
+<tr>
+<td>Partner</td>
+<td>Name: ................................................................................................................................................................... NIP: ................................... Address: ...................................................................................</td>
+</tr>
+</table></div>
+
+<h3 id="3-rodzaj-przyznanego-uprawnienia-strategicznego">3. Type of strategic mandate granted</h3>
+<p>One lead rating and any additional elements should be indicated if they are granted to the Partner in this Charter.</p>
+<div class="table-scroll"><table>
+<tr>
+<th>YES/NO</th>
+<th>Authorisation</th>
+<th>Scope</th>
+<th>Description / Parameters</th>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Additional Strategic Discount</td>
+<td>&nbsp;</td>
+<td>Height: ......... %. Products / group / channel: ...................................................</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Market protection</td>
+<td>&nbsp;</td>
+<td>Territory / channel / customer group / project: ...................................................................</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Extended Warehouse States Support Program</td>
+<td>&nbsp;</td>
+<td>Support coefficient: ......... %. Scope of products: ...................................................................</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Product Exclusive / Premier</td>
+<td>&nbsp;</td>
+<td>Product / group / premiere / duration: ...................................................</td>
+</tr>
+</table></div>
+
+<h3 id="4-uzasadnienie-przyznania-uprawnienia">4. Reasons for granting the power</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>YES/NO</th>
+<th>Grounds / reasons</th>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>fixed above average sales results</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>acquisition of a large wholesale or investment customer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>actual contribution to product development or development</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>specific market, channel, project or customer group access</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>need to protect the sales channel or maintain a stable margin</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Other: ...................................................................................................................................................................</td>
+</tr>
+</table></div>
+
+<h3 id="5-warunki-korzystania-z-uprawnienia">5. Conditions of use</h3>
+<p>The Partner shall enjoy the privileges only in the scope, time, channel, territory, product group or customer group indicated in this Charter.</p>
+<p>Granting of power does not restrict rights Suppliers for direct customer service, complaint handling, servicing, technical communication and taking the necessary measures to protect FIXON, unless this Charter expressly states otherwise.</p>
+<p>The power may not be transferred to another entity, establishment, related company, distributor, subcontractor or third party without consent Supplier expressed in documentary form.</p>
+<p>The Partner may not use powers to act contrary to the Partnership Programme, in particular to price dumping, to block the market without real sales, to mislead customers or to present the scope of the mandate more broadly than is apparent from this Charter.</p>
+<h3 id="6-parametry-szczegolowe-uprawnienia">6. Specific parameters of allowances</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Products/product groups covered by the authorisation</th>
+<th>................................................................................................................</th>
+</tr>
+<tr>
+<td>Territory/market/channel/project</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Client Group / segment / investment</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Minimum activities of the Partner</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Minimum volume / target</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Additional reporting</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Conditions for the review of allowances</td>
+<td>................................................................................................................</td>
+</tr>
+<tr>
+<td>Conditions for restriction, suspension or revocation</td>
+<td>................................................................................................................</td>
+</tr>
+</table></div>
+
+<h3 id="7-przeglad-ograniczenie-i-cofniecie-uprawnienia">7. Review, restriction and revocation of the right</h3>
+<p>The supplier may review the entitlement in particular in the event of a permanent decline in sales activity, lack of reporting, infringement of the Brand Policy, infringement of the RRP rules, significant stock gap, late payment, misuse of the right or loss of the grounds for which the right was granted.</p>
+<p>Limitation, suspension or withdrawal of the power shall require the communication of information to the Partner in documentary form, unless otherwise agreed by the Parties. The withdrawal of one strategic power shall not automatically result in the termination of the Partnership Agreement or the loss of the status of a Partner, unless circumstances require further measures provided for in the Partnership Programme.</p>
+<h3 id="8-zastrzezenia-i-zatwierdzenie">8. Reservations and approvals</h3>
+<p>The Partner may object to this Charter within 7 days of its delivery. The absence of reservations within this deadline means the adoption of the Charter for information and application under the FIXON Partnership Programme. In the event of a statement of objections, this Charter shall not be adopted in the absence of reservations regarding the scope of the notification, and the final agreed version of the Charter shall be approved by both Parties in the form of personal signatures or electronic signatures accepted by the Parties, unless otherwise agreed by the Parties in document correspondence.</p>
+<h3 id="9-podpisy-zatwierdzenie-koncowej-wersji">9. Signatures/Approval of the Final Version</h3>
+<div class="table-scroll"><table>
+<tr>
+<th>Supplier</th>
+<th>Mediator</th>
+<th>Partner</th>
+</tr>
+<tr>
+<td>Date, personal signature / electronic signature ...................................................................................</td>
+<td>Date, personal signature / electronic signature ...................................................................................</td>
+<td>Date, personal signature / electronic signature ...................................................................................</td>
+</tr>
+</table></div>
+
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Download Document</strong>
+    <p>DOCX template is used for operational work and PDF for shipping or archiving.</p>
+  </div>
+  <div class="download-actions">
+    <a class="download-button" href="docx/zalacznik-karta-uprawnienia-strategicznego.docx" download>Download DOCX Template</a>
+    <a class="download-button secondary" href="pdf/zalacznik-karta-uprawnienia-strategicznego.pdf" download>Download PDF Template</a>
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>The static preview of the FIXON software document.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+</body>
 </html>
